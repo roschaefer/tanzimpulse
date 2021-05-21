@@ -1,14 +1,13 @@
 <script lang="ts">
-	import Header from '$lib/Header/index.svelte';
+	import Header from '$lib/Header/Header.svelte';
+	import Footer from '$lib/Footer/Footer.svelte';
 	import '../app.css';
 </script>
 
 <Header />
 
-<main>
+<main class="flex-grow container mx-auto bg-white mt-24 md:mt-18">
 	<slot />
 </main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<Footer />

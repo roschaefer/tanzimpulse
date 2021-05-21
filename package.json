@@ -1,6 +1,7 @@
 {
 	"name": "~TODO~",
 	"version": "0.0.1",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -11,6 +12,8 @@
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.14",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/forms": "^0.3.2",
+		"@tailwindcss/typography": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "^4.24.0",
 		"@typescript-eslint/parser": "^4.24.0",
 		"autoprefixer": "^10.2.5",
@@ -27,8 +30,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.3.0",
-		"@lukeed/uuid": "^2.0.0",
-		"cookie": "^0.4.1"
+		"nodemailer": "^6.6.1"
 	}
 }

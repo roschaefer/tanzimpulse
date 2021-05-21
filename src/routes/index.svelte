@@ -14,5 +14,4 @@
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
-
 </section>

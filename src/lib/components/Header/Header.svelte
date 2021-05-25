@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Logo from '$lib/Logo/Logo.svelte';
+	import Logo from '$lib/components/Logo/Logo.svelte';
 	import { page } from '$app/stores';
 	const linkClass = (path, pge) => {
 		const defaults = 'inline-block no-underline py-2 px-4';
@@ -9,9 +9,9 @@
 	};
 
 	let links = [
-		{ path: '/', label: 'Home' },
-		{ path: '/about', label: 'About' },
-		{ path: '/seminare', label: 'Seminare' }
+		{ path: '/ueber-uns', label: 'Über uns' },
+		{ path: '/workshops', label: 'Workshops' },
+		{ path: '/ausbildungen', label: 'Ausbildungen' }
 	];
 	let open = false;
 	const toggleMenu = () => {

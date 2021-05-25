@@ -29,9 +29,9 @@ const sendConfirmation = async ({ email, name }) => {
 	await transporter.sendMail(message({ email, name }));
 };
 
-// POST /seminare/:id/anmeldung.json
+// POST /:seminarFormat/:url/anmeldung.json
 export const post: RequestHandler<any, FormData> = async (request) => {
-	const url = request.params.url;
+	const { seminarFormat, url } = request.params;
 	const email = request.body.get('email');
 	const name = request.body.get('name');
 	const adresse = request.body.get('adresse');
@@ -40,8 +40,6 @@ export const post: RequestHandler<any, FormData> = async (request) => {
 
 	if (request.headers.accept === 'application/json') return res;
 
-	const location = res.ok
-		? `/seminare/${url}/anmeldung/erfolgreich`
-		: `/seminare/${url}/anmeldung/fehlgeschlagen`;
+	const location = `/${seminarFormat}/${url}/anmeldung/${res.status}`
 	return { status: 303, headers: { location } };
 };

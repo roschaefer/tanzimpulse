@@ -3,8 +3,7 @@ id
 titel
 url
 bild {
-  medium: url(transformation: {image: {resize: {width: 300}}})
-  small: url(transformation: {image: {resize: {width: 32}}})
+  medium: url(transformation: {image: {resize: {width: 480}}})
   fileName
   height
   width
@@ -14,6 +13,7 @@ bild {
 }
 preis
 format
+kurzbeschreibung
 beschreibung {
   html
 }
@@ -39,8 +39,8 @@ query($url:String!) {
 }
 `;
 export const SEMINARE = `
-  query {
-    seminare {
+  query($seminarFormat: SeminarFormat!){
+    seminare(where:{format: $seminarFormat}) {
         ${seminarFragment}
     }
   }

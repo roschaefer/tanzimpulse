@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Über uns</title>
 </svelte:head>
 
 <section class="text-gray-600 body-font">

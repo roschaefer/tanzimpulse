@@ -11,7 +11,7 @@ mutation ($url: String!, $email: String!, $name: String!, $adresse: String!) {
     id
     name
     email
-    seminare {
+    seminare(where: {url: $url}) {
       ${seminarFragment}
     }
   }

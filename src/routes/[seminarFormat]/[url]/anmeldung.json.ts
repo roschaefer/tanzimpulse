@@ -4,6 +4,8 @@ import { ANMELDUNG } from '$lib/graphql/mutations';
 import { SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD } from '$lib/env';
 import { dev } from '$app/env';
 import nodemailer from 'nodemailer';
+import { overbooked } from '$lib/helpers';
+import { waitingListMessage, registrationMessage } from '$lib/mail';
 
 const transporter = nodemailer.createTransport({
 	host: SMTP_HOST,
@@ -17,16 +19,12 @@ const transporter = nodemailer.createTransport({
 	}
 });
 
-const message = ({ email, name }: { email: string; name: string }) => ({
-	from: 'info@tanzimpulse.de',
-	to: email,
-	subject: 'Anmeldung erfolgreich',
-	text: `Hallo ${name} deine Anmeldung war erfolgreich.`,
-	html: `<p>Hallo ${name} deine Anmeldung war erfolgreich.</p>`
-});
-
-const sendConfirmation = async ({ email, name }) => {
-	await transporter.sendMail(message({ email, name }));
+const sendConfirmation = async (teilnehmer: Teilnehmer) => {
+	const {
+		seminare: [seminar]
+	} = teilnehmer;
+	const message = overbooked(seminar) ? waitingListMessage : registrationMessage;
+	return transporter.sendMail(message(teilnehmer, seminar));
 };
 
 // POST /:seminarFormat/:url/anmeldung.json
@@ -36,10 +34,15 @@ export const post: RequestHandler<any, FormData> = async (request) => {
 	const name = request.body.get('name');
 	const adresse = request.body.get('adresse');
 	const res = await api(ANMELDUNG, { url, name, email, adresse });
-	if (res.ok) await sendConfirmation({ email, name });
+	if (res.ok) {
+		const {
+			data: { upsertTeilnehmer: teilnehmer }
+		} = res.body;
+		await sendConfirmation(teilnehmer);
+	}
 
 	if (request.headers.accept === 'application/json') return res;
 
-	const location = `/${seminarFormat}/${url}/anmeldung/${res.status}`
+	const location = `/${seminarFormat}/${url}/anmeldung/${res.status}`;
 	return { status: 303, headers: { location } };
 };

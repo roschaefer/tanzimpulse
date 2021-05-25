@@ -2,6 +2,7 @@ export const seminarFragment = `
 id
 titel
 url
+maximaleAnzahlTeilnehmer
 bild {
   medium: url(transformation: {image: {resize: {width: 480}}})
   fileName

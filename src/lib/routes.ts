@@ -24,7 +24,6 @@ export const loadSeminare =
 
 export const loadSeminar: Load = async ({ page, fetch }) => {
 	const { seminarFormat, url } = page.params;
-	console.log(seminarFormat, url);
 	const res = await fetch(`/${seminarFormat}/${url}.json`);
 
 	if (res.ok) {

@@ -20,11 +20,11 @@
 	const result = async (res: Response) => {
 		isPending = false;
 		const {
-			data: { upsertTeilnehmer },
+			data: { teilnehmer },
 			errors: graphQLErrors
 		} = await res.json();
 		if (graphQLErrors) errors.push(...graphQLErrors);
-		anmeldung = upsertTeilnehmer;
+		anmeldung = teilnehmer;
 	};
 	const action = `/${seminar.format}/${seminar.url}/anmeldung.json`;
 </script>

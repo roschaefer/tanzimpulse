@@ -1,7 +1,7 @@
 import { seminarFragment } from './queries';
 export const UPSERT_TEILNEHMER = `
 mutation ($url: String!, $email: String!, $name: String!, $adresse: String!) {
-  upsertTeilnehmer(
+  teilnehmer: upsertTeilnehmer(
     where: {email: $email},
     upsert: {
       create: { name: $name, email: $email, adresse: $adresse, seminare: {connect: {url: $url}}},
@@ -17,3 +17,16 @@ mutation ($url: String!, $email: String!, $name: String!, $adresse: String!) {
   }
 }
 `;
+
+export const PUBLISH_TEILNEHMER = `
+mutation ($email: String!) {
+  teilnehmer: publishTeilnehmer(where: {email: $email}, to: PUBLISHED) {
+    stage
+    id
+    documentInStages(stages: [PUBLISHED]) {
+      id
+      stage
+    }
+  }
+}
+`

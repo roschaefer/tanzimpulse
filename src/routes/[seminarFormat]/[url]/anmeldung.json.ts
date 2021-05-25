@@ -1,6 +1,6 @@
 import { api } from '$lib/graphql/api';
 import type { RequestHandler } from '@sveltejs/kit';
-import { ANMELDUNG } from '$lib/graphql/mutations';
+import { UPSERT_TEILNEHMER } from '$lib/graphql/mutations';
 import { SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD } from '$lib/env';
 import { dev } from '$app/env';
 import nodemailer from 'nodemailer';
@@ -33,7 +33,7 @@ export const post: RequestHandler<any, FormData> = async (request) => {
 	const email = request.body.get('email');
 	const name = request.body.get('name');
 	const adresse = request.body.get('adresse');
-	const res = await api(ANMELDUNG, { url, name, email, adresse });
+	const res = await api(UPSERT_TEILNEHMER, { url, name, email, adresse });
 	if (res.ok) {
 		const {
 			data: { upsertTeilnehmer: teilnehmer }

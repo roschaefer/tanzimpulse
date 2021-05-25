@@ -1,5 +1,5 @@
 import { seminarFragment } from './queries';
-export const ANMELDUNG = `
+export const UPSERT_TEILNEHMER = `
 mutation ($url: String!, $email: String!, $name: String!, $adresse: String!) {
   upsertTeilnehmer(
     where: {email: $email},

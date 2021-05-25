@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { overbooked } from '$lib/helpers';
 	export let seminar: {};
 	export let link = '#';
 </script>
@@ -16,6 +17,17 @@
 			<h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
 				{seminar.format}
 			</h2>
+			<h3
+				class="tracking-widest text-xs title-font font-medium mb-1 {overbooked(seminar)
+					? 'text-red-400'
+					: 'text-gray-500'}"
+			>
+				{#if seminar.maximaleAnzahlTeilnehmer}
+					{seminar.teilnehmer.length}/{seminar.maximaleAnzahlTeilnehmer} Teilnehmer
+				{:else}
+					{seminar.teilnehmer.length} Teilnehmer
+				{/if}
+			</h3>
 			<h1 class="title-font text-lg font-medium text-gray-900 mb-3">{seminar.titel}</h1>
 			<slot name="beschreibung">
 				<p class="leading-relaxed mb-3 prose-sm">

@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
 	import { loadSeminar } from '$lib/routes';
+	export const prerender = true;
 	let success;
 	export const load: Load = ({ page, fetch }) => {
 		success = page.params.status === '200';

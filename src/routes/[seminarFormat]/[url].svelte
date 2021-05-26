@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import { loadSeminar } from '$lib/routes';
 	export const load = loadSeminar;
+	export const prerender = true;
 </script>
 
 <script lang="ts">

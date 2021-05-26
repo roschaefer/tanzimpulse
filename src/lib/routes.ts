@@ -1,7 +1,8 @@
 import type { Load } from '@sveltejs/kit';
 export const loadSeminare =
 	(seminarFormat: string): Load =>
-	async ({ fetch }) => {
+	async ({ page, fetch }) => {
+		const selectedKategorieIds = page.query.getAll('kategorie');
 		const res = await fetch(`/${seminarFormat}.json`);
 
 		if (res.ok) {
@@ -10,15 +11,17 @@ export const loadSeminare =
 			} = await res.json();
 
 			return {
-				props: { seminare }
+				props: { seminare, selectedKategorieIds }
 			};
 		}
 
-		const { message } = await res.json();
+		const {
+			errors: [error]
+		} = await res.json();
 
 		return {
 			status: res.status,
-			error: new Error(message)
+			error: new Error(error.message)
 		};
 	};
 
@@ -36,10 +39,12 @@ export const loadSeminar: Load = async ({ page, fetch }) => {
 		};
 	}
 
-	const { message } = await res.json();
+	const {
+		errors: [error]
+	} = await res.json();
 
 	return {
 		status: res.status,
-		error: new Error(message)
+		error: new Error(error.message)
 	};
 };

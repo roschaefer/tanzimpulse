@@ -5,12 +5,13 @@
 </script>
 
 <script lang="ts">
-	import SeminarDeck from '$lib/components/SeminarDeck/SeminarDeck.svelte';
-	export let seminare: [];
+	import SeminarDashboard from '$lib/components/SeminarDashboard/SeminarDashboard.svelte';
+	export let seminare = [];
+	export let selectedKategorieIds = [];
 </script>
 
 <svelte:head>
-	<title>Seminare</title>
+	<title>Workshops</title>
 </svelte:head>
 
-<SeminarDeck {seminare} />
+<SeminarDashboard {seminare} {selectedKategorieIds} />

@@ -29,6 +29,11 @@
 				{/if}
 			</h3>
 			<h1 class="title-font text-lg font-medium text-gray-900 mb-3">{seminar.titel}</h1>
+			{#each seminar.kategorien as kategorie (kategorie.id)}
+				<span class="pr-1 text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+					{kategorie.name}
+				</span>
+			{/each}
 			<slot name="beschreibung">
 				<p class="leading-relaxed mb-3 prose-sm">
 					{seminar.kurzbeschreibung}

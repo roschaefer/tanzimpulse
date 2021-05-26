@@ -1,4 +1,4 @@
-export const seminarFragment = `
+export const seminarFragment = (seminarFormat?: boolean) => `
 id
 titel
 url
@@ -30,19 +30,26 @@ veranstaltungsort {
 teilnehmer {
   id
 }
+kategorien {
+  id
+  name
+  seminare${seminarFormat ? '(where: {format: $seminarFormat})' : ''} {
+    id
+  }
+}
 `;
 
 export const SEMINAR = `
-query($url:String!) {
+  query($url:String!) {
     seminar(where: {url: $url}) {
-        ${seminarFragment}
+      ${seminarFragment()}
     }
-}
+  }
 `;
 export const SEMINARE = `
   query($seminarFormat: SeminarFormat!){
     seminare(where:{format: $seminarFormat}) {
-        ${seminarFragment}
+      ${seminarFragment(true)}
     }
   }
 `;

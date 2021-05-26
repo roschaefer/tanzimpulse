@@ -1,5 +1,6 @@
 import { api } from '$lib/graphql/api';
 import type { RequestHandler } from '@sveltejs/kit';
+import type { ServerRequest } from '@sveltejs/kit/types/endpoint';
 import { UPSERT_TEILNEHMER, PUBLISH_TEILNEHMER } from '$lib/graphql/mutations';
 import { SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD } from '$lib/env';
 import { dev } from '$app/env';
@@ -27,14 +28,22 @@ const sendConfirmation = async (teilnehmer: Teilnehmer) => {
 	return transporter.sendMail(message(teilnehmer, seminar));
 };
 
+const requestVariables = (request: ServerRequest<any, any>) => {
+	const toBool = (cb: string) => !!{ on: true }[cb];
+	return {
+		email: request.body.get('email'),
+		name: request.body.get('name'),
+		adresse: request.body.get('adresse'),
+		datenverarbeitung: toBool(request.body.get('datenverarbeitung')),
+		newsletter: toBool(request.body.get('newsletter'))
+	};
+};
+
 // POST /:seminarFormat/:url/anmeldung.json
 export const post: RequestHandler<any, FormData> = async (request) => {
 	const { seminarFormat, url } = request.params;
-	const email = request.body.get('email');
-	const name = request.body.get('name');
-	const adresse = request.body.get('adresse');
-	const res = await api(UPSERT_TEILNEHMER, { url, name, email, adresse });
-	await api(PUBLISH_TEILNEHMER, { email })
+	const res = await api(UPSERT_TEILNEHMER, { ...requestVariables(request), url });
+	await api(PUBLISH_TEILNEHMER, requestVariables(request));
 	if (res.ok) {
 		await sendConfirmation(res.body.data.teilnehmer);
 	}

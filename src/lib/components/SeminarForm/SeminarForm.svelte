@@ -12,39 +12,53 @@
 		<h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Anmeldeformular</h1>
 		<p class="text-gray-400 dark:text-gray-400">Für dieses Seminar anmelden.</p>
 	</div>
-	<div class="flex flex-col space-y-6 mb-12">
-		<label for="name"
+	<div class="flex flex-col space-y-6 mb-8">
+		<label
 			>Name
 			<input
-				class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+				class=" block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
 				type="text"
 				name="name"
-				id="name"
 				placeholder="Max Mustermann"
 				required
 			/>
 		</label>
-		<label for="email"
+		<label
 			>E-Mail Adresse
 			<input
-				class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+				class=" block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
 				type="email"
 				name="email"
-				id="email"
 				placeholder="max@mustermann.de"
 				required
 			/>
 		</label>
-		<label for="adresse"
+		<label
 			>Adresse
 			<input
-				class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+				class=" block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
 				type="text"
 				name="adresse"
-				id="adresse"
 				placeholder="Musterstrasse 42, 12345 Musterstadt"
 				required
 			/>
+		</label>
+		<label class="flex items-center">
+			<input
+				class="mr-2 h-6 w-6 rounded-md bg-gray-100 focus:ring-0"
+				type="checkbox"
+				name="datenverarbeitung"
+				required
+			/>
+			Einwilligung zur Datenverarbeitung
+		</label>
+		<label class="flex items-center">
+			<input
+				class="mr-2 h-6 w-6 rounded-md bg-gray-100 focus:ring-0"
+				type="checkbox"
+				name="newsletter"
+			/>
+			Newsletter abonnieren
 		</label>
 	</div>
 	<button

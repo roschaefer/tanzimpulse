@@ -1,17 +1,21 @@
 import type { Load } from '@sveltejs/kit';
+import { addTransientSelected } from '$lib/helpers';
+
 export const loadSeminare =
 	(seminarFormat: string): Load =>
 	async ({ page, fetch }) => {
-		const selectedKategorieIds = page.query.getAll('kategorie');
 		const res = await fetch(`/${seminarFormat}.json`);
-
 		if (res.ok) {
 			const {
 				data: { seminare }
 			} = await res.json();
+			const selectedKategorieIds = page.query.getAll('kategorie');
+			seminare.forEach((s: Seminar) => {
+				s.kategorien = s.kategorien.map(addTransientSelected(selectedKategorieIds));
+			});
 
 			return {
-				props: { seminare, selectedKategorieIds }
+				props: { seminare }
 			};
 		}
 

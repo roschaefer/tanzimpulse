@@ -1,5 +1,10 @@
 /// <reference types="@sveltejs/kit" />
+interface Identifiable {
+	id: string;
+}
+
 type Teilnehmer = {
+	id: string;
 	email: string;
 	name: string;
 	adresse: string;
@@ -7,9 +12,17 @@ type Teilnehmer = {
 };
 
 type Seminar = {
+	id: string;
 	titel: string;
 	kurzbeschreibung: string;
 	preis?: number;
 	maximaleAnzahlTeilnehmer?: number;
 	teilnehmer: Teilnehmer[];
+	kategorien: Kategorie[];
+};
+
+type Kategorie = {
+	id: string;
+	name: string;
+	selected?: boolean;
 };

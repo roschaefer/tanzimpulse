@@ -7,11 +7,10 @@
 <script lang="ts">
 	import SeminarDashboard from '$lib/components/SeminarDashboard/SeminarDashboard.svelte';
 	export let seminare = [];
-	export let selectedKategorieIds = [];
 </script>
 
 <svelte:head>
 	<title>Workshops</title>
 </svelte:head>
 
-<SeminarDashboard {seminare} {selectedKategorieIds} />
+<SeminarDashboard {seminare} />

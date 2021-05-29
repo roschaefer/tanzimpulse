@@ -1,0 +1,2 @@
+/workshops    kategorie=:kategorie /.netlify/functions/render 200!
+/ausbildungen kategorie=:kategorie /.netlify/functions/render 200!

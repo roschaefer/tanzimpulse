@@ -37,6 +37,7 @@ export const loadSeminar: Load = async ({ page, fetch }) => {
 		const {
 			data: { seminar }
 		} = await res.json();
+		if (!seminar) return { status: 404, error: new Error('Seminar nicht gefunden') };
 
 		return {
 			props: { seminar }

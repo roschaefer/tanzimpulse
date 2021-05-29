@@ -1,5 +1,4 @@
 <script lang="ts">
-	const selected = ['ckp5emleokgvf0b06z69zjxlp'];
 	export let kategorien;
 	import Toggle from '$lib/components/Toggle/Toggle.svelte';
 </script>

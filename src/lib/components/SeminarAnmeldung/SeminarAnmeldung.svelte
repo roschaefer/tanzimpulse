@@ -3,6 +3,7 @@
 	import SeminarForm from '$lib/components/SeminarForm/SeminarForm.svelte';
 	import Success from '$lib/components/Alerts/Success.svelte';
 	import Error from '$lib/components/Alerts/Error.svelte';
+	import { base } from '$app/paths';
 	export let seminar: {};
 	export let errors = [];
 	export let anmeldung = null;
@@ -26,7 +27,7 @@
 		if (graphQLErrors) errors.push(...graphQLErrors);
 		anmeldung = teilnehmer;
 	};
-	const action = `/${seminar.format}/${seminar.url}/anmeldung.json`;
+	const action = `${base}/${seminar.format}/${seminar.url}/anmeldung.json`;
 </script>
 
 <section class="text-gray-600 body-font overflow-hidden">

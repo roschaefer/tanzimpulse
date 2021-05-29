@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Logo from '$lib/components/Logo/Logo.svelte';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	const linkClass = (path, pge) => {
 		const defaults = 'inline-block no-underline py-2 px-4';
 		const active = 'text-white';
@@ -9,9 +10,9 @@
 	};
 
 	let links = [
-		{ path: '/ueber-uns', label: 'Über uns' },
-		{ path: '/workshops', label: 'Workshops' },
-		{ path: '/ausbildungen', label: 'Ausbildungen' }
+		{ path: `${base}/ueber-uns`, label: 'Über uns' },
+		{ path: `${base}/workshops`, label: 'Workshops' },
+		{ path: `${base}/ausbildungen`, label: 'Ausbildungen' }
 	];
 	let open = false;
 	const toggleMenu = () => {
@@ -29,7 +30,7 @@
 			<a
 				class="flex items-center text-white no-underline hover:text-white hover:no-underline"
 				sveltekit:prefetch
-				href="/"
+				href="{base}/"
 			>
 				<div class="w-12 border-2"><Logo /></div>
 				<span class="text-2xl pl-2">Tanzimpulse</span>

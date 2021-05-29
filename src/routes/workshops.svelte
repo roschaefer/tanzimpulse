@@ -2,6 +2,7 @@
 	import { loadSeminare } from '$lib/routes';
 
 	export const load: Load = loadSeminare('workshop');
+	export const prerender = true;
 </script>
 
 <script lang="ts">

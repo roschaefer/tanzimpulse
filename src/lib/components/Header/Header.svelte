@@ -2,6 +2,8 @@
 	import Logo from '$lib/components/Logo/Logo.svelte';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import { browser } from '$app/env';
+
 	const linkClass = (path, pge) => {
 		const defaults = 'inline-block no-underline py-2 px-4';
 		const active = 'text-white';
@@ -14,7 +16,7 @@
 		{ path: `${base}/workshops`, label: 'Workshops' },
 		{ path: `${base}/ausbildungen`, label: 'Ausbildungen' }
 	];
-	let open = false;
+	let open = !browser;
 	const toggleMenu = () => {
 		open = !open;
 	};
@@ -24,8 +26,8 @@
 	});
 </script>
 
-<header>
-	<nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
+<header class="sticky top-0 z-10">
+	<nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 w-full">
 		<div class="flex items-center flex-shrink-0 text-white mr-6">
 			<a
 				class="flex items-center text-white no-underline hover:text-white hover:no-underline"

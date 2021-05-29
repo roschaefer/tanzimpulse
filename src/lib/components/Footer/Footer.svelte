@@ -4,7 +4,8 @@
 
 <footer class="text-gray-600 body-font">
 	<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-		<a href="#"
+		<a
+			href="#"
 			class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
 		>
 			<div class="w-8">
@@ -18,7 +19,13 @@
 			© 2021 Tanzimpulse
 		</p>
 		<span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-			<a rel="noreferrer" aria-label="Facebook" target="_blank" href="https://www.facebook.com/Tanzimpulse/" class="text-gray-500">
+			<a
+				rel="noreferrer"
+				aria-label="Facebook"
+				target="_blank"
+				href="https://www.facebook.com/Tanzimpulse/"
+				class="text-gray-500"
+			>
 				<svg
 					fill="currentColor"
 					stroke-linecap="round"

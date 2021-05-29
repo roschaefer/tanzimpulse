@@ -7,7 +7,7 @@
 	<div class="container px-5 py-24 mx-auto">
 		<div class="flex flex-wrap -m-4">
 			{#each seminare as seminar (seminar.id)}
-				<SeminarCard {seminar} link={`${seminar.format}/${seminar.url}`} />
+				<SeminarCard {seminar} link={`/${seminar.format}/${seminar.url}`} />
 			{/each}
 		</div>
 	</div>

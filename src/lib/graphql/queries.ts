@@ -1,42 +1,46 @@
 import { gql } from '$lib/helpers';
 export const seminarFragment = gql`
-  id
-  titel
-  url
-  maximaleAnzahlTeilnehmer
-  bild {
-    medium: url(transformation: {image: {resize: {width: 480}}})
-    fileName
-    height
-    width
-    size
-    handle
-    mimeType
-  }
-  preis
-  format
-  kurzbeschreibung
-  beschreibung {
-    html
-  }
-  referenten {
-    name
-  }
-  veranstaltungsort {
-    koordinaten {
-      longitude
-      latitude
-    }
-  }
-  teilnehmer {
+  fragment seminarFragment on Seminar {
     id
+    titel
+    url
+    maximaleAnzahlTeilnehmer
+    bild {
+      medium: url(transformation: { image: { resize: { width: 480 } } })
+      fileName
+      height
+      width
+      size
+      handle
+      mimeType
+    }
+    preis
+    format
+    kurzbeschreibung
+    beschreibung {
+      html
+    }
+    referenten {
+      name
+    }
+    veranstaltungsort {
+      koordinaten {
+        longitude
+        latitude
+      }
+    }
+    teilnehmer {
+      id
+    }
   }
 `;
 
 export const SEMINAR = gql`
-  query($url:String!) {
-    seminar(where: {url: $url}) {
-      ${seminarFragment}
+  ${seminarFragment}
+
+  query ($url: String!) {
+    seminar(where: { url: $url }) {
+      ...seminarFragment
       kategorien {
         id
         name
@@ -45,13 +49,15 @@ export const SEMINAR = gql`
   }
 `;
 export const SEMINARE = gql`
-  query($seminarFormat: SeminarFormat!){
-    seminare(where:{format: $seminarFormat}) {
-      ${seminarFragment}
+  ${seminarFragment}
+
+  query ($seminarFormat: SeminarFormat!) {
+    seminare(where: { format: $seminarFormat }) {
+      ...seminarFragment
       kategorien {
         id
         name
-        seminare(where: {format: $seminarFormat}) {
+        seminare(where: { format: $seminarFormat }) {
           id
         }
       }

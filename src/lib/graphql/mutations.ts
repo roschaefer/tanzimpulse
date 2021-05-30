@@ -1,5 +1,6 @@
+import { gql } from '$lib/helpers';
 import { seminarFragment } from './queries';
-export const UPSERT_TEILNEHMER = `
+export const UPSERT_TEILNEHMER = gql`
 mutation ($url: String!, $email: String!, $name: String!, $adresse: String!, $datenverarbeitung: Boolean!, $newsletter: Boolean!) {
   teilnehmer: upsertTeilnehmer(
     where: {email: $email},
@@ -22,9 +23,9 @@ mutation ($url: String!, $email: String!, $name: String!, $adresse: String!, $da
 }
 `;
 
-export const PUBLISH_TEILNEHMER = `
+export const PUBLISH_TEILNEHMER = gql`
 mutation ($email: String!) {
-  teilnehmer: publishTeilnehmer(where: {email: $email}, to: PUBLISHED) {
+  teilnehmer: publishTeilnehmer(where: { email: $email }, to: PUBLISHED) {
     stage
     id
     documentInStages(stages: [PUBLISHED]) {

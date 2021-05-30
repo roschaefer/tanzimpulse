@@ -11,3 +11,6 @@ export function addTransientSelected(selectedIds?: string[]) {
 		? (kategorie: Kategorie) => ({ ...kategorie, selected: selectedIds.includes(kategorie.id) })
 		: (kategorie: Kategorie) => ({ ...kategorie, selected: true });
 }
+
+// A little silly, but offers graphQL syntax highlighting in the editor
+export const gql = String.raw;

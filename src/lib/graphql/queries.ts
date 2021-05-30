@@ -1,4 +1,5 @@
-export const seminarFragment = `
+import { gql } from '$lib/helpers';
+export const seminarFragment = gql`
 id
 titel
 url
@@ -32,7 +33,7 @@ teilnehmer {
 }
 `;
 
-export const SEMINAR = `
+export const SEMINAR = gql`
   query($url:String!) {
     seminar(where: {url: $url}) {
       ${seminarFragment}
@@ -43,7 +44,7 @@ export const SEMINAR = `
     }
   }
 `;
-export const SEMINARE = `
+export const SEMINARE = gql`
   query($seminarFormat: SeminarFormat!){
     seminare(where:{format: $seminarFormat}) {
       ${seminarFragment}

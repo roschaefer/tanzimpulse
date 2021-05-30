@@ -24,14 +24,14 @@ mutation ($url: String!, $email: String!, $name: String!, $adresse: String!, $da
 `;
 
 export const PUBLISH_TEILNEHMER = gql`
-mutation ($email: String!) {
-  teilnehmer: publishTeilnehmer(where: { email: $email }, to: PUBLISHED) {
-    stage
-    id
-    documentInStages(stages: [PUBLISHED]) {
-      id
+  mutation ($email: String!) {
+    teilnehmer: publishTeilnehmer(where: { email: $email }, to: PUBLISHED) {
       stage
+      id
+      documentInStages(stages: [PUBLISHED]) {
+        id
+        stage
+      }
     }
   }
-}
 `;

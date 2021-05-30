@@ -4,5 +4,5 @@ import { SEMINAR } from '$lib/graphql/queries';
 
 // GET /:seminarFormat/:url.json
 export const get: RequestHandler = async (request) => {
-	return api(SEMINAR, { url: request.params.url });
+  return api(SEMINAR, { url: request.params.url });
 };

@@ -1,28 +1,28 @@
 /// <reference types="@sveltejs/kit" />
 interface Identifiable {
-	id: string;
+  id: string;
 }
 
 type Teilnehmer = {
-	id: string;
-	email: string;
-	name: string;
-	adresse: string;
-	seminare: Seminar[];
+  id: string;
+  email: string;
+  name: string;
+  adresse: string;
+  seminare: Seminar[];
 };
 
 type Seminar = {
-	id: string;
-	titel: string;
-	kurzbeschreibung: string;
-	preis?: number;
-	maximaleAnzahlTeilnehmer?: number;
-	teilnehmer: Teilnehmer[];
-	kategorien: Kategorie[];
+  id: string;
+  titel: string;
+  kurzbeschreibung: string;
+  preis?: number;
+  maximaleAnzahlTeilnehmer?: number;
+  teilnehmer: Teilnehmer[];
+  kategorien: Kategorie[];
 };
 
 type Kategorie = {
-	id: string;
-	name: string;
-	selected?: boolean;
+  id: string;
+  name: string;
+  selected?: boolean;
 };

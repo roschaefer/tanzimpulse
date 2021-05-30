@@ -12,7 +12,11 @@ mutation ($url: String!, $email: String!, $name: String!, $adresse: String!, $da
     name
     email
     seminare(where: {url: $url}) {
-      ${seminarFragment()}
+      ${seminarFragment}
+      kategorien {
+        id
+        name
+      }
     }
   }
 }

@@ -2,86 +2,96 @@
   import Logo from '$lib/components/Logo/Logo.svelte';
 </script>
 
-<footer class="text-gray-600 body-font">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a
-      href="#"
-      class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-    >
-      <div class="w-8">
-        <Logo />
-      </div>
-      <span class="ml-3 text-xl">Tanzimpulse</span>
-    </a>
-    <p
-      class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-    >
-      © 2021 Tanzimpulse
-    </p>
-    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-      <a
-        rel="noreferrer"
-        aria-label="Facebook"
-        target="_blank"
-        href="https://www.facebook.com/Tanzimpulse/"
-        class="text-gray-500"
-      >
-        <svg
-          fill="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-5 h-5"
-          viewBox="0 0 24 24"
-        >
-          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
-        </svg>
+<footer class="text-white bg-ti_blue_mat-dark body-font">
+  <div class="container px-4 py-28 mx-auto flex items-center flex-col">
+    <div class="___footer_row_1">
+      <a href="#" class="flex title-font">
+        <div class="flex flex-col items-center pa-6 text-center">
+          <div class="w-40 text-ti_blue_accent">
+          <Logo />
+        </div>
+          <p class="p-6">
+            <span class="uppercase font-extrabold tracking-wider text-ti_blue_accent">Tanzimpulse - Institut für Tanzpädagogik</span><br>
+            Staatlich anerkanntes Weiterbildungsinstitut<br>
+          </p>
+         
+        </div>
       </a>
-      <span class="ml-3 text-gray-500">
-        <svg
-          fill="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-5 h-5"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+    </div>
+
+    <div class="flex flex-wrap flex-col lg:flex-row ___footer_row_2">
+      <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
+        <p>
+          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
           />
-        </svg>
-      </span>
-      <span class="ml-3 text-gray-500">
-        <svg
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-5 h-5"
-          viewBox="0 0 24 24"
-        >
-          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
-        </svg>
-      </span>
-      <span class="ml-3 text-gray-500">
-        <svg
-          fill="currentColor"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="0"
-          class="w-5 h-5"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke="none"
-            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-          />
-          <circle cx="4" cy="4" r="2" stroke="none" />
-        </svg>
-      </span>
-    </span>
+          Folwiese 20<br />
+          51069 Köln<br />
+          <br />
+          Telefon: 0221 - 68 36 91<br />
+          Fax: 0221 - 68 97 79 7<br />
+          E-Mail: info@tanzimpulse.de<br />
+          <br />
+          <span class="uppercase tracking-wider tracking-widest text-xs">Bürozeiten</span><br />
+          Montag bis Freitag:<br>8:30 - 13:00 Uhr<br />
+          Dienstags und Donnerstags:<br>17:00 - 22:00 Uhr
+        </p>
+      </div>
+      <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
+        <p>
+          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent"
+            >Der Tanzraum</span
+          ><br />
+          Schweinheimer Straße 54<br />
+          51067 Köln<br />
+          <br />
+
+          <a href="#" aria-label="Impressum">Impressum</a><br />
+          <a href="#" aria-label="Datenschutz">Datenschutz</a>
+          <br /><br />
+          © 2021
+        </p>
+        <div class="flex flex-wrap flex-row py-6 justify-center lg:justify-start ___social_media_icons">
+          <a
+            rel="noreferrer"
+            aria-label="Facebook"
+            target="_blank"
+            href="https://www.facebook.com/Tanzimpulse/"
+            class="text-white mr-4"
+          >
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+            </svg>
+          </a>
+
+          <a
+            rel="noreferrer"
+            aria-label="Instagram"
+            target="_blank"
+            href="https://www.facebook.com/Tanzimpulse/"
+            class="text-white"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>

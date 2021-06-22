@@ -11,8 +11,8 @@
           <Logo />
         </div>
           <p class="p-6">
-            <span class="uppercase font-extrabold tracking-wider text-ti_blue_accent">Tanzimpulse - Institut für Tanzpädagogik</span><br>
-            Staatlich anerkanntes Weiterbildungsinstitut<br>
+            <span class="uppercase font-bold tracking-wider text-ti_blue_accent">Tanzimpulse - Institut für Tanzpädagogik</span><br>
+            <span class="font-light">Staatlich anerkanntes Weiterbildungsinstitut</span>
           </p>
          
         </div>
@@ -22,7 +22,7 @@
     <div class="flex flex-wrap flex-col lg:flex-row ___footer_row_2">
       <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
         <p>
-          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
+          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
           />
           Folwiese 20<br />
           51069 Köln<br />
@@ -38,7 +38,7 @@
       </div>
       <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
         <p>
-          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent"
+          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent"
             >Der Tanzraum</span
           ><br />
           Schweinheimer Straße 54<br />

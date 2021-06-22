@@ -17,8 +17,11 @@
 
 <Header />
 
-<main class="flex-grow container mx-auto bg-white">
-  <slot />
+
+<main class="bg-coolGray-50 w-full">
+    <div class="flex-grow container mx-auto">
+    <slot />
+  </div>
 </main>
 
 <Footer />

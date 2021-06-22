@@ -3,7 +3,7 @@
 </script>
 
 <footer class="text-white bg-ti_blue_mat-dark body-font">
-  <div class="container px-4 py-28 mx-auto flex items-center flex-col">
+  <div class="container px-4 py-24 mx-auto flex items-center flex-col">
     <div class="___footer_row_1">
       <a href="#" class="flex title-font">
         <div class="flex flex-col items-center pa-6 text-center">
@@ -19,8 +19,8 @@
       </a>
     </div>
 
-    <div class="flex flex-wrap flex-col lg:flex-row ___footer_row_2">
-      <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
+    <div class="flex flex-wrap flex-col md:flex-row ___footer_row_2">
+      <div class="flex-auto text-sm px-12 lg:px-20 py-6 md:text-left text-center">
         <p>
           <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
           />
@@ -31,12 +31,12 @@
           Fax: 0221 - 68 97 79 7<br />
           E-Mail: info@tanzimpulse.de<br />
           <br />
-          <span class="uppercase tracking-wider tracking-widest text-xs">Bürozeiten</span><br />
+          <span class="uppercase tracking-widest text-xs">Bürozeiten</span><br />
           Montag bis Freitag:<br>8:30 - 13:00 Uhr<br />
           Dienstags und Donnerstags:<br>17:00 - 22:00 Uhr
         </p>
       </div>
-      <div class="flex-auto text-sm px-12 lg:px-40 py-6 lg:text-left text-center">
+      <div class="flex-auto text-sm px-12 lg:px-20 py-6 md:text-left text-center">
         <p>
           <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent"
             >Der Tanzraum</span

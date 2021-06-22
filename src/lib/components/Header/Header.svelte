@@ -54,7 +54,7 @@
 <div
   id="drawer"
   class:hidden={!open}
-  class="absolute top-0 bg-ti_blue_mat-dark  w-full h-screen z-50"
+  class="absolute top-0 bg-ti_blue_mat-dark w-full h-screen z-50"
 >
   <div class="container flex flex-col flex-wrap px-6 py-4 mx-auto w-full">
     <div class="flex justify-end w-full block">
@@ -84,8 +84,8 @@
       Tanzpädagogik
     </h3>
     <p>
-      <a href="#" class="text-white hover:text-ti_blue_accent">Ausbildungen</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Workshops</a><br />
+      <a href="ausbildungen" class="text-white hover:text-ti_blue_accent">Ausbildungen</a><br />
+      <a href="workshops" class="text-white hover:text-ti_blue_accent">Workshops</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Tanztrainings</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
@@ -98,7 +98,7 @@
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Kontakt</h3>
     <p>
       <a href="#" class="text-white hover:text-ti_blue_accent">Kontakt und Anfahrt</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Team</a><br />
+      <a href="team" class="text-white hover:text-ti_blue_accent">Team</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Mitgliedschaften</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Newsletter</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Philosophie</a><br />

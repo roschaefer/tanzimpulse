@@ -1,4 +1,8 @@
 <script lang="ts">
+  import "@fontsource/poppins/300.css"
+  import "@fontsource/poppins/400.css"
+  import "@fontsource/poppins/700.css"
+  import "@fontsource/poppins/900.css"
   import Header from '$lib/components/Header/Header.svelte';
   import Footer from '$lib/components/Footer/Footer.svelte';
   import '../app.css';

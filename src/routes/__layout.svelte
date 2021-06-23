@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Logo from '$lib/components/Logo/Logo.svelte';
   import "@fontsource/poppins/300.css"
   import "@fontsource/poppins/400.css"
   import "@fontsource/poppins/700.css"
@@ -34,8 +35,18 @@
 
 <Header />
 
-
-<main class="bg-coolGray-50 w-full">
+<main class="bg-coolGray-100 w-full top-0">
+    <div class="___logoheader flex-1 h-2/5 flex bg-white py-20">
+      <div class="container mx-auto flex flex-row items-center">
+        <div class="___logo w-48 text-ti_blue_mat">
+          <Logo />
+        </div>
+        <div class="___title px-8">
+          <h1 class="text-4xl uppercase text-ti_blue_mat tracking-wider"><span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik</h1>
+          <p class="text-2xl text-ti_blue_accent tracking-wide font-light">Staatlich anerkanntes Weiterbildungsinstitut</p>
+        </div>
+     </div>
+    </div>
     <div class="flex-grow container mx-auto">
     <slot />
   </div>

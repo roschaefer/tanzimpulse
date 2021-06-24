@@ -35,20 +35,22 @@
 
 <Header />
 
-<main class="bg-coolGray-100 w-full top-0">
-    <div class="___logoheader flex-1 h-2/5 flex bg-white py-20">
-      <div class="container mx-auto flex flex-row items-center">
-        <div class="___logo w-48 text-ti_blue_mat">
+<main class="bg-warmGray-200 w-full top-0">
+    <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48">
+      <div class="container mx-auto flex flex-col md:flex-row items-center px-0 md:px-6">
+        <div class="___logo w-48 md:w-64 text-ti_blue_mat mb-6 md:mb-0">
           <Logo />
         </div>
         <div class="___title px-8">
-          <h1 class="text-4xl uppercase text-ti_blue_mat tracking-wider"><span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik</h1>
-          <p class="text-2xl text-ti_blue_accent tracking-wide font-light">Staatlich anerkanntes Weiterbildungsinstitut</p>
+          <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase text-ti_blue_mat tracking-wider"><span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik</h1>
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide font-light">Staatlich anerkanntes Weiterbildungsinstitut</p>
         </div>
      </div>
     </div>
     <div class="flex-grow container mx-auto">
-    <slot />
+      <div class="___inner_main -mt-32 mb-20 px-6">
+        <slot />
+      </div>
   </div>
 </main>
 

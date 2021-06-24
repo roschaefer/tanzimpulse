@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex flex-wrap flex-col md:flex-row ___footer_row_2">
-      <div class="flex-auto text-sm px-12 lg:px-20 py-6 md:text-left text-center">
+      <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
         <p>
           <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
           />
@@ -36,7 +36,7 @@
           Dienstags und Donnerstags:<br>17:00 - 22:00 Uhr
         </p>
       </div>
-      <div class="flex-auto text-sm px-12 lg:px-20 py-6 md:text-left text-center">
+      <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
         <p>
           <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent"
             >Der Tanzraum</span

@@ -3,7 +3,6 @@
   import { page } from '$app/stores';
   import { base } from '$app/paths';
   import { browser } from '$app/env';
-  import { fly } from 'svelte/transition';
 
   const linkClass = (path, pge) => {
     const defaults = 'inline-block no-underline py-2 px-4';
@@ -25,8 +24,6 @@
   $: styledLinks = links.map((link) => {
     return { ...link, class: linkClass(link.path, $page) };
   });
-
-  let visible = true;
 </script>
 
 <header class="sticky top-0 z-50 bg-ti_blue_mat shadow-lg">
@@ -48,11 +45,10 @@
   </nav>
 </header>
 
-<div
+<aside
   id="drawer"
-  class:hidden={!open}
   on:click={toggleMenu}
-  class="absolute top-0 bg-ti_blue_mat-dark w-full h-screen z-50"
+  class="{open ? 'translate-x-0' : 'translate-x-full' } transform bg-ti_blue_mat-dark top-0 left-0 w-full fixed h-full overflow-auto ease-in-out transition-all duration-300 z-50"
 >
   <div class="container flex flex-col flex-wrap px-6 py-4 mx-auto w-full">
     <div class="flex justify-end w-full block">
@@ -112,14 +108,5 @@
     <p>
       <a href="#" class="text-white hover:text-ti_blue_accent">Der (Tanz-) Raum</a><br />
     </p>
-
-    <label>
-      <input type="checkbox" bind:checked={visible} />
-      visible
-    </label>
-
-    {#if visible}
-      <p transition:fly={{ x: 200, duration: 2000 }}>Flies in and out</p>
-    {/if}
   </div>
-</div>
+</aside>

@@ -8,13 +8,14 @@
       <a href="#" class="flex title-font">
         <div class="flex flex-col items-center pa-6 text-center">
           <div class="w-40 text-ti_blue_accent">
-          <Logo />
-        </div>
+            <Logo />
+          </div>
           <p class="p-6">
-            <span class="uppercase font-bold tracking-wider text-ti_blue_accent">Tanzimpulse - Institut für Tanzpädagogik</span><br>
+            <span class="uppercase font-bold tracking-wider text-ti_blue_accent"
+              >Tanzimpulse - Institut für Tanzpädagogik</span
+            ><br />
             <span class="font-light">Staatlich anerkanntes Weiterbildungsinstitut</span>
           </p>
-         
         </div>
       </a>
     </div>
@@ -22,8 +23,9 @@
     <div class="flex flex-wrap flex-col md:flex-row ___footer_row_2">
       <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
         <p>
-          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br
-          />
+          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent"
+            >Das Büro</span
+          ><br />
           Folwiese 20<br />
           51069 Köln<br />
           <br />
@@ -32,8 +34,8 @@
           E-Mail: info@tanzimpulse.de<br />
           <br />
           <span class="uppercase tracking-widest text-xs">Bürozeiten</span><br />
-          Montag bis Freitag:<br>8:30 - 13:00 Uhr<br />
-          Dienstags und Donnerstags:<br>17:00 - 22:00 Uhr
+          Montag bis Freitag:<br />8:30 - 13:00 Uhr<br />
+          Dienstags und Donnerstags:<br />17:00 - 22:00 Uhr
         </p>
       </div>
       <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
@@ -50,7 +52,9 @@
           <br /><br />
           © 2021
         </p>
-        <div class="flex flex-wrap flex-row py-6 justify-center lg:justify-start ___social_media_icons">
+        <div
+          class="flex flex-wrap flex-row py-6 justify-center lg:justify-start ___social_media_icons"
+        >
           <a
             rel="noreferrer"
             aria-label="Facebook"

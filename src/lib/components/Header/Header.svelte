@@ -3,6 +3,7 @@
   import { page } from '$app/stores';
   import { base } from '$app/paths';
   import { browser } from '$app/env';
+  import { fly } from 'svelte/transition';
 
   const linkClass = (path, pge) => {
     const defaults = 'inline-block no-underline py-2 px-4';
@@ -25,17 +26,11 @@
     return { ...link, class: linkClass(link.path, $page) };
   });
 
-
-	import { fly } from 'svelte/transition';
-	let visible = true;
-
-
+  let visible = true;
 </script>
 
 <header class="sticky top-0 z-50 bg-ti_blue_mat shadow-lg">
   <nav class="container flex items-center justify-end flex-wrap px-6 py-4 mx-auto w-full">
-
-
     <div class="block self-align-end">
       <button
         on:click={toggleMenu}
@@ -62,7 +57,6 @@
   <div class="container flex flex-col flex-wrap px-6 py-4 mx-auto w-full">
     <div class="flex justify-end w-full block">
       <button
-        
         class="flex items-center px-2 py-2 focus:outline-none focus:border-0 text-white hover:text-ti_blue_accent"
       >
         <span class="uppercase font-bold px-2">Schliessen</span>
@@ -87,8 +81,12 @@
       Tanzpädagogik
     </h3>
     <p>
-      <a href="ausbildungen" class="text-white hover:text-ti_blue_accent">Ausbildungen</a><br />
-      <a href="workshops" class="text-white hover:text-ti_blue_accent">Workshops</a><br />
+      <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent"
+        >Ausbildungen</a
+      ><br />
+      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent"
+        >Workshops</a
+      ><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Tanztrainings</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
@@ -101,7 +99,7 @@
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Kontakt</h3>
     <p>
       <a href="#" class="text-white hover:text-ti_blue_accent">Kontakt und Anfahrt</a><br />
-      <a href="team" class="text-white hover:text-ti_blue_accent">Team</a><br />
+      <a href="{base}/team" class="text-white hover:text-ti_blue_accent">Team</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Mitgliedschaften</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Newsletter</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Philosophie</a><br />
@@ -115,19 +113,13 @@
       <a href="#" class="text-white hover:text-ti_blue_accent">Der (Tanz-) Raum</a><br />
     </p>
 
-
     <label>
-	<input type="checkbox" bind:checked={visible}>
-	visible
-</label>
+      <input type="checkbox" bind:checked={visible} />
+      visible
+    </label>
 
-{#if visible}
-	<p transition:fly="{{ x: 200, duration: 2000 }}">
-		Flies in and out
-	</p>
-{/if}
-
-
-
+    {#if visible}
+      <p transition:fly={{ x: 200, duration: 2000 }}>Flies in and out</p>
+    {/if}
   </div>
 </div>

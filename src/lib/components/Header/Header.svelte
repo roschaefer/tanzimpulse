@@ -24,18 +24,10 @@
   $: styledLinks = links.map((link) => {
     return { ...link, class: linkClass(link.path, $page) };
   });
-
-
-	import { fly } from 'svelte/transition';
-	let visible = true;
-
-
 </script>
 
 <header class="sticky top-0 z-50 bg-ti_blue_mat shadow-lg">
   <nav class="container flex items-center justify-end flex-wrap px-6 py-4 mx-auto w-full">
-
-
     <div class="block self-align-end">
       <button
         on:click={toggleMenu}
@@ -53,16 +45,14 @@
   </nav>
 </header>
 
-<div
+<aside
   id="drawer"
-  class:hidden={!open}
   on:click={toggleMenu}
-  class="absolute top-0 bg-ti_blue_mat-dark w-full h-screen z-50"
+  class="{open ? 'translate-x-0' : 'translate-x-full' } transform bg-ti_blue_mat-dark top-0 left-0 w-full fixed h-full overflow-auto ease-in-out transition-all duration-300 z-50"
 >
   <div class="container flex flex-col flex-wrap px-6 py-4 mx-auto w-full">
     <div class="flex justify-end w-full block">
       <button
-        
         class="flex items-center px-2 py-2 focus:outline-none focus:border-0 text-white hover:text-ti_blue_accent"
       >
         <span class="uppercase font-bold px-2">Schliessen</span>
@@ -87,8 +77,12 @@
       Tanzpädagogik
     </h3>
     <p>
-      <a href="ausbildungen" class="text-white hover:text-ti_blue_accent">Ausbildungen</a><br />
-      <a href="workshops" class="text-white hover:text-ti_blue_accent">Workshops</a><br />
+      <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent"
+        >Ausbildungen</a
+      ><br />
+      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent"
+        >Workshops</a
+      ><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Tanztrainings</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
@@ -101,7 +95,7 @@
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Kontakt</h3>
     <p>
       <a href="#" class="text-white hover:text-ti_blue_accent">Kontakt und Anfahrt</a><br />
-      <a href="team" class="text-white hover:text-ti_blue_accent">Team</a><br />
+      <a href="{base}/team" class="text-white hover:text-ti_blue_accent">Team</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Mitgliedschaften</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Newsletter</a><br />
       <a href="#" class="text-white hover:text-ti_blue_accent">Philosophie</a><br />
@@ -114,20 +108,5 @@
     <p>
       <a href="#" class="text-white hover:text-ti_blue_accent">Der (Tanz-) Raum</a><br />
     </p>
-
-
-    <label>
-	<input type="checkbox" bind:checked={visible}>
-	visible
-</label>
-
-{#if visible}
-	<p transition:fly="{{ x: 200, duration: 2000 }}">
-		Flies in and out
-	</p>
-{/if}
-
-
-
   </div>
-</div>
+</aside>

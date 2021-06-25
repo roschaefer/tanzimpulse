@@ -13,18 +13,25 @@
     </div>
 
     <div class="___main_cards flex flex-col lg:flex-row w-full gap-10 items-start">
-
       <div class="___card1 bg-ti_blue_mat p-8 text-white shadow-sm hover:shadow-lg flex-1">
         <h2 class="text-ti_blue_accent font-bold text-2xl uppercase tracking-wide">Die Ausbildungen</h2>
         <p class="pt-4 pb-8">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
         <button class="p-4 mb-12 w-full rounded-full border-2 border-ti_blue_accent bg-ti_blue_mat-dark text-ti_blue_accent font-black text-sm tracking-widest uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white transition duration-300 ease-in-out">Mehr erfahren</button>
         
         <!-- startpage single seminar -->
-        <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
+        <div
+          class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center"
+        >
           <div class="___startpage_seminar_basics flex-1">
             <p class="___startpage_seminar_date">2. August - 11:00 Uhr bis 12:00 Uhr</p>
-            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">Titel der Ausbildung</p>
-            <p class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-black tracking-wider">Noch Plätze frei</p>
+            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">
+              Titel der Ausbildung
+            </p>
+            <p
+              class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-black tracking-wider"
+            >
+              Noch Plätze frei
+            </p>
           </div>
           <div class="___startpage_seminar_more_icon flex-0 self-align-center">
            <button class="rounded-full h-12 w-12 flex items-center justify-center border-2 border-ti_blue_accent text-ti_blue_accent bg-ti_blue_mat-dark font-bold text-sm tracking-wide uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white transition duration-300 ease-in-out">
@@ -34,15 +41,21 @@
           </button>
           </div>
         </div>
-        <hr class="block border border-ti_blue_mat-dark w-full my-4">
+        <hr class="block border border-ti_blue_mat-dark w-full my-4" />
         <!-- end -->
 
         <!-- startpage single seminar -->
-        <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
+        <div
+          class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center"
+        >
           <div class="___startpage_seminar_basics flex-1">
             <p class="___startpage_seminar_date">4. August - 11:00 Uhr bis 12:00 Uhr</p>
-            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">Titel der Ausbildung</p>
-            <p class="___startpage_seminar_status py-2 uppercase text-sm font-bold tracking-wider">– Warteliste -</p>
+            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">
+              Titel der Ausbildung
+            </p>
+            <p class="___startpage_seminar_status py-2 uppercase text-sm font-bold tracking-wider">
+              – Warteliste -
+            </p>
           </div>
           <div class="___startpage_seminar_more_icon flex-0 self-align-center">
            <button class="rounded-full h-12 w-12 flex items-center justify-center border-2 border-ti_blue_accent text-ti_blue_accent bg-ti_blue_mat-dark font-bold text-sm tracking-wide uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white transition duration-300 ease-in-out">
@@ -52,15 +65,23 @@
           </button>
           </div>
         </div>
-        <hr class="block border border-ti_blue_mat-dark w-full my-4">
+        <hr class="block border border-ti_blue_mat-dark w-full my-4" />
         <!-- end -->
 
         <!-- startpage single seminar -->
-        <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
+        <div
+          class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center"
+        >
           <div class="___startpage_seminar_basics flex-1">
             <p class="___startpage_seminar_date">2. September - 11:00 Uhr bis 12:00 Uhr</p>
-            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">Titel der Ausbildung</p>
-            <p class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-black tracking-wider">Noch Plätze frei</p>
+            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">
+              Titel der Ausbildung
+            </p>
+            <p
+              class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-black tracking-wider"
+            >
+              Noch Plätze frei
+            </p>
           </div>
           <div class="___startpage_seminar_more_icon flex-0 self-align-center">
            <button class="rounded-full h-12 w-12 flex items-center justify-center border-2 border-ti_blue_accent text-ti_blue_accent bg-ti_blue_mat-dark font-bold text-sm tracking-wide uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white transition duration-300 ease-in-out">
@@ -70,11 +91,9 @@
           </button>
           </div>
         </div>
-        <hr class="block border border-ti_blue_mat-dark w-full my-4">
+        <hr class="block border border-ti_blue_mat-dark w-full my-4" />
         <!-- end -->
-
-      
-      </div>     
+      </div>
 
       <div class="___card2 bg-ti_cyan_mat p-8 text-white shadow-sm hover:shadow-lg flex-1">
         <h2 class="text-ti_cyan_accent font-bold text-2xl uppercase tracking-wide">Die Workshops</h2>
@@ -94,7 +113,6 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </button>
-            </div>
           </div>
           <hr class="block border border-ti_cyan_mat-dark w-full my-4">
           <!-- end -->
@@ -112,13 +130,11 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </button>
-            </div>
           </div>
-          <hr class="block border border-ti_cyan_mat-dark w-full my-4">
-          <!-- end -->
-      </div>    
-
-
+        </div>
+        <hr class="block border border-ti_cyan_mat-dark w-full my-4" />
+        <!-- end -->
+      </div>
 
       <div class="___card3 bg-ti_green_mat p-8 text-white shadow-sm hover:shadow-lg flex-1">
         <h2 class="text-ti_green_accent font-bold text-2xl uppercase tracking-wide">Der (Tanz-) Raum</h2>

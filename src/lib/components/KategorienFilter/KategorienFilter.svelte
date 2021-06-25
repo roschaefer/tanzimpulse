@@ -11,11 +11,7 @@
       {/if}
     {/each}
     <noscript>
-      <button
-        type="submit"
-        class="px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
-        >Seminare filtern</button
-      >
+      <button type="submit" class="px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">Seminare filtern</button>
     </noscript>
   </form>
 {/if}

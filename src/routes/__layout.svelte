@@ -11,10 +11,7 @@
 </script>
 
 <svelte:head>
-  <meta
-    name="description"
-    content="Tanzimpulse bieten eine Berufs begleitende Zusatzqualifikation zur Tanzpädagogin / zum Tanzpädagogen an – eine Weiterbildung für LehrerInnen aller Schulformen, für ErzieherInnen, SozialpädagogInnen und alle, die als therapeutisch tätig sind, wie beispielsweise Logopäden, Physiotherapeuten, Tanztherapeuten oder Übungsleiter aus Vereinen, Referenten aus der Erwachsenenbildung, die Tanz in ihre Arbeit einbeziehen."
-  />
+  <meta name="description" content="Tanzimpulse bieten eine Berufs begleitende Zusatzqualifikation zur Tanzpädagogin / zum Tanzpädagogen an – eine Weiterbildung für LehrerInnen aller Schulformen, für ErzieherInnen, SozialpädagogInnen und alle, die als therapeutisch tätig sind, wie beispielsweise Logopäden, Physiotherapeuten, Tanztherapeuten oder Übungsleiter aus Vereinen, Referenten aus der Erwachsenenbildung, die Tanz in ihre Arbeit einbeziehen." />
   <link rel="apple-touch-icon" sizes="57x57" href="{base}/icons/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="{base}/icons/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="{base}/icons/apple-icon-72x72.png" />
@@ -40,19 +37,15 @@
   <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48">
     <div class="container mx-auto flex flex-col md:flex-row items-center px-0 md:px-6">
       <div class="___logo w-48 md:w-64 text-ti_blue_mat mb-6 md:mb-0">
-        <Logo />
+        <a sveltekit:prefetch href="{base}/"><Logo /></a>
       </div>
       <div class="___title px-8">
-        <h1
-          class="text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase text-ti_blue_mat tracking-wider"
+        <a sveltekit:prefetch href="{base}/">
+          <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase text-ti_blue_mat tracking-wider">
+            <span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik
+          </h1>
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide font-light">Staatlich anerkanntes Weiterbildungsinstitut</p></a
         >
-          <span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik
-        </h1>
-        <p
-          class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide font-light"
-        >
-          Staatlich anerkanntes Weiterbildungsinstitut
-        </p>
       </div>
     </div>
   </div>

@@ -7,9 +7,7 @@ export function onlyUnique(k: Identifiable, index: number, kategorien: Identifia
 }
 
 export function addTransientSelected(selectedIds?: string[]) {
-  return selectedIds?.length
-    ? (kategorie: Kategorie) => ({ ...kategorie, selected: selectedIds.includes(kategorie.id) })
-    : (kategorie: Kategorie) => ({ ...kategorie, selected: true });
+  return selectedIds?.length ? (kategorie: Kategorie) => ({ ...kategorie, selected: selectedIds.includes(kategorie.id) }) : (kategorie: Kategorie) => ({ ...kategorie, selected: true });
 }
 
 // A little silly, but offers graphQL syntax highlighting in the editor

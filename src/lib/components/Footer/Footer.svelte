@@ -5,13 +5,13 @@
 <footer class="text-white bg-ti_blue_mat-dark body-font">
   <div class="container px-4 py-24 mx-auto flex items-center flex-col">
     <div class="___footer_row_1">
-      <a href="#" class="flex title-font">
+      <a href="#" class="flex outline-none focus:outline-none">
         <div class="flex flex-col items-center pa-6 text-center">
           <div class="w-48 text-ti_blue_accent">
             <Logo />
           </div>
           <p class="p-6">
-            <span class="uppercase text-md lg:text-xl font-extralight tracking-wider text-ti_blue_accent"><span class="font-black">Tanzimpulse</span> - Institut für Tanzpädagogik</span><br />
+            <span class="uppercase text-md lg:text-xl font-extralight tracking-wider text-ti_blue_accent"><span class="font-extrabold">Tanzimpulse</span> - Institut für Tanzpädagogik</span><br />
             <span class="font-light tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
           </p>
         </div>
@@ -21,7 +21,7 @@
     <div class="flex flex-wrap flex-col md:flex-row ___footer_row_2">
       <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
         <p>
-          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br />
+          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent">Das Büro</span><br />
           Folwiese 20<br />
           51069 Köln<br />
           <br />
@@ -36,7 +36,7 @@
       </div>
       <div class="flex-auto text-sm px-12 lg:px-48 py-6 md:text-left text-center">
         <p>
-          <span class="uppercase font-bold tracking-widest text-xs text-ti_blue_accent">Der Tanzraum</span><br />
+          <span class="uppercase font-extrabold tracking-widest text-xs text-ti_blue_accent">Der Tanzraum</span><br />
           Schweinheimer Straße 54<br />
           51067 Köln<br />
           <br />

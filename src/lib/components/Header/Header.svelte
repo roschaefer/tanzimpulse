@@ -26,7 +26,7 @@
   });
 </script>
 
-<header class="sticky top-0 z-50 bg-ti_blue_mat shadow-lg">
+<header class="sticky top-0 z-50 bg-ti_blue_mat shadow-ti_hover">
   <nav class="container flex items-center justify-end flex-wrap px-6 py-4 mx-auto w-full">
     <div class="block self-align-end">
       <button on:click={toggleMenu} class="flex items-center px-2 py-2 focus:outline-none focus:border-0 text-white hover:text-ti_blue_accent">
@@ -50,32 +50,32 @@
     <hr class="border-black my-2 lg:my-4" />
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzpädagogik</h3>
     <p>
-      <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent">Ausbildungen</a><br />
-      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent">Workshops</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Tanztrainings</a><br />
+      <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Ausbildungen</a><br />
+      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Workshops</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Tanztrainings</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Eindrücke</h3>
     <p>
-      <a href="#" class="text-white hover:text-ti_blue_accent">Fotogalerie</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Videos</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Fotogalerie</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Videos</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Kontakt</h3>
     <p>
-      <a href="#" class="text-white hover:text-ti_blue_accent">Kontakt und Anfahrt</a><br />
-      <a href="{base}/team" class="text-white hover:text-ti_blue_accent">Team</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Mitgliedschaften</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Newsletter</a><br />
-      <a href="#" class="text-white hover:text-ti_blue_accent">Philosophie</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Kontakt und Anfahrt</a><br />
+      <a href="{base}/team" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Team</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Mitgliedschaften</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Newsletter</a><br />
+      <a href="#" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Philosophie</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <p>
-      <a href="#" class="text-white hover:text-ti_blue_accent">Anmelden</a><br />
+      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Workshops</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <p>
-      <a href="#" class="text-white hover:text-ti_blue_accent">Der (Tanz-) Raum</a><br />
+      <a sveltekit:prefetch href="{base}/tanzraum" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Der (Tanz-) Raum</a><br />
     </p>
   </div>
 </aside>

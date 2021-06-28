@@ -1,6 +1,6 @@
 <script lang="ts">
   import Logo from '$lib/components/Logo/Logo.svelte';
-  import '@fontsource/poppins/300.css';
+  import '@fontsource/poppins/200.css';
   import '@fontsource/poppins/400.css';
   import '@fontsource/poppins/700.css';
   import '@fontsource/poppins/900.css';
@@ -41,10 +41,10 @@
       </div>
       <div class="___title px-8">
         <a sveltekit:prefetch href="{base}/">
-          <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase text-ti_blue_mat tracking-wider">
+          <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider">
             <span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik
           </h1>
-          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide font-light">Staatlich anerkanntes Weiterbildungsinstitut</p></a
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a
         >
       </div>
     </div>

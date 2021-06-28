@@ -11,7 +11,7 @@
             <Logo />
           </div>
           <p class="p-6">
-            <span class="uppercase text-md lg:text-xl tracking-wider text-ti_blue_accent"><span class="font-black">Tanzimpulse</span> - Institut für Tanzpädagogik</span><br />
+            <span class="uppercase text-md lg:text-xl font-extralight tracking-wider text-ti_blue_accent"><span class="font-black">Tanzimpulse</span> - Institut für Tanzpädagogik</span><br />
             <span class="font-light tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
           </p>
         </div>

@@ -3,12 +3,15 @@
   import '@fontsource/poppins/200.css';
   import '@fontsource/poppins/400.css';
   import '@fontsource/poppins/700.css';
-  import '@fontsource/poppins/900.css';
+  import '@fontsource/poppins/800.css';
   import Header from '$lib/components/Header/Header.svelte';
   import Footer from '$lib/components/Footer/Footer.svelte';
   import '../app.css';
   import { base } from '$app/paths';
 </script>
+
+
+
 
 <svelte:head>
   <meta name="description" content="Tanzimpulse bieten eine Berufs begleitende Zusatzqualifikation zur Tanzpädagogin / zum Tanzpädagogen an – eine Weiterbildung für LehrerInnen aller Schulformen, für ErzieherInnen, SozialpädagogInnen und alle, die als therapeutisch tätig sind, wie beispielsweise Logopäden, Physiotherapeuten, Tanztherapeuten oder Übungsleiter aus Vereinen, Referenten aus der Erwachsenenbildung, die Tanz in ihre Arbeit einbeziehen." />
@@ -33,16 +36,19 @@
 
 <Header />
 
+
+
+
 <main class="bg-warmGray-200 w-full top-0">
   <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48">
     <div class="container mx-auto flex flex-col md:flex-row items-center px-0 md:px-6">
       <div class="___logo w-48 md:w-64 text-ti_blue_mat mb-6 md:mb-0">
-        <a sveltekit:prefetch href="{base}/"><Logo /></a>
+        <a sveltekit:prefetch class="outline-none focus:outline-none"   href="{base}/"><Logo /></a>
       </div>
       <div class="___title px-8">
         <a sveltekit:prefetch href="{base}/">
           <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider">
-            <span class="font-black">Tanzimpulse</span> – Institut für Tanzpädagogik
+            <span class="font-extrabold">Tanzimpulse</span> – Institut für Tanzpädagogik
           </h1>
           <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a
         >
@@ -50,7 +56,7 @@
     </div>
   </div>
   <div class="flex-grow container mx-auto">
-    <div class="___inner_main -mt-32 mb-20 px-6">
+    <div class="___inner_main -mt-32 mb-20 px-2 lg:px-6">
       <slot />
     </div>
   </div>

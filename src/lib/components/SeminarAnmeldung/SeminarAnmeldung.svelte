@@ -1,4 +1,5 @@
 <script lang="ts">
+  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import SeminarCard from '$lib/components/SeminarCard/SeminarCard.svelte';
   import SeminarForm from '$lib/components/SeminarForm/SeminarForm.svelte';
   import Success from '$lib/components/Alerts/Success.svelte';
@@ -30,7 +31,45 @@
   const action = `${base}/${seminar.format}/${seminar.url}/anmeldung.json`;
 </script>
 
-<section class="text-gray-600 body-font overflow-hidden">
+
+
+<section >
+  <div class="container mx-auto flex flex-col md:flex-row gap-10">
+
+    <div class="__long_description flex-1 ">
+      <DefaultCard>
+        <SeminarCard {seminar}>
+          <p slot="beschreibung">
+            {@html seminar.beschreibung.html}
+          </p>
+        </SeminarCard>
+      </DefaultCard>
+    </div>
+
+    <div class="__registration flex-1">
+      {#if errors.length}
+      <Error />
+    {:else if isPending}
+      Pending...
+    {:else if anmeldung}
+      <Success />
+    {:else}
+      <SeminarForm {action} {result} {error} {pending} />
+    {/if}
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!---<section class="text-gray-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
       <div class="lg:w-1/2 w-full lg:h-auto h-64">
@@ -54,3 +93,6 @@
     </div>
   </div>
 </section>
+
+
+-->

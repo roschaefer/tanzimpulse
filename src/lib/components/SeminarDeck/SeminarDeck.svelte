@@ -4,12 +4,12 @@
   import { base } from '$app/paths';
 </script>
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap -m-4">
-      {#each seminare as seminar (seminar.id)}
-        <SeminarCard {seminar} link={`${base}/${seminar.format}/${seminar.url}`} />
-      {/each}
-    </div>
+<section>
+    <div class="container my-10">
+      <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {#each seminare as seminar (seminar.id)}
+          <SeminarCard {seminar} link={`${base}/${seminar.format}/${seminar.url}`} />
+        {/each}
+      </div>  
   </div>
 </section>

@@ -4,13 +4,13 @@
 </script>
 
 <div class="flex items-center w-full">
-  <label class="flex items-center cursor-pointer">
-    <div class="relative">
+  <label class="flex cursor-pointer flex-row-reverse w-full">
+    <div class="relative flex-0">
       <input type="checkbox" name="kategorie" value={kategorie.id} bind:checked={kategorie.selected} class="sr-only" />
-      <div class="dot-background block bg-gray-600 w-14 h-8 rounded-full transition" />
+      <div class="dot-background block bg-ti_red_mat border-2 w-14 h-8 rounded-full transition" />
       <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition" />
     </div>
-    <div class="ml-3 text-gray-700 font-medium">{kategorie.name} ({kategorie.seminare.length})</div>
+    <div class="text-2xl text-white font-extralight tracking-wide flex-1">{kategorie.name} ({kategorie.seminare.length})</div>
   </label>
 </div>
 
@@ -19,6 +19,6 @@
     transform: translateX(100%);
   }
   input:checked ~ .dot-background {
-    background-color: #48bb78;
+    background-color: #539827;
   }
 </style>

@@ -7,12 +7,12 @@
     <div class="___footer_row_1">
       <a href="#" class="flex title-font">
         <div class="flex flex-col items-center pa-6 text-center">
-          <div class="w-40 text-ti_blue_accent">
+          <div class="w-48 text-ti_blue_accent">
             <Logo />
           </div>
           <p class="p-6">
-            <span class="uppercase font-bold tracking-wider text-ti_blue_accent">Tanzimpulse - Institut für Tanzpädagogik</span><br />
-            <span class="font-light">Staatlich anerkanntes Weiterbildungsinstitut</span>
+            <span class="uppercase text-md lg:text-xl tracking-wider text-ti_blue_accent"><span class="font-black">Tanzimpulse</span> - Institut für Tanzpädagogik</span><br />
+            <span class="font-light tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
           </p>
         </div>
       </a>

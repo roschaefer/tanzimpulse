@@ -49,7 +49,7 @@
     </div>
     <hr class="border-black my-2 lg:my-4" />
     <p>
-      <a sveltekit:prefetch href="{base}/index" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Start</a><br />
+      <a sveltekit:prefetch href="{base}/" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Start</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzpädagogik</h3>

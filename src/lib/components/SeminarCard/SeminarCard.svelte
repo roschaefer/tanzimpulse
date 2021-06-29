@@ -1,19 +1,23 @@
 <script lang="ts">
   import { overbooked } from '$lib/helpers';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
+  import Button from '$lib/components/Button/Button.svelte';
   export let seminar: {};
   export let link = '#';
 </script>
 
 <a class="" sveltekit:prefetch href={link}>
-  <div class="flex flex-col h-full">
-    <div class="seminar_card_img flex-1">
+  <div class="flex flex-col h-full bg-white">
+    <div class="seminar_card_img flex-1 border-2">
       {#if seminar.bild}
-        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
+        <img class="lg:h-48 md:h-36 w-full object-cover object-center " src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
       {/if}
     </div>
 
-    <div class="seminar_card_content pt-4 flex-1">
+
+    
+
+    <div class="seminar_card_content pt-4 flex-1 px-4 sm:px-6 md:px-8 lg:px-10">
       <h4 class="uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1">- {seminar.format} -</h4>
       <h1 class="text-2xl uppercase font-extrabold text-ti_blue_accent tracking-wide">{seminar.titel}</h1>
       <p class="text-2xl text-ti_blue_mat font-light uppercase prose-sm">22.8.2020 von 10:00 bis 19:00 Uhr</p>
@@ -30,15 +34,17 @@
       </div>
 
       <slot name="beschreibung">
-        <p class="text-black pt-6 pb-4">
+        <p class="text-black py-4 border-2">
           {seminar.kurzbeschreibung}
         </p>
       </slot>
     </div>
 
-    <div class="seminar_card_content px-6 flex-0">
+    <div class="seminar_card_content px-4 sm:px-6 md:px-8 lg:px-10 flex-0">
       {#if link && link !== '#'}
-        <button class="___default_button p-4 my-6 w-full rounded-full border-2 border-ti_blue_accent-dark text-ti_blue_accent-dark font-extrabold text-sm tracking-widest uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white outline-none focus:outline-none transition duration-300 ease-in-out">Mehr erfahren</button>
+      <Button buttonstyle={'blue'}>
+        Mehr erfahren
+      </Button>
       {/if}
     </div>
   </div>

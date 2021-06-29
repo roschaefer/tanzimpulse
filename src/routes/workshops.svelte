@@ -3,6 +3,7 @@
   import Button from '$lib/components/Button/Button.svelte';
   import Cite from '$lib/components/Cite/Cite.svelte';
   import { loadSeminare } from '$lib/routes';
+  import { base } from '$app/paths';
 
   export const load: Load = loadSeminare('workshop');
   export const prerender = true;
@@ -30,21 +31,12 @@
 
 
 
- <Button buttonstyle={'red'}>
-   buttonlabel
- </Button>
-
-
- <Button buttonstyle={'blue'}>
-  buttonlabel
-</Button>
-
-
 
 
     <Cite>
-      <div slot="imageUrl">./images/employees/woehler_sabrina.jpg</div>
-      <div slot="imageAlt">Frauke</div>
+     
+
+      <img {src} slot="image" />
       <div slot="name">Frauke | Tanzpädagogin/Schwerpunkt Kindertanz + Kita-Leitung</div>
       <div slot="cite">„Denn ich denke gerade daran, mit wie viel Freude die Kinder immer mit mir in den Turnraum gegangen sind und auch schüchterne Kinder ganz anders wahrzunehmen waren.“</div>
     </Cite>

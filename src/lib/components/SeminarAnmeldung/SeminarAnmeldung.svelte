@@ -1,5 +1,4 @@
 <script lang="ts">
-  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import SeminarCard from '$lib/components/SeminarCard/SeminarCard.svelte';
   import SeminarForm from '$lib/components/SeminarForm/SeminarForm.svelte';
   import Success from '$lib/components/Alerts/Success.svelte';
@@ -37,13 +36,12 @@
   <div class="container mx-auto flex flex-col md:flex-row gap-10">
 
     <div class="__long_description flex-1 ">
-      <DefaultCard>
-        <SeminarCard {seminar}>
+     <SeminarCard {seminar}>
           <p slot="beschreibung">
             {@html seminar.beschreibung.html}
           </p>
         </SeminarCard>
-      </DefaultCard>
+
     </div>
 
     <div class="__registration flex-1">

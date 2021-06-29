@@ -82,7 +82,7 @@
           <div class="pt-4">
             <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Sabrina Wöhler</h2>
             <p>Diplom-Tanzpädagogin (TI), Choreografin und Kommunikationswirtin. Durch die Zusatzausbildung zur Diplom-Tanzpädagogin entwickelte sich die Verbindung von Tanzkunst +  Kommunikation. Seitdem leitet sie Tanz- und Choreografieprojekte mit Kindern, Jugendlichen und Erwachsenen. Das Thema Tanzprojekte unterrichtet sie in der Grundstufe mit Schwerpunkt Kindertanz.</p>
-            <a href="https://www.tanz-kommunikation.de" target="_blank">tanz-kommunikation.de</a>
+            <a class="font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel=”noreferrer” href="https://www.tanz-kommunikation.de" target="_blank">tanz-kommunikation.de</a>
           </div>
         </div>
 

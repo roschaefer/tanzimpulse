@@ -24,7 +24,7 @@
         <!-- -->
         <!-- ute -->
         <div class="flex flex-col py-4">
-          <img class="w-24 md:w-32 lg:w-48 h-24 md:h-32 lg:h-48 mx-auto rounded-full" src="{base}/images/employees/bierduempel.jpg" alt="Ute Luckey | Tanzimpulse" />
+          <img class="w-24 md:w-32 lg:w-48 h-24 md:h-32 lg:h-48 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Ute Luckey | Tanzimpulse" />
             <div class="pt-4">
               <h2 class="text-2xl uppercase font-extrabold text-ti_blue_accent tracking-wide text-center mb-4">Ute Luckey</h2>
               <p>Geschäftsführerin und Leitung des Büro der TANZIMPULSE. Mit Rat und Tat unterstützt sie als ehemalige Verwaltungsbeamtin die TANZIMPULSE seit der Gründung.</p>
@@ -54,7 +54,7 @@
         </div>
 
         <div class="___single_employee flex flex-col py-4">
-          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/bierduempel.jpg" alt="Bettina Grossberg | Tanzimpulse" />
+          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Bettina Grossberg | Tanzimpulse" />
           <div class="pt-4">
             <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Bettina Grossberg</h2>
             <p>Musikwissenschaftlerin M.A., Lehrerin für Kreativen und Heilpädagogischen Tanz, Leitung der Museumspädagogik beim Deutschen Tanzarchiv Köln/SK Stiftung Kultur; Prüferin beim Kolloquium der Diplomstufe bei TANZIMPULSE.</p>
@@ -70,7 +70,7 @@
         </div>
 
         <div class="___single_employee flex flex-col py-4">
-          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/bierduempel.jpg" alt="Heike Wrobel | Tanzimpulse" />
+          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Heike Wrobel | Tanzimpulse" />
           <div class="pt-4">
             <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Heike Wrobel</h2>
             <p>Diplom-Tanzpädagogin (TI), Entspannungspädagogin AT und Erzieherin. Ihr tanzpädagogischer Schwerpunkt liegt in der Vermittlung von Kindertanz, in Projekten und Fortbildungen und in der ErzieherInnen-Ausbildung. Ihr Thema ist die kindgemäße Entspannung in der Grundstufe mit Schwerpunkt Kindertanz.</p>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="___single_employee flex flex-col py-4">
-          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/bierduempel.jpg" alt="Sabrina Wöhler | Tanzimpulse" />
+          <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Sabrina Wöhler | Tanzimpulse" />
           <div class="pt-4">
             <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Sabrina Wöhler</h2>
             <p>Diplom-Tanzpädagogin (TI), Choreografin und Kommunikationswirtin. Durch die Zusatzausbildung zur Diplom-Tanzpädagogin entwickelte sich die Verbindung von Tanzkunst +  Kommunikation. Seitdem leitet sie Tanz- und Choreografieprojekte mit Kindern, Jugendlichen und Erwachsenen. Das Thema Tanzprojekte unterrichtet sie in der Grundstufe mit Schwerpunkt Kindertanz.</p>

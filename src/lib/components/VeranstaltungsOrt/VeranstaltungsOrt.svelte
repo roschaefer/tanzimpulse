@@ -29,5 +29,5 @@
 </svelte:head>
 
 {#if veranstaltungsort?.koordinaten}
-  <div id="mapid" style="width: 100%; height: 38vh; min-height:300px;" />
+  <div id="mapid" class="mt-4" style="width: 100%; height: 38vh; min-height:300px;" />
 {/if}

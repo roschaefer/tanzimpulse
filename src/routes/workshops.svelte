@@ -11,6 +11,7 @@
 
 <script lang="ts">
   import SeminarDashboard from '$lib/components/SeminarDashboard/SeminarDashboard.svelte';
+  import Accordion from '$lib/components/Accordion/Accordion.svelte';
   export let seminare = [];
 </script>
 
@@ -25,6 +26,7 @@
         <h2 class="uppercase text-3xl tracking-wider font-extrabold text-ti_blue_accent">Workshops</h2>
         <h3 class="uppercase text-3xl tracking-wider font-light font-extralight text-ti_blue_mat mb-4">Für Multiplikatoren/innen und Interessierte</h3>
         <p class="py-4">Sie können unabhängig von einer Teilnahme an den Ausbildungsreihen besucht werden. Aktuelle Tanzthemen und zeitgemäße Unterrichtsmethoden werden von praxiserfahrenen Referentinnen und Referenten vermittelt.</p>
+        <Accordion />
       </DefaultCard>
     </div>
 

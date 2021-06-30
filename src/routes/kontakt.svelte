@@ -39,7 +39,7 @@
   <div class="container">
     <div class="grid grid-cols-1 gap-10">
       <div class="___leafleat w-full h-2/3">
-        <div id="map" style="width: 100%; height: 38vh; min-height:300px;" />
+        <div id="map" class="shadow-ti" style="width: 100%; height: 38vh; min-height:300px;" />
       </div>
 
       <div class="flex flex-col md:flex-row gap-10">

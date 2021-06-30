@@ -3,14 +3,9 @@
   import { onMount } from 'svelte';
   let map;
   onMount(() => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';
-    link.onload = () => loadMap();
-    document.head.appendChild(link);
+    loadMap();
     return () => {
       map.remove();
-      link.parentNode.removeChild(link);
     };
   });
 

@@ -39,7 +39,7 @@
     <div class="__long_description flex-1 ">
       <SeminarCard {seminar}>
         <div slot="beschreibung">
-          <p>
+          <p class="py-6">
             {@html seminar.beschreibung.html}
           </p>
           <VeranstaltungsOrt veranstaltungsort={seminar.veranstaltungsort} />

@@ -36,9 +36,9 @@
     <Cite>
      
 
-      <img {src} slot="image" />
-      <div slot="name">Frauke | Tanzpädagogin/Schwerpunkt Kindertanz + Kita-Leitung</div>
-      <div slot="cite">„Denn ich denke gerade daran, mit wie viel Freude die Kinder immer mit mir in den Turnraum gegangen sind und auch schüchterne Kinder ganz anders wahrzunehmen waren.“</div>
+     
+      <div slot="name">Heike W. | Kursteilnehmerin</div>
+      <div slot="cite">„Ein riesengroßes Dankeschön für eure geleistete Arbeit im Vorfeld und euren Einsatz an dem Wochenende, für eure Liebe zur Tanzvermittlung und euren wertschätzenden Umgang mit uns Teilnehmerinnen. “</div>
     </Cite>
 
 

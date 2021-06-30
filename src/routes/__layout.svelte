@@ -10,9 +10,6 @@
   import { base } from '$app/paths';
 </script>
 
-
-
-
 <svelte:head>
   <meta name="description" content="Tanzimpulse bieten eine Berufs begleitende Zusatzqualifikation zur Tanzpädagogin / zum Tanzpädagogen an – eine Weiterbildung für LehrerInnen aller Schulformen, für ErzieherInnen, SozialpädagogInnen und alle, die als therapeutisch tätig sind, wie beispielsweise Logopäden, Physiotherapeuten, Tanztherapeuten oder Übungsleiter aus Vereinen, Referenten aus der Erwachsenenbildung, die Tanz in ihre Arbeit einbeziehen." />
   <link rel="apple-touch-icon" sizes="57x57" href="{base}/icons/apple-icon-57x57.png" />
@@ -36,13 +33,9 @@
 
 <Header />
 
-
-
-
 <main class="bg-warmGray-200 w-full top-0">
-
   <div class="absolute w-full h-full opacity-60 z-0">
-    <img src='{base}/images/bg.svg' alt="background" />
+    <img src="{base}/images/bg.svg" alt="background" />
   </div>
 
   <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48 ">
@@ -55,7 +48,8 @@
           <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider">
             <span class="font-extrabold">Tanzimpulse</span> – Institut für Tanzpädagogik
           </h1>
-          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a>
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a
+        >
       </div>
     </div>
   </div>

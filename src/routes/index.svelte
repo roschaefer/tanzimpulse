@@ -2,7 +2,6 @@
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import { base } from '$app/paths';
 
-
   export const prerender = true;
 </script>
 
@@ -19,8 +18,6 @@
         <h2 class="text-ti_blue_accent font-extrabold text-2xl uppercase tracking-wide">Die Ausbildungen</h2>
         <p class="pt-4 pb-8">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
         <a sveltekit:prefetch href="{base}/ausbildungen" class="p-4 mb-12 block text-center rounded-full border-2 border-ti_blue_accent bg-ti_blue_mat-dark text-ti_blue_accent font-extrabold text-sm tracking-widest uppercase hover:border-ti_blue_accent-light hover:text-ti_blue_accent-light hover:bg-white transition duration-300 ease-in-out">Mehr erfahren</a>
-
-
 
         <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
           <!-- one single seminar -->
@@ -44,7 +41,7 @@
       <!-- card 2 -->
       <div class="___card2 bg-ti_cyan_mat p-8 text-white flex-1 shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
         <h2 class="text-ti_cyan_accent font-extrabold text-2xl uppercase tracking-wide">Die Workshops</h2>
-        <p class="pt-4 pb-8">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>        
+        <p class="pt-4 pb-8">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>
         <a sveltekit:prefetch href="{base}/workshops" class="p-4 mb-12 block text-center rounded-full border-2 border-ti_cyan_accent bg-ti_cyan_mat-dark text-ti_cyan_accent font-extrabold text-sm tracking-widest uppercase hover:border-ti_cyan_accent-light hover:text-ti_cyan_accent-light hover:bg-white transition duration-300 ease-in-out">Mehr erfahren</a>
 
         <!-- one single seminar -->
@@ -70,9 +67,8 @@
       <!-- card 3 -->
       <div class="___card3 bg-ti_green_mat p-8 text-white flex-1 shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
         <h2 class="text-ti_green_accent font-extrabold text-2xl uppercase tracking-wide">Der (Tanz-) Raum</h2>
-        <p class="pt-4 pb-8">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>     
+        <p class="pt-4 pb-8">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
         <a sveltekit:prefetch href="{base}/tanzraum" class="p-4 mb-12 block text-center rounded-full border-2 border-ti_green_accent bg-ti_green_mat-dark text-ti_green_accent font-extrabold text-sm tracking-widest uppercase hover:border-ti_green_accent-light hover:text-ti_green_accent-light hover:bg-white transition duration-300 ease-in-out">Mehr erfahren</a>
-     
       </div>
       <!-- end of card 3 -->
     </div>
@@ -85,4 +81,3 @@
     </DefaultCard>
   </div>
 </section>
-

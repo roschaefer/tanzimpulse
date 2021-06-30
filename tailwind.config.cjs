@@ -1,23 +1,15 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
+  mode: 'jit',
+  purge: ['./src/app.html', './src/**/*.svelte'],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'Helvetica', 'Arial', 'sans-serif']
       }
-    }
-  },
-  mode: 'jit',
-  purge: ['./src/app.html', './src/**/*.svelte'],
-  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
-  theme: {
-    /*
-    extend: {
-      fontFamily: {
-        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
-      }
-    },*/
+    },
 
     colors: {
       ...colors,

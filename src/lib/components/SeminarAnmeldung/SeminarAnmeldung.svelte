@@ -1,6 +1,7 @@
 <script lang="ts">
   import SeminarCard from '$lib/components/SeminarCard/SeminarCard.svelte';
   import SeminarForm from '$lib/components/SeminarForm/SeminarForm.svelte';
+  import VeranstaltungsOrt from '$lib/components/VeranstaltungsOrt/VeranstaltungsOrt.svelte';
   import Success from '$lib/components/Alerts/Success.svelte';
   import Error from '$lib/components/Alerts/Error.svelte';
   import { base } from '$app/paths';
@@ -36,12 +37,14 @@
   <div class="container mx-auto flex flex-col md:flex-row gap-10">
 
     <div class="__long_description flex-1 ">
-     <SeminarCard {seminar}>
-          <p slot="beschreibung">
+      <SeminarCard {seminar}>
+        <div slot="beschreibung">
+          <p>
             {@html seminar.beschreibung.html}
           </p>
-        </SeminarCard>
-
+          <VeranstaltungsOrt veranstaltungsort={seminar.veranstaltungsort} />
+        </div>
+      </SeminarCard>
     </div>
 
     <div class="__registration flex-1">

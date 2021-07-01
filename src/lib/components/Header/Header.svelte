@@ -70,7 +70,7 @@
       <a href="{base}/team" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Team</a><br />
       <a href="{base}/mitgliedschaften" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Mitgliedschaften</a><br />
       <a href="{base}/newsletter" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Newsletter</a><br />
-      <a href="{base}/philosphie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Philosophie</a><br />
+      <a href="{base}/philosophie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl transition duration-300 ease-in-out">Philosophie</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <p>

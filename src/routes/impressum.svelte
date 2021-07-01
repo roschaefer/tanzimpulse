@@ -29,7 +29,7 @@
         <p class="py-2">Fotonachweise: Bettina Bierdümpel, Maria Luckey, weitere Porträtfotos privat</p>
         <p class="py-2">TANZIMPULSE sind nach § 9 AWBG als staatliches Weiterbildungs-Institut anerkannt. Sonder- oder Bildungsurlaub kann somit beantragt werden. Bildungsscheck im Rahmen neuer Förderrichtlinien! Die gesamte Ausbildungsgebühr wird in der Regel von den Finanzämtern als Steuer mindernde Ausgaben anerkannt.</p>
         <p class="py-2">
-          Zu den <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="http://www.gib.nrw.de/beratertool/" rel="noreferrer" target="_blank">Fördermöglichkeiten</a>.
+          Zu den <span class="text-3xl text-ti_red_accent uppercase font-bold tracking-wide hover:border-ti_red_accent">!!!!!</span><a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="http://www.gib.nrw.de/beratertool/" rel="noreferrer" target="_blank">Fördermöglichkeiten</a>.
         </p>
         <p class="py-2">© TANZIMPULSE 2002-2021</p>
         <hr class="block border border-coolGray-100 w-full mt-4 mb-8" />
@@ -41,7 +41,7 @@
         <p class="py-2">
           Robert und Jo Schäfer<br />
           <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="mailto:mail@joschaefer.com">mail@joschaefer.com</a><br />
-          <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="http://www.joschaefer.com">joschaefer.com</a>
+          <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="http://www.joschaefer.com" target="_blank">joschaefer.com</a>
         </p>
       </DefaultCard>
     </div>

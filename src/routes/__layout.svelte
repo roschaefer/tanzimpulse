@@ -34,7 +34,7 @@
 <Header />
 
 <main class="bg-warmGray-200 w-full top-0">
-  <div class="absolute w-full h-full opacity-60 z-0">
+  <div class="absolute w-full h-full opacity-30 z-0">
     <img src="{base}/images/bg.svg" alt="background" />
   </div>
 

@@ -3,14 +3,9 @@
   import { onMount } from 'svelte';
   let map;
   onMount(() => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';
-    link.onload = () => loadMap();
-    document.head.appendChild(link);
+    loadMap();
     return () => {
       map.remove();
-      link.parentNode.removeChild(link);
     };
   });
 
@@ -43,7 +38,6 @@
       </div>
 
       <div class="flex flex-col md:flex-row gap-10">
-
         <div class="w-full md:w-2/4 lg:w-1/3 p-4 sm:p-6 md:p-8 lg:p-10 bg-ti_green_mat text-white shadow-ti">
           <h2 class="uppercase text-3xl tracking-wider font-extrabold text-white mb-4">Anschrift</h2>
           <h2 class="uppercase text-3xl tracking-wider font-extralight text-white">Büro</h2>
@@ -86,10 +80,7 @@
             <p class="py-2">Von dort ca. 5 Min. bis zur Schweinheimer Straße 54, 51067 Köln-Holweide</p>
           </DefaultCard>
         </div>
-
       </div>
-
-
     </div>
   </div>
 </section>

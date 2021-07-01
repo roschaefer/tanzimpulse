@@ -1,40 +1,21 @@
 <script>
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
-  import { onMount } from 'svelte';
-  let map;
-  onMount(() => {
-    loadMap();
-    return () => {
-      map.remove();
-    };
-  });
-
-  async function loadMap() {
-    await import('leaflet');
-    const myIcon = L.icon({
-      iconUrl: '../images/mapmarker.png',
-      iconSize: [40, 50],
-      iconAnchor: [20, 50]
-    });
-    const map = L.map('map').setView([50.96745443190281, 7.049317359924316], 13);
-    L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png ', {
-      attribution: `&copy;<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>, &copy;<a href="https://carto.com/attributions" target="_blank">CARTO</a>`,
-      maxZoom: 19
-    }).addTo(map);
-    L.marker([50.96745443190281, 7.049317359924316], { icon: myIcon }).addTo(map);
-  }
+  import Map from '$lib/components/Map/Map.svelte';
+  const mapAttributes = {
+    class: 'shadow-ti',
+    style: 'width: 100%; height: 38vh; min-height:300px;'
+  };
 </script>
 
 <svelte:head>
   <title>Kontakt und Anfahrt</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
 </svelte:head>
 
 <section>
   <div class="container">
     <div class="grid grid-cols-1 gap-10">
       <div class="___leafleat w-full h-2/3">
-        <div id="map" class="shadow-ti" style="width: 100%; height: 38vh; min-height:300px;" />
+        <Map {mapAttributes} />
       </div>
 
       <div class="flex flex-col md:flex-row gap-10">

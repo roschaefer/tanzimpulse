@@ -10,7 +10,7 @@
 
 <section>
   <div class="container">
-    <div class="grid grid-cols-1 gap-10">
+    <div class="grid grid-cols-2 gap-10">
       <DefaultCard>
         <h2 class="text-2xl uppercase font-bold text-ti_blue_accent tracking-wide">Impressum</h2>
         <h2 class="text-2xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">TANZIMPULSE – Institut für Tanzpädagogik</h2>

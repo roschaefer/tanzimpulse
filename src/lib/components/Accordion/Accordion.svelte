@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="py-4">
 
   <!-- single accordion item -->
@@ -97,63 +96,6 @@ Nach erfolgreichem Abschluss der Aufbaustufe wird ein Zertifikat erteilt, in dem
     height: 1.25em;
     font-size: 2rem;
     line-height: 1.3em;
-=======
-<div class="shadow-md">
-  <div class="tab w-full overflow-hidden border-t">
-    <input class="absolute opacity-0 " id="tab-multi-one" type="checkbox" name="tabs" />
-    <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-one">Label One</label>
-    <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-      <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-    </div>
-  </div>
-  <div class="tab w-full overflow-hidden border-t">
-    <input class="absolute opacity-0" id="tab-multi-two" type="checkbox" name="tabs" />
-    <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-two">Label Two</label>
-    <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-      <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-    </div>
-  </div>
-  <div class="tab w-full overflow-hidden border-t">
-    <input class="absolute opacity-0" id="tab-multi-three" type="checkbox" name="tabs" />
-    <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-three">Label Three</label>
-    <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-      <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-    </div>
-  </div>
-</div>
-
-<style>
-  .tab-content {
-    max-height: 0;
-    -webkit-transition: max-height 0.35s;
-    -o-transition: max-height 0.35s;
-    transition: max-height 0.35s;
-  }
-  /* :checked - resize to full height */
-  .tab input:checked ~ .tab-content {
-    max-height: 100vh;
-  }
-  /* Label formatting when open */
-  .tab input:checked + label {
-    /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
-    font-size: 1.25rem; /*.text-xl*/
-    padding: 1.25rem; /*.p-5*/
-    border-left-width: 2px; /*.border-l-2*/
-    border-color: #6574cd; /*.border-indigo*/
-    background-color: #f8fafc; /*.bg-gray-100 */
-    color: #6574cd; /*.text-indigo*/
-  }
-  /* Icon */
-  .tab label::after {
-    float: right;
-    right: 0;
-    top: 0;
-    display: block;
-    width: 1.5em;
-    height: 1.5em;
-    line-height: 1.5;
-    font-size: 1.25rem;
->>>>>>> 9adf0235a5cf98e7f4424c4347bbebb2a9ac99a4
     text-align: center;
     -webkit-transition: all 0.35s;
     -o-transition: all 0.35s;
@@ -161,7 +103,6 @@ Nach erfolgreichem Abschluss der Aufbaustufe wird ein Zertifikat erteilt, in dem
   }
   /* Icon formatting - closed */
   .tab input[type='checkbox'] + label::after {
-<<<<<<< HEAD
     content: '>';
   }
   .tab input[type='checkbox']:checked + label::after {
@@ -169,17 +110,3 @@ Nach erfolgreichem Abschluss der Aufbaustufe wird ein Zertifikat erteilt, in dem
   }
 </style>
 
-=======
-    content: '+';
-    font-weight: bold; /*.font-bold*/
-    border-width: 1px; /*.border*/
-    border-radius: 9999px; /*.rounded-full */
-    border-color: #b8c2cc; /*.border-grey*/
-  }
-  .tab input[type='checkbox']:checked + label::after {
-    transform: rotate(315deg);
-    background-color: #6574cd; /*.bg-indigo*/
-    color: #f8fafc; /*.text-grey-lightest*/
-  }
-</style>
->>>>>>> 9adf0235a5cf98e7f4424c4347bbebb2a9ac99a4

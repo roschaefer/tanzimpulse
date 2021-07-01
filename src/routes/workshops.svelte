@@ -12,7 +12,6 @@
 
 <script lang="ts">
   import SeminarDashboard from '$lib/components/SeminarDashboard/SeminarDashboard.svelte';
-  import Accordion from '$lib/components/Accordion/Accordion.svelte';
   export let seminare = [];
 </script>
 

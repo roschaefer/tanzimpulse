@@ -47,9 +47,7 @@
       {#each slides as slide, id}
         {#if id === cur}
           <div style="background:'{slide.bg}'" class="slide" in:hslide={transition_args} out:hslide={transition_args}>
-			
-
-			<div class="___inner_text_wrap overflow-hidden border-2 flex p-8 mb-12">
+            <div class="___inner_text_wrap overflow-hidden border-2 flex p-8 mb-12">
               <a class="absolute flex w-full flex items-center text-white" href={slide.target}>
                 <span class="___inner_text text-3xl px-6">{slide.content}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -57,9 +55,6 @@
                 </svg>
               </a>
             </div>
-
-
-
           </div>
         {/if}
       {/each}
@@ -78,9 +73,6 @@
 </div>
 
 <style>
-
-
-
   .dots {
     display: flex;
     align-items: center;

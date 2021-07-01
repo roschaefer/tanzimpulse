@@ -68,9 +68,7 @@
           <br />
           Eine ausführliche Datenschutzerklärung erhalten Sie automatisch mit jeder Anmeldung zu Ausbildungen oder Workshops.
         </p>
-        <p class="py-2">
-          Sollten Sie Fragen haben, können Sie sich jederzeit mit uns in Verbindung setzen:
-        </p>
+        <p class="py-2">Sollten Sie Fragen haben, können Sie sich jederzeit mit uns in Verbindung setzen:</p>
         <p class="py-2">
           E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
           <br />

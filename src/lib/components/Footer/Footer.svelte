@@ -23,7 +23,7 @@
         51069 Köln<br />
         <br />
         Telefon: 0221 - 68 36 91<br />
-        Fax: 0221 - 68 97 79 7<br />
+        Fax: 0221 - 68 97 797<br />
         E-Mail: <a href="mailto:info@tanzimpulse.de" class="hover:text-ti_blue_accent ease-in-out transition-all duration-300">info@tanzimpulse.de</a><br />
         <br />
         <span class="uppercase tracking-widest text-xs">Bürozeiten</span><br />

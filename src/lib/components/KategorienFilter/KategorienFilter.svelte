@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-col lg:flex-row w-full gap-10 items-start">
-  <div class="___red_card w-full lg:w-1/2 bg-ti_red_mat p-4 md:p-6 lg:p-8 bg-white text-black shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+  <div class="___red_card w-full lg:w-1/2 bg-ti_red_mat p-4 md:p-6 lg:p-8 bg-white text-black shadow-ti">
     <h2 class="uppercase text-2xl tracking-wider font-bold text-white">Seminare filtern und sortieren</h2>
     {#if kategorien?.length}
       <form class="py-4 flex flex-col space-y-4">
@@ -19,5 +19,21 @@
         </noscript>
       </form>
     {/if}
+
+<!-- search -->
+
+<div class="flex">
+  <input class="w-full p-4 outline-none rounded-tl-lg rounded-bl-lg bg-ti_red_mat-dark shadow-inner shadow-ti placeholder-white font-extralight text-xl focus:bg-white border-2 border-ti_red_mat-dark focus:border-black focus:outline-none transition duration-300 ease-in-out" type="text" placeholder="Nach Begriff suchen...">
+  <button class="w-auto flex justify-end items-center border-2 border-black bg-black text-white px-4 rounded-tr-lg rounded-br-lg hover:bg-ti_red_accent hover:border-black transition duration-300 ease-in-out">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+  </button>
+</div>
+
+
+<!-- -->
+
+
   </div>
 </div>

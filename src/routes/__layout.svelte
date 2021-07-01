@@ -53,7 +53,7 @@
       <div class="___title px-8">
         <a sveltekit:prefetch href="{base}/">
           <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider">
-            <span class="font-extrabold">Tanzimpulse</span> – Institut für Tanzpädagogik
+            <span class="font-bold">Tanzimpulse</span> – Institut für Tanzpädagogik
           </h1>
           <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a>
       </div>

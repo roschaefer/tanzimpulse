@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';  
+  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Button from '$lib/components/Button/Button.svelte';
   import Cite from '$lib/components/Cite/Cite.svelte';
   import { loadSeminare } from '$lib/routes';
@@ -11,6 +11,7 @@
 
 <script lang="ts">
   import SeminarDashboard from '$lib/components/SeminarDashboard/SeminarDashboard.svelte';
+  import Accordion from '$lib/components/Accordion/Accordion.svelte';
   export let seminare = [];
 </script>
 
@@ -24,28 +25,15 @@
       <DefaultCard>
         <h2 class="uppercase text-3xl tracking-wider font-extrabold text-ti_blue_accent">Workshops</h2>
         <h3 class="uppercase text-3xl tracking-wider font-light font-extralight text-ti_blue_mat mb-4">Für Multiplikatoren/innen und Interessierte</h3>
-        <p class="py-4">
-          Sie können unabhängig von einer Teilnahme an den Ausbildungsreihen besucht werden. Aktuelle Tanzthemen und zeitgemäße Unterrichtsmethoden werden von praxiserfahrenen Referentinnen und Referenten vermittelt.</p>
+        <p class="py-4">Sie können unabhängig von einer Teilnahme an den Ausbildungsreihen besucht werden. Aktuelle Tanzthemen und zeitgemäße Unterrichtsmethoden werden von praxiserfahrenen Referentinnen und Referenten vermittelt.</p>
+        <Accordion />
       </DefaultCard>
     </div>
 
-
-
-
-
     <Cite>
-     
-
-     
       <div slot="name">Heike W. | Kursteilnehmerin</div>
       <div slot="cite">„Ein riesengroßes Dankeschön für eure geleistete Arbeit im Vorfeld und euren Einsatz an dem Wochenende, für eure Liebe zur Tanzvermittlung und euren wertschätzenden Umgang mit uns Teilnehmerinnen. “</div>
     </Cite>
-
-
-
-
-
-
   </div>
 </section>
 

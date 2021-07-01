@@ -31,11 +31,8 @@
   const action = `${base}/${seminar.format}/${seminar.url}/anmeldung.json`;
 </script>
 
-
-
-<section >
+<section>
   <div class="container mx-auto flex flex-col md:flex-row gap-10">
-
     <div class="__long_description flex-1 ">
       <SeminarCard {seminar}>
         <div slot="beschreibung">
@@ -49,26 +46,17 @@
 
     <div class="__registration flex-1">
       {#if errors.length}
-      <Error />
-    {:else if isPending}
-      Pending...
-    {:else if anmeldung}
-      <Success />
-    {:else}
-      <SeminarForm {action} {result} {error} {pending} />
-    {/if}
+        <Error />
+      {:else if isPending}
+        Pending...
+      {:else if anmeldung}
+        <Success />
+      {:else}
+        <SeminarForm {action} {result} {error} {pending} />
+      {/if}
     </div>
-
   </div>
-
 </section>
-
-
-
-
-
-
-
 
 <!---<section class="text-gray-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">

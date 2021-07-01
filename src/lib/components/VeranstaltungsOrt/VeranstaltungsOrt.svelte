@@ -9,16 +9,16 @@
         const { latitude: lat, longitude: long } = koordinaten;
         const L = await import('leaflet');
         const myIcon = L.icon({
-          iconUrl: '../mapmarker.png',
+          iconUrl: '../images/mapmarker.png',
           iconSize: [40, 50],
-          iconAnchor: [20,50],
+          iconAnchor: [20, 50]
         });
         const mymap = L.map('mapid').setView([lat, long], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: `&copy;<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>, &copy;<a href="https://carto.com/attributions" target="_blank">CARTO</a>`,
           maxZoom: 19
         }).addTo(mymap);
-        L.marker([lat, long], {icon: myIcon}).addTo(mymap);
+        L.marker([lat, long], { icon: myIcon }).addTo(mymap);
       })();
     });
   }

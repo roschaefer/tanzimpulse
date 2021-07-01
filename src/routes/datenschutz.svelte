@@ -12,18 +12,18 @@
   <div class="container">
     <div class="grid grid-cols-1 gap-10">
       <DefaultCard>
-        <h2 class="text-2xl uppercase font-extrabold text-ti_blue_accent tracking-wide">Datenschutz</h2>
-        <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide mb-4">TANZIMPULSE – Institut für Tanzpädagogik</h2>
+        <h2 class="text-2xl uppercase font-bold text-ti_blue_accent tracking-wide">Datenschutz</h2>
+        <h2 class="text-2xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">TANZIMPULSE – Institut für Tanzpädagogik</h2>
         <p class="py-2">
           Folwiese 20<br />
           51069 Köln
         </p>
         <p class="py-2">
-          Telefon: +49 (0)221-68 36 91
+          Telefon: 0221 - 68 36 91
           <br />
-          Fax: 0221-68 97 79 7
+          Fax: 0221 - 68 97 797
           <br />
-          E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
+          E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
         </p>
         <h3 class="text-xl text-ti_blue_mat py-4">1.) Name und Abschrift des Verantwortlichen</h3>
         <p>Mit dem 25. Mai 2018 gilt die neue EU-Datenschutzgrundverordnung (DSGVO). Durch die DSGVO werden Ihre Datenschutzrechte weiter gestärkt. Wichtig ist die Erhöhung der Transparenz bei der Verarbeitung personenbezogener Daten. In diesem Zusammenhang informieren wir Sie über unsere Maßnahmen zum Schutz Ihrer personenbezogenen Daten.</p>
@@ -70,12 +70,13 @@
         </p>
         <p class="py-2">
           Sollten Sie Fragen haben, können Sie sich jederzeit mit uns in Verbindung setzen:
+        </p>
+        <p class="py-2">
+          E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
           <br />
-          E-Mail:<a class="font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
+          oder telefonisch: 0221 68 36 91
           <br />
-          oder telefonisch: +49 (0)221 683691
-          <br />
-          Ute Luckey,Geschäftsführung
+          Ute Luckey, Geschäftsführung
         </p>
         <hr class="block border border-coolGray-100 w-full mt-4 mb-8" />
         <h2 class="text-2xl uppercase text-ti_blue_mat tracking-wide mb-4">Google Analytics</h2>

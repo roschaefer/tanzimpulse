@@ -3,9 +3,9 @@
   import { hslide } from './hslide.js';
 
   let slides = [
-    { content: 'Ausbildungen im Bereich Tanzpädagogik', target: 'ausbildungen', bg: '../slideshow/ausbildungen.jpg' },
-    { content: 'Workshops und Fortbildungen', target: 'workshops', bg: '../slideshow/ausbildungen.jpg' },
-    { content: 'Vermietung des Tanzraums', target: 'tanzraum', bg: '../slideshow/ausbildungen.jpg' }
+    { content: 'Ausbildungen im Bereich Tanzpädagogik', target: 'ausbildungen', bg: 'background-image: url("../images/slideshow/ausbildungen.jpg")' },
+    { content: 'Workshops und Fortbildungen', target: 'workshops',bg: 'background-image: url("../images/slideshow/ausbildungen.jpg")' },
+    { content: 'Vermietung des Tanzraums', target: 'tanzraum', bg: 'background-image: url("../images/slideshow/ausbildungen.jpg")' }
   ];
 
   let cur = 0;
@@ -16,7 +16,7 @@
 
   const clamp = (number, min, max) => Math.min(Math.max(number, min), max);
   const transition_args = {
-    duration: 2000
+    duration: 200
   };
 
   function prev(e) {
@@ -46,9 +46,9 @@
     <div class="inner-wrapper ">
       {#each slides as slide, id}
         {#if id === cur}
-          <div style="background:'{slide.bg}'" class="slide" in:hslide={transition_args} out:hslide={transition_args}>
+          <div style="{slide.bg}; background-size:cover;" class="slide" in:hslide={transition_args} out:hslide={transition_args}>
             <div class="___inner_text_wrap overflow-hidden border-2 flex p-8 mb-12">
-              <a class="absolute flex w-full flex items-center text-white" href={slide.target}>
+              <a class="flex w-full flex items-center text-white" href={slide.target}>
                 <span class="___inner_text text-3xl px-6">{slide.content}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

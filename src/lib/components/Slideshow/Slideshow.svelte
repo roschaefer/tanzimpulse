@@ -50,7 +50,7 @@
               <h2 class="text-3xl uppercase font-bold text-white tracking-wide">Workshops</h2>
               <p class="text-white pb-2">Kindertanzen, Yoga, Sufi – entdecken Sie unser vielfältiges Angebot</p>
             </div>
-            <a sveltekit:prefetch href="{base}/ausbildungen">
+            <a sveltekit:prefetch href="{base}/workshops">
               <Button buttonstyle={'white'}>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h4 md:h-6 w-4 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -75,7 +75,7 @@
               <h2 class="text-3xl uppercase font-bold text-white tracking-wide">Tanzraum mieten</h2>
               <p class="text-white pb-2">Ideal für Kurse, Workshops, Ausstellungen, Lesungen. etc.</p>
             </div>
-            <a sveltekit:prefetch href="{base}/ausbildungen">
+            <a sveltekit:prefetch href="{base}/tanzraum">
               <Button buttonstyle={'white'}>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h4 md:h-6 w-4 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

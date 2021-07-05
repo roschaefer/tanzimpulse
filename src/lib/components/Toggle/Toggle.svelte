@@ -10,7 +10,7 @@
       <div class="dot-background block bg-ti_red_mat border-2 w-14 h-8 rounded-full transition" />
       <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition" />
     </div>
-    <div class="text-2xl text-white font-extralight tracking-wide flex-1">{kategorie.name} ({kategorie.seminare.length})</div>
+    <div class="text-2xl text-white font-extralight tracking-wide flex-1  transition duration-300 ease-in-out">{kategorie.name} ({kategorie.seminare.length})</div>
   </label>
 </div>
 

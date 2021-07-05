@@ -1,5 +1,7 @@
 <script>
-  import Carousel from '$lib/components/Carousel/Carousel.svelte';
+  // TODO: remove once this issue is resolved https://github.com/beyonk-adventures/svelte-carousel/issues/68
+  import * as Siema from 'siema'
+  import Carousel from '@beyonk/svelte-carousel/src/Carousel.svelte';
 </script>
 
 <Carousel perPage="1" autoplay="100000" easing="ease-in-out">

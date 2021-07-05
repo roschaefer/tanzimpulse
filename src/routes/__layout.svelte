@@ -41,7 +41,7 @@
   <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48 ">
     <div class="relative container mx-auto flex flex-col md:flex-row items-center px-0 md:px-6 z-10">
       <div class="___logo w-48 md:w-64 text-ti_blue_mat mb-6 md:mb-0 ml-4">
-        <a sveltekit:prefetch class="outline-none focus:outline-none" href="{base}/"><Logo /></a>
+        <a sveltekit:prefetch class="outline-none focus:outline-none focus:ring-0" href="{base}/"><Logo /></a>
       </div>
       <div class="___title px-8">
         <a sveltekit:prefetch href="{base}/">

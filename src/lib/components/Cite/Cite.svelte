@@ -7,7 +7,7 @@
   };
 </script>
 
-<div class="___cite flex flex-col w-full py-12 px-4 lg:px-8 ">
+<div class="___cite flex flex-col w-full pt-14 pb-12 px-4 lg:px-8 ">
   <img class="w-24 h-24 mx-auto mb-4 rounded-full" {...imgAttributes} />
   <p class="___author mx-auto px-8 uppercase tracking-widest text-warmGray-700 text-sm"><slot name="name" /></p>
 

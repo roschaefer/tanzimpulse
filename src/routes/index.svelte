@@ -1,5 +1,4 @@
 <script context="module" lang="ts">
-  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Slideshow from '$lib/components/Slideshow/Slideshow.svelte';
 
 

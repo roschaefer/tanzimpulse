@@ -15,9 +15,9 @@
         <h2 class="text-3xl uppercase font-bold text-ti_blue_accent tracking-wide mb-4">Unsere Arbeit – unser Ziel</h2>
         <p class="py-2">
           <Accordion id="1">
-            <span slot="headline">Wir vermitteln seit 1994 Tanz als ureigenste Ausdrucksform des Menschen</span>
+            <span slot="headline">Erfahrung seit 1994</span>
             <div slot="content">
-              <p class="pb-6">Unser Ziel ist es, Tanz in traditioneller, multikultureller und moderner Form in Schul- , Berufsalltag und Freizeit zu etablieren. In allen Schulformen und in Kindertageseinrichtungen soll Tanz als eigenständiges Fach im Rahmen der ästhetischen und kulturellen Bildung vermittelt werden.</p>
+              <p class="pb-6">Wir vermitteln seit 1994 Tanz als ureigenste Ausdrucksform des Menschen. Unser Ziel ist es, Tanz in traditioneller, multikultureller und moderner Form in Schul- , Berufsalltag und Freizeit zu etablieren. In allen Schulformen und in Kindertageseinrichtungen soll Tanz als eigenständiges Fach im Rahmen der ästhetischen und kulturellen Bildung vermittelt werden.</p>
             </div>
           </Accordion>
 
@@ -29,14 +29,14 @@
           </Accordion>
 
           <Accordion id="3">
-            <span slot="headline">Förderung von kreativem Potenzial der Einzelnen und Synergieeffekt der Gruppen</span>
+            <span slot="headline">Kreativ-Potenzial und Synergieeffekt</span>
             <div slot="content">
               <p class="pb-6">Unser Ziel ist es, dass unsere Teilnehmenden tänzerisches Vorbild werden und die Fähigkeit entwickeln, kreativen Potentialen in ihren Zielgruppen Raum zu geben im Sinne der ästhetischen und kulturellen Bildung.</p>
             </div>
           </Accordion>
 
           <Accordion id="4">
-            <span slot="headline">Wir reagieren auf Anregungen der Teilnehmenden und auf deren Bedürfnisse</span>
+            <span slot="headline">Anregungen und Bedürfnisse</span>
             <div slot="content">
               <p class="pb-6">Unser Konzept wird regelmäßig überarbeitet und im Team abgesprochen, sodass wir unsere Zusatz- Qualifikationen aktualisieren und unser Angebot erweitern.</p>
             </div>

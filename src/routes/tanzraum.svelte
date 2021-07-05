@@ -1,6 +1,8 @@
 <script context="module" lang="ts">
   import { base } from '$app/paths';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
+  import Slideshow from '$lib/components/Slideshow/Slideshow.svelte';
+
 </script>
 
 
@@ -11,7 +13,9 @@
 <section>
   <div class="container">
     <div class="flex flex-col gap-10">
-      <div class="bg-ti_red_mat">slideshow</div>
+      <div class="___slideshow w-full h-3/6">
+        <Slideshow></Slideshow>
+      </div>
       <div class="flex flex-col lg:flex-row gap-10 w-full">
         <div class="flex flex-1 w-2/4">
           <DefaultCard>

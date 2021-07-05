@@ -32,8 +32,10 @@
               Vormittag ab 11:00 bis 16:00 Uhr
             </p>
             <p>
-              Einzelne Tage: Donnerstag und Freitag manchmal ganztägig<br />
-              Samstag und Sonntag gelegentliche Freizeiten für Mini-Workshops etc. <br />
+              <span class="text-3xl text-ti_red_accent uppercase font-bold tracking-wide hover:border-ti_red_accent">!!!!!</span>
+              <span class="font-bold">Freitag, Samstag und Sonntag </span><br />
+              ganztägig möglich – auf Anfrage<br />
+               <br />
               In den Schulferien NRW gibt es vereinzelt noch freie Zeiten.<br />
             </p>
           </DefaultCard>

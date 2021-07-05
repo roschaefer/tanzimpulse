@@ -7,9 +7,9 @@
 </script>
 
 <div class="flex flex-col h-full bg-white shadow-ti">
-  <div class="seminar_card_img flex-1 ">
+  <div class="seminar_card_img flex-0 border-2">
     {#if seminar.bild}
-      <img class="lg:h-48 md:h-36 w-full object-cover object-center " src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
+      <img class="h-32 sm:h-40 md:h-48 lg:h-60 w-full object-cover object-center " src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
     {/if}
   </div>
 

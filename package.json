@@ -31,6 +31,7 @@
   "type": "module",
   "dependencies": {
     "@fontsource/poppins": "^4.4.5",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "leaflet": "^1.7.1",
     "nodemailer": "^6.6.2"
   }

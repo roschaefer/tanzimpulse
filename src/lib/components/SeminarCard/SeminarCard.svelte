@@ -6,8 +6,8 @@
   export let link = '#';
 </script>
 
-<div class="flex flex-col h-full bg-white">
-  <div class="seminar_card_img flex-1 border-2">
+<div class="flex flex-col h-full bg-white shadow-ti">
+  <div class="seminar_card_img flex-1 ">
     {#if seminar.bild}
       <img class="lg:h-48 md:h-36 w-full object-cover object-center " src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
     {/if}

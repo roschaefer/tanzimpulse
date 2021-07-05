@@ -10,20 +10,20 @@
 
 <div class="flex flex-col p-4 md:p-6 lg:p-8 overflow-hidden bg-white shadow-ti transition duration-300 ease-in-out">
   <form {action} method="post" use:enhance={{ result, error, pending }}>
-    <h2 class="text-2xl uppercase font-bold text-ti_blue_mat tracking-wide mb-4">Anmeldeformular</h2>
+    <h2 class="text-2xl uppercase font-bold text-ti_blue_accent tracking-wide mb-4">Anmeldeformular</h2>
 
     <div class="flex flex-col space-y-6 mb-8">
       <label class="flex flex-col-reverse uppercase text-xs font-bold tracking-wide text-ti_blue_mat"
         >Name
-        <input class="block text-black bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="text" name="name" placeholder="Max Mustermann" required />
+        <input class="block text-black bg-white border-2 p-4 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="text" name="name" placeholder="Max Mustermann" required />
       </label>
       <label class="flex flex-col-reverse uppercase text-xs font-bold tracking-wide text-ti_blue_mat"
         >E-Mail Adresse
-        <input class="block text-black bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="email" name="email" placeholder="max@mustermann.de" required />
+        <input class="block text-black bg-white border-2 p-4 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="email" name="email" placeholder="max@mustermann.de" required />
       </label>
       <label class="flex flex-col-reverse uppercase text-xs font-bold tracking-wide text-ti_blue_mat"
         >Adresse
-        <input class="block text-black bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="text" name="adresse" placeholder="Musterstrasse 42, 12345 Musterstadt" required />
+        <input class="block text-black bg-white border-2 p-4 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0 placeholder-gray-400 mb-2 transition duration-300 ease-in-out" type="text" name="adresse" placeholder="Musterstrasse 42, 12345 Musterstadt" required />
       </label>
 
       <div class="___registration checkboxes flex flex-col space-y-6 mb-8">

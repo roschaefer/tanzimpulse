@@ -86,6 +86,5 @@
       </div>
       <!-- end of card 3 -->
     </div>
-
-
+  </div>
 </section>

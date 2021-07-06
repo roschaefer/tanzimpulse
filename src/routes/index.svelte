@@ -1,10 +1,29 @@
 <script context="module" lang="ts">
+  import SeminarPreviews from '$lib/components/SeminarPreviews/SeminarPreviews.svelte';
   import Slideshow from '$lib/components/Slideshow/Slideshow.svelte';
   import Button from '$lib/components/Button/Button.svelte';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import { base } from '$app/paths';
+  import { loadSeminare } from '$lib/routes';
+  export const load = async (request): Load => {
+    const loadAusbildungen = loadSeminare('ausbildung', 3);
+    const loadWorkshops = loadSeminare('workshop', 3);
+    const [propsAusbildungen, propsWorkshops] = await Promise.all([loadSeminare('ausbildung', 3)(request), loadSeminare('workshop', 3)(request)]);
+    return {
+      props: {
+        kommende: {
+          ausbildungen: propsAusbildungen.props.seminare,
+          workshops: propsWorkshops.props.seminare
+        }
+      }
+    };
+  };
 
   export const prerender = true;
+</script>
+
+<script lang="ts">
+  export let kommende = { ausbildungen: [], workshops: [] };
 </script>
 
 <svelte:head>
@@ -14,7 +33,7 @@
 <section>
   <div class="container mx-auto flex flex-col gap-10">
     <div class="___slideshow w-full h-3/6">
-      <Slideshow></Slideshow>
+      <Slideshow />
     </div>
 
     <div class="___main_cards flex flex-col lg:flex-row w-full gap-10 items-start">
@@ -25,25 +44,7 @@
           <a sveltekit:prefetch href="{base}/ausbildungen"> <Button buttonstyle={'blue'}>Mehr erfahren</Button></a>
         </p>
 
-        <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
-          <!-- one single seminar -->
-          <div class="___startpage_seminar_basics flex-1">
-            <p class="___startpage_seminar_date">2. August - 11:00 Uhr bis 12:00 Uhr</p>
-            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">Titel der Ausbildung</p>
-            <p class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-bold tracking-wider">Noch Plätze frei</p>
-          </div>
-          <p class="pt-4 pb-8">
-            <a sveltekit:prefetch href="{base}/ausbildungen">
-              <Button buttonstyle={'blue'}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg></Button
-              ></a
-            >
-          </p>
-        </div>
-        <hr class="block border border-ti_blue_mat-dark w-full my-4" />
-        <!-- end of one single seminar -->
+        <SeminarPreviews seminare={kommende.ausbildungen} color="blue" />
       </div>
 
       <!-- card 2 -->
@@ -53,26 +54,7 @@
         <p class="pt-4 pb-8">
           <a sveltekit:prefetch href="{base}/workshops"> <Button buttonstyle={'cyan'}>Mehr erfahren</Button></a>
         </p>
-        <!-- one single seminar -->
-        <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
-          <div class="___startpage_seminar_basics flex-1">
-            <p class="___startpage_seminar_date">2. August - 11:00 Uhr bis 12:00 Uhr</p>
-            <p class="___startpage_seminar_title font-bold uppercase tracking-wider">Titel der Ausbildung</p>
-            <p class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-extrabold tracking-wider">Noch Plätze frei</p>
-          </div>
-
-          <p class="pt-4 pb-8">
-            <a sveltekit:prefetch href="{base}/workshops">
-              <Button buttonstyle={'cyan'}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg></Button
-              ></a
-            >
-          </p>
-        </div>
-        <hr class="block border border-ti_cyan_mat-dark w-full my-4" />
-        <!-- end of one single seminar -->
+        <SeminarPreviews seminare={kommende.workshops} color="cyan" />
       </div>
       <!-- end of card 2 -->
 
@@ -86,24 +68,20 @@
       </div>
       <!-- end of card 3 -->
     </div>
-
   </div>
 
-
-
   <div class="container mt-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
-
     <div class="flex flex-col gap-10">
       <DefaultCard>
         <h2 class="font-bold text-3xl uppercase tracking-wide bg-ti_red_mat text-white p-2">Aktuelles</h2>
-        <p class="py-4">Wir tanzen wieder in Präsenz!
-      </DefaultCard>
+        <p class="py-4">Wir tanzen wieder in Präsenz!</p></DefaultCard
+      >
     </div>
 
     <div>
       <DefaultCard>
         <h2 class="font-bold text-3xl uppercase tracking-wide text-ti_blue_accent">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
-        <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von: </p>
+        <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von:</p>
         <div class="flex flex-col md:flex-row w-full justify-items-center ">
           <div class="flex-1">
             <img class="mx-auto" src="{base}/images/BKM_Web_de.gif" alt="Logo Die Bundesbeauftragte der Bundesregierung für Kultur und Medien" />
@@ -111,12 +89,8 @@
           <div class="flex-1">
             <img class="mx-auto" src="{base}/images/DVT.png" alt="Logo Dachverband Tanzen" />
           </div>
-
         </div>
       </DefaultCard>
     </div>
-
-
-
   </div>
 </section>

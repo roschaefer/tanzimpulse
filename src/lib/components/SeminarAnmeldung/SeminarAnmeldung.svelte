@@ -2,6 +2,7 @@
   import SeminarCard from '$lib/components/SeminarCard/SeminarCard.svelte';
   import SeminarForm from '$lib/components/SeminarForm/SeminarForm.svelte';
   import VeranstaltungsOrt from '$lib/components/VeranstaltungsOrt/VeranstaltungsOrt.svelte';
+  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Success from '$lib/components/Alerts/Success.svelte';
   import Error from '$lib/components/Alerts/Error.svelte';
   import { base } from '$app/paths';
@@ -45,6 +46,9 @@
     </div>
 
     <div class="__registration flex-1">
+
+
+      
       {#if errors.length}
         <Error />
       {:else if isPending}
@@ -54,6 +58,7 @@
       {:else}
         <SeminarForm {action} {result} {error} {pending} />
       {/if}
+
     </div>
   </div>
 </section>

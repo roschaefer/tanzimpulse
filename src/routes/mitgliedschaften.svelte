@@ -20,7 +20,7 @@
         <li><a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="https://aktiontanz.de/" rel="noreferrer" target="_blank"> AktionTanz - Bundesverband Tanz in Bildung und Gesellschaft e.V.</a></li>
         </ul>
 
-        <h2 class="text-3xl uppercase font-extralight text-ti_blue_mat tracking-wide">Kooperationspartner</h2>
+        <h2 class="text-3xl uppercase font-bold text-ti_blue_accent tracking-wide">Kooperationspartner</h2>
         <ul class="py-4 mb-4">
         <li><a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="http://www.neues-lernen.info/home.html" rel="noreferrer" target="_blank">Bildungswerk neues lernen</a></li>
         <li><a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="http://www.sk-kultur.de/tanz/" rel="noreferrer" target="_blank">Deutsches Tanzarchiv Köln / SK-Stiftung Kultur</a></li>

@@ -72,7 +72,7 @@
         <p class="py-2">
           E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
           <br />
-          oder telefonisch: 0221 68 36 91
+          oder telefonisch: 0221 - 68 36 91
           <br />
           Ute Luckey, Geschäftsführung
         </p>

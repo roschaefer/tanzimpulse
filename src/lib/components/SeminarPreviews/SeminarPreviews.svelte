@@ -7,20 +7,21 @@
 </script>
 
 {#each seminare as seminar (seminar.id)}
-  <div class="___start_single_seminar_teaser flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
-    <div class="___startpage_seminar_basics flex-1">
-      <p class="___startpage_seminar_date">{dateFormat.format(new Date(seminar.datum))}</p>
-      <p class="___startpage_seminar_title font-bold uppercase tracking-wider">{seminar.titel}</p>
-      <p class="___startpage_seminar_status py-2 uppercase text-ti_green_accent-light text-sm font-extrabold tracking-wider">
+  <div class="flex flex-row lg:flex-col xl:flex-row gap-x-4 items-center">
+    <div class="flex-1">
+      <p class="text-lg">{dateFormat.format(new Date(seminar.datum))}</p>
+
+      <p class="text-lg font-bold uppercase tracking-wide">{seminar.titel}</p>
+      
         {#if overbooked(seminar)}
-          Anmeldung zur Warteliste
+        <p class="uppercase text-white text-sm tracking-wide">Anmeldung zur Warteliste </p>
         {:else}
-          Noch Plätze frei!
+        <p class="uppercase text-ti_green_accent-light text-sm tracking-wide">Noch Plätze frei!</p>
         {/if}
-      </p>
+     
     </div>
 
-    <p class="pt-4 pb-8">
+    <p>
       <a sveltekit:prefetch href={`${base}/${seminar.format}/${seminar.url}`}>
         <Button buttonstyle={color}>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -29,6 +30,8 @@
         ></a
       >
     </p>
+
   </div>
+  <hr class="block border border-black w-full my-4 opacity-20" />
 {/each}
-<hr class="block border border-ti_cyan_mat-dark w-full my-4" />
+

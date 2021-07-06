@@ -44,11 +44,11 @@
   }
 	
 	.left {
-		left: 1vw;
+		left: 2vw;
 	}
 	
 	.right {
-		right: 1vw;
+		right: 2vw;
 	}
 
 	ul {
@@ -64,17 +64,17 @@
 	ul li {
 		margin: 6px;
 		border-radius: 100%;
-		background-color: rgba(255,255,255,0.5);
-		height: 12px;
-		width: 12px;
+		background-color: rgba(255,255,255,0.75);
+		height: 14px;
+		width: 14px;
 	}
 
 	ul li:hover {
-		background-color: rgba(255,255,255,0.15);
+		background-color: rgba(255,255,255,1);
 	}
 
 	ul li.active {
-		background-color: rgba(198,20,54,1);
+    background: rgba(198, 20, 54, 1);
 	}
 </style>
 

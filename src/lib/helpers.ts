@@ -1,3 +1,5 @@
+export const dateFormat = new Intl.DateTimeFormat('de-DE');
+
 export function overbooked(seminar: Seminar) {
   if (!seminar.maximaleAnzahlTeilnehmer) return false;
   return seminar.teilnehmer.length > seminar.maximaleAnzahlTeilnehmer;

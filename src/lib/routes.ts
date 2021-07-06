@@ -2,9 +2,11 @@ import type { Load } from '@sveltejs/kit';
 import { addTransientSelected } from '$lib/helpers';
 
 export const loadSeminare =
-  (seminarFormat: string): Load =>
+  (seminarFormat: string, limit?: number): Load =>
   async ({ page, fetch }) => {
-    const res = await fetch(`/${seminarFormat}.json`);
+    const searchParams = new URLSearchParams();
+    if (limit) searchParams.set('limit', String(limit));
+    const res = await fetch(`/${seminarFormat}.json?${searchParams.toString()}`);
     if (res.ok) {
       const {
         data: { seminare }

@@ -1,15 +1,15 @@
 <script context="module" lang="ts">
-  import { base } from '$app/paths';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
-  import Slideshow from '$lib/components/Slideshow/Slideshow.svelte';
-  import Map from '$lib/components/Map/Map.svelte';
+
+  import Carousel from '$lib/components/Slideshow/Carousel.svelte';
   import Button from '$lib/components/Button/Button.svelte';
+  import { base } from '$app/paths';
+  import Map from '$lib/components/Map/Map.svelte';
   const mapAttributes = {
     class: 'shadow-ti',
-    style: 'width: 100%; height: 100%; min-height:300px; max-height:50vh;'
+    style: 'width: 100%; height: 100%; min-height:500px; max-height:40vh;'
   };
 </script>
-
 
 <svelte:head>
   <title>Tanzraumvermietung</title>
@@ -19,7 +19,38 @@
   <div class="container">
     <div class="flex flex-col gap-10">
       <div class="___slideshow w-full h-3/6">
-        <Slideshow></Slideshow>
+        <!-- -->
+
+        <div class="relative shadow-ti">
+          <Carousel perPage="1" autoplay="100000" easing="ease-in-out">
+            <span class="control" slot="left-control">
+              <svg xmlns="http://www.w3.org/2000/svg" class="relative w-18 h-18 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </span>
+
+         <!-- single slide item -->
+         <div class="slide-content relative flex items-end">
+          <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+        </div>
+        <!-- -->
+
+
+            <!-- single slide item -->
+            <div class="slide-content relative flex items-end">
+              <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+            </div>
+            <!-- -->
+
+            <span class="control" slot="right-control">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-18 h-18 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </Carousel>
+        </div>
+
+        <!-- -->
       </div>
       <div class="flex flex-col-reverse lg:flex-row gap-10 w-full">
         <div class="flex w-full lg:w-1/2">
@@ -27,9 +58,8 @@
             <h1 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Tanzraumvermietung</h1>
             <h2 class="text-3xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
 
-
-            <p class="pb-4">Der Kursraum befindet sich in einem ruhigen Stadtteil von Köln und ist einfach zu erreichen – mit dem Auto, sowie mit öffentlichen Verkehrsmitteln. </p>
-            <p class="pb-8">Größe? WLAN, Pizzaria, Übernachtungsmöglichkeiten vorhanden, Küche, Umkleide, </p>
+            <p class="pb-4">Der Kursraum befindet sich in einem ruhigen Stadtteil von Köln und ist einfach zu erreichen – mit dem Auto, sowie mit öffentlichen Verkehrsmitteln.</p>
+            <p class="pb-8">Größe? WLAN, Pizzaria, Übernachtungsmöglichkeiten vorhanden, Küche, Umkleide,</p>
 
             <p class="font-bold">Anschrift</p>
             <p class="py-2">
@@ -37,7 +67,6 @@
               51067 Köln<br />
             </p>
             <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
-
 
             <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Anfahrt zum Tanzraum</h2>
             <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit dem Auto</h2>
@@ -59,7 +88,7 @@
             <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
 
             <h2 class="text-3xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">Freie Zeiten für fortlaufende Kurse</h2>
-      
+
             <p class="pb-4">
               <span class="font-bold">Montag</span><br />
               Vormittag ab 8:00 bis 16 Uhr<br />
@@ -75,20 +104,14 @@
             </p>
             <p class="py-4">
               <span class="font-bold">Donnerstag</span><br />
-             ????
-
-
-
-
-
+              ????
             </p>
             <p>
               <span class="font-bold">Freitag, Samstag und Sonntag </span><br />
               ganztägig möglich – auf Anfrage<br />
-               <br />
+              <br />
               In den Schulferien NRW gibt es vereinzelt noch freie Zeiten.<br />
             </p>
-
 
             <p class="py-8">
               <a sveltekit:prefetch href="{base}/kontakt"> <Button buttonstyle={'blue'}>Jetzt anfragen</Button></a>
@@ -99,11 +122,19 @@
         <div class="flex w-full lg:w-1/2">
           <Map {mapAttributes} />
         </div>
-        
-
-
-
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  .slide-content {
+    width: 100%;
+    min-height: 400px;
+    max-height: 50vh;
+  }
+
+  .slide_text_box {
+    background: rgba(198, 20, 54, 0.9);
+  }
+</style>

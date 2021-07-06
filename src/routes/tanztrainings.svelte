@@ -4,8 +4,8 @@
   import Button from '$lib/components/Button/Button.svelte';
   import Map from '$lib/components/Map/Map.svelte';
   const mapAttributes = {
-    class: 'shadow-ti',
-    style: 'width: 100%; height: 38vh; min-height:300px;'
+    class: '',
+    style: 'width: 100%; height: 100%; min-height:400px; max-height:50vh;'
   };
 </script>
 
@@ -27,16 +27,17 @@
           Schweinheimer Straße 54<br />
           51067 Köln<br />
         </p>
-        <p class="pb-10">Erreichbar mit den Linien 3 + 18 bis Haltestelle Maria-Himmelfahrt-Straße.</p>
-
-        <div class="___leafleat w-full h-2/3">
-          <Map {mapAttributes} />
-        </div>
+        <p>Erreichbar mit den Linien 3 + 18 bis Haltestelle Maria-Himmelfahrt-Straße.</p>
       </DefaultCard>
 
+    <div class="mt-10 shadow-ti">
+        <Map {mapAttributes} />
+      </div>
+
       <div class="bg-ti_green_mat mt-10 sm:p-6 md:p-8 lg:p-10 bg-white text-black shadow-ti">
-        <h2 class="text-3xl uppercase text-white font-bold tracking-wide mb-4 ">Vermietung des (Tanz-) Raumes</h2>
-        <p class="text-white">Benötigen Sie einen großzügigen Raum mit Atmosphäre für einen Kurs oder Workshop, für eine Ausstellung oder Lesung?</p>
+        <h2 class="text-3xl uppercase text-white font-bold tracking-wide">Vermietung des (Tanz-) Raumes</h2>
+        <h2 class="text-3xl uppercase font-extralight text-white tracking-wide">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
+
         <p class="pt-10">
           <a sveltekit:prefetch href="{base}/tanzraum" >  <Button buttonstyle={'green'}>Jetzt den (Tanz-) Raum mieten</Button></a>
           </p>

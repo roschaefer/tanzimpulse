@@ -52,7 +52,7 @@
           </div>
 
           <div class="___single_employee flex flex-col py-4">
-            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Bettina Grossberg | Tanzimpulse" />
+            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/grossberg.jpg" alt="Bettina Grossberg | Tanzimpulse" />
             <div class="pt-4">
               <h2 class="text-3xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Bettina Grossberg</h2>
               <p>Musikwissenschaftlerin M.A., Lehrerin für Kreativen und Heilpädagogischen Tanz, Leitung der Museumspädagogik beim Deutschen Tanzarchiv Köln/SK Stiftung Kultur; Prüferin beim Kolloquium der Diplomstufe bei TANZIMPULSE.</p>
@@ -68,7 +68,7 @@
           </div>
 
           <div class="___single_employee flex flex-col py-4">
-            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Heike Wrobel | Tanzimpulse" />
+            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/wrobel.jpg" alt="Heike Wrobel | Tanzimpulse" />
             <div class="pt-4">
               <h2 class="text-3xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Heike Wrobel</h2>
               <p>Diplom-Tanzpädagogin (TI), Entspannungspädagogin AT und Erzieherin. Ihr tanzpädagogischer Schwerpunkt liegt in der Vermittlung von Kindertanz, in Projekten und Fortbildungen und in der ErzieherInnen-Ausbildung. Ihr Thema ist die kindgemäße Entspannung in der Grundstufe mit Schwerpunkt Kindertanz.</p>
@@ -76,7 +76,7 @@
           </div>
 
           <div class="___single_employee flex flex-col py-4">
-            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/default.jpg" alt="Sabrina Wöhler | Tanzimpulse" />
+            <img class="w-16 md:w-24 lg:w-32 h-16 md:h-24 lg:h-32 mx-auto rounded-full" src="{base}/images/employees/woehler  .jpg" alt="Sabrina Wöhler | Tanzimpulse" />
             <div class="pt-4">
               <h2 class="text-3xl uppercase text-ti_blue_mat tracking-wide text-center mb-4">Sabrina Wöhler</h2>
               <p>Diplom-Tanzpädagogin (TI), Choreografin und Kommunikationswirtin. Durch die Zusatzausbildung zur Diplom-Tanzpädagogin entwickelte sich die Verbindung von Tanzkunst + Kommunikation. Seitdem leitet sie Tanz- und Choreografieprojekte mit Kindern, Jugendlichen und Erwachsenen. Das Thema Tanzprojekte unterrichtet sie in der Grundstufe mit Schwerpunkt Kindertanz.</p>
@@ -121,7 +121,7 @@
           <div class="___guest flex flex-col">
             <h4 class="uppercase text-ti_blue_mat tracking-wide mb-2">Bettina Fleischer</h4>
             <p>Diplom Tanzpädagogin (TI) und Erzieherin; leitet verschiedene fortlaufende Tanzgruppen, Tanzprojekte und Multiplikatoren Fortbildungen mit dem Schwerpunkt Kindertanz.</p>
-            <a class="font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="”noreferrer”" href="https://takt-gefuehl.jimdofree.com" target="_blank">takt-gefuehl.jimdofree.com/ </a>
+            <a class="font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="”noreferrer”" href="https://takt-gefuehl.jimdofree.com" target="_blank">takt-gefuehl.jimdofree.com</a>
           </div>
 
           <div class="___guest flex flex-col">

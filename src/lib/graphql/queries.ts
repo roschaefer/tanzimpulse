@@ -5,6 +5,7 @@ export const seminarFragment = gql`
     titel
     url
     maximaleAnzahlTeilnehmer
+    datum
     bild {
       medium: url(transformation: { image: { resize: { width: 480 } } })
       fileName
@@ -51,8 +52,8 @@ export const SEMINAR = gql`
 export const SEMINARE = gql`
   ${seminarFragment}
 
-  query ($seminarFormat: SeminarFormat!) {
-    seminare(where: { format: $seminarFormat }) {
+  query ($seminarFormat: SeminarFormat!, $limit: Int) {
+    seminare(orderBy: datum_DESC, where: {format: $seminarFormat}, first: $limit) {
       ...seminarFragment
       kategorien {
         id

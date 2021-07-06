@@ -64,17 +64,18 @@
 	ul li {
 		margin: 6px;
 		border-radius: 100%;
-		background-color: rgba(255,255,255,0.75);
+    border:1px solid #fff;
 		height: 14px;
 		width: 14px;
 	}
 
 	ul li:hover {
-		background-color: rgba(255,255,255,1);
+		background-color: rgba(255,255,255,0.5);
 	}
 
 	ul li.active {
     background: rgba(198, 20, 54, 1);
+    border:1px solid rgba(198, 20, 54, 1);
 	}
 </style>
 

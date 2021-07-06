@@ -17,7 +17,7 @@
         <Slideshow></Slideshow>
       </div>
       <div class="flex flex-col lg:flex-row gap-10 w-full">
-        <div class="flex flex-1 w-2/4">
+        <div class="flex w-full lg:w-1/2">
           <DefaultCard>
             <h1 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent pb-4">Tanzraumvermietung</h1>
             <p class="font-bold">Benötigen Sie einen großzügigen Raum mit Atmosphäre für einen Kurs oder Workshop, für eine Ausstellung oder Lesung?</p>

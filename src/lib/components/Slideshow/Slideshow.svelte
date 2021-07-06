@@ -14,15 +14,15 @@
     </span>
 
     <!-- single slide item -->
-    <div class="slide-content relative">
-      <img class="object-cover h-1/4 w-full" src="/images/slideshow/ausbildungen.jpg" alt="Ausbildungen bei Tanzimpulse" />
+    <div class="slide-content relative flex items-center">
+      <img class="object-cover w-full" src="/images/slideshow/ausbildungen.jpg" alt="Ausbildungen bei Tanzimpulse" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
         <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Ausbildungen</h2>
-              <p class="text-white pb-2">Integrieren Sie Tanzpädagogik in Ihren Berufsalltag</p>
+              <p class="text-white pb-2 hidden md:inline-block">Integrieren Sie Tanzpädagogik in Ihren Berufsalltag</p>
             </div>
             <a sveltekit:prefetch href="{base}/ausbildungen">
               <Button buttonstyle={'white'}>
@@ -39,15 +39,15 @@
     <!-- -->
 
     <!-- single slide item -->
-    <div class="slide-content relative">
-      <img class="object-cover h-1/4 w-full" src="/images/slideshow/workshops.jpg" alt="Workshops bei Tanzimpule" />
+    <div class="slide-content relative flex items-center">
+      <img class="object-cover w-full" src="/images/slideshow/workshops.jpg" alt="Workshops bei Tanzimpule" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
         <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Workshops</h2>
-              <p class="text-white pb-2">Gymnastik, Kindertanzen, Sufi – entdecken Sie unser Angebot</p>
+              <p class="text-white pb-2 hidden md:inline-block">Gymnastik, Kindertanzen, Sufi – entdecken Sie unser Angebot</p>
             </div>
             <a sveltekit:prefetch href="{base}/workshops">
               <Button buttonstyle={'white'}>
@@ -64,15 +64,15 @@
     <!-- -->
 
     <!-- single slide item -->
-    <div class="slide-content relative">
-      <img class="object-cover h-1/4 w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+    <div class="slide-content relative flex items-end">
+      <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
         <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Tanzraum mieten</h2>
-              <p class="text-white pb-2">Ideal für Lesungen, Kurse, Ausstellungen, etc.</p>
+              <p class="text-white pb-2 hidden md:inline-block">Ideal für Lesungen, Kurse, Ausstellungen, etc.</p>
             </div>
             <a sveltekit:prefetch href="{base}/tanzraum">
               <Button buttonstyle={'white'}>
@@ -103,12 +103,9 @@
   .slide-content {
     width: 100%;
     max-height:30vh;
-
   }
 
   .slide_text_box {   
     background: rgba(198, 20, 54, 0.9);
   }
-
-
 </style>

@@ -1,8 +1,7 @@
 <script context="module" lang="ts">
   import Slideshow from '$lib/components/Slideshow/Slideshow.svelte';
-
-
   import Button from '$lib/components/Button/Button.svelte';
+  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import { base } from '$app/paths';
 
   export const prerender = true;
@@ -87,5 +86,37 @@
       </div>
       <!-- end of card 3 -->
     </div>
+
+  </div>
+
+
+
+  <div class="container mt-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+    <div class="flex flex-col gap-10">
+      <DefaultCard>
+        <h2 class="font-bold text-3xl uppercase tracking-wide bg-ti_red_mat text-white p-2">Aktuelles</h2>
+        <p class="py-4">Wir tanzen wieder in Präsenz!
+      </DefaultCard>
+    </div>
+
+    <div>
+      <DefaultCard>
+        <h2 class="font-bold text-3xl uppercase tracking-wide text-ti_blue_accent">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
+        <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von: </p>
+        <div class="flex flex-col md:flex-row w-full justify-items-center ">
+          <div class="flex-1">
+            <img class="mx-auto" src="{base}/images/BKM_Web_de.gif" alt="Logo Die Bundesbeauftragte der Bundesregierung für Kultur und Medien" />
+          </div>
+          <div class="flex-1">
+            <img class="mx-auto" src="{base}/images/DVT.png" alt="Logo Dachverband Tanzen" />
+          </div>
+
+        </div>
+      </DefaultCard>
+    </div>
+
+
+
   </div>
 </section>

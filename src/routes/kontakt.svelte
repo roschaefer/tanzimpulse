@@ -42,7 +42,7 @@
 
         <div class="w-full md:w-2/4 lg:w-2/3">
           <DefaultCard>
-            <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent mb-4">Anfahrt</h2>
+            <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Anfahrt zum Tanzraum</h2>
             <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit dem Auto</h2>
             <p class="py-2">
               A 3, Ausfahrt Bergisch Gladbach/Köln-Holweide/ Köln-Dellbrück<br />
@@ -50,7 +50,7 @@
             </p>
             <p class="py-2 mb-6">
               Direkt vor dem Tanzraum befinden sich 3 bis 4 hauseigene Stellplätze. <br />
-              Weitere Parkmöglichkeiten finden Sie in den angrenzenden Straßen: Kochwiesenstraße, Burgwiesenstraße oder Ferdinand-Stücker-Straße.
+              Weitere Parkmöglichkeiten finden Sie in den angrenzenden Straßen: Kochwiesenstraße, Burgwiesenstraße oder Ferdinand-Stücker-Straße.
             </p>
             <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit den öffentlichen Verkehrsmitteln</h2>
             <p class="py-2">

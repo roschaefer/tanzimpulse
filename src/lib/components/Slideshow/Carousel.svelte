@@ -44,11 +44,11 @@
   }
 	
 	.left {
-		left: 2vw;
+		left: 1vw;
 	}
 	
 	.right {
-		right: 2vw;
+		right: 1vw;
 	}
 
 	ul {
@@ -64,7 +64,7 @@
 	ul li {
 		margin: 6px;
 		border-radius: 100%;
-    border:1px solid #fff;
+		border:1px solid #fff;
 		height: 14px;
 		width: 14px;
 	}

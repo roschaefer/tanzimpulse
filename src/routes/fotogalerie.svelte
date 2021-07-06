@@ -18,13 +18,13 @@
 
         <!-- single slide item -->
         <div class="slide-content relative flex">
-          <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+          <img class="object-cover w-full" src="/images/slideshow/workshops.jpg" alt="Der Tanzraum von Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
         <div class="slide-content relative flex">
-          <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+          <img class="object-cover w-full" src="/images/slideshow/ausbildungen.jpg" alt="Der Tanzraum von Tanzimpulse" />
         </div>
         <!-- -->
 

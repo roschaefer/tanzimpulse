@@ -102,6 +102,7 @@
 <style>
   .slide-content {
     width: 100%;
+    min-height:300px;
     max-height:30vh;
   }
 

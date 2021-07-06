@@ -33,6 +33,10 @@
         </label>
         <label class="flex items-center">
           <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="newsletter" />
+          Einwilligung zur Veröffentlichung von Fotos auf der Webseite
+        </label>
+        <label class="flex items-center">
+          <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="newsletter" />
           Newsletter abonnieren
         </label>
       </div>

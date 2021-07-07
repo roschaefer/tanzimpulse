@@ -15,7 +15,7 @@
     { path: `${base}/workshops`, label: 'Workshops' },
     { path: `${base}/ausbildungen`, label: 'Ausbildungen' }
   ];
-  let open = !browser;
+  let open = false;
   const toggleMenu = () => {
     open = !open;
   };

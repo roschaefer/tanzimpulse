@@ -44,8 +44,4 @@
     min-height: 400px;
     max-height: 50vh;
   }
-
-  .slide_text_box {
-    background: rgba(198, 20, 54, 0.9);
-  }
 </style>

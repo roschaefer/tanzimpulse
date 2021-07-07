@@ -1,6 +1,5 @@
 <script lang="ts">
   export let kategorie;
-  export let checked = false;
 </script>
 
 <div class="flex items-center w-full">

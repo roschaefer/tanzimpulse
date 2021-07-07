@@ -7,7 +7,6 @@
   export const prerender = true;
 
   import { slide } from 'svelte/transition';
-  export let entry;
   let isOpen = false;
   const toggle = () => (isOpen = !isOpen);
 </script>

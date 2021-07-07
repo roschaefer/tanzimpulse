@@ -1,6 +1,7 @@
 <script lang="ts">
   export let kategorien;
   import Toggle from '$lib/components/Toggle/Toggle.svelte';
+  import Button from '$lib/components/Button/Button.svelte';
 </script>
 
 <div class="flex flex-col lg:flex-row w-full gap-10 items-start">
@@ -15,7 +16,7 @@
           <hr class="block border border-ti_red_mat-dark focus:text-ti_red_mat-dark w-full my-4" />
         {/each}
         <noscript>
-          <button type="submit" class="px-3 py-4 text-white rounded-md focus:outline-none">Seminare filtern</button>
+          <Button buttonstyle={"white"} type="submit" class="px-3 py-4 text-white rounded-md focus:outline-none">Seminare filtern</Button>
         </noscript>
       </form>
     {/if}

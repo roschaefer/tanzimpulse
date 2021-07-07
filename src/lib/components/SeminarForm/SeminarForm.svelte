@@ -44,8 +44,6 @@
 
     <Button buttonstyle={'red'}>Anmelden</Button>
 
-    <Button buttonstyle={'gray'}>Anmelden</Button>
-
     <!--
 
     TODO: wie kann man oben den 'type' übergeben?

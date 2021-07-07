@@ -48,7 +48,7 @@
     <div class="__registration flex-1">
 
 
-      
+
       {#if errors.length}
         <Error />
       {:else if isPending}

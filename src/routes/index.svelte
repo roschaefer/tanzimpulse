@@ -31,48 +31,59 @@
 </svelte:head>
 
 <section>
-  <div class="container mx-auto flex flex-col gap-10">
-    <div class="___slideshow w-full h-3/6">
-      <Slideshow />
+  <div class="container flex flex-col gap-10">
+    
+    <Slideshow />
+
+    <div class="grid grid-cols-3 grid-rows-1 gap-10">
+        <div class="border-2 bg-black">2</div><div class="border-2 bg-black">2</div><div class="border-2 bg-black">2</div>
     </div>
 
-    <div class="___main_cards flex flex-col lg:flex-row w-full gap-10 items-start">
-      <div class="___card1 bg-ti_blue_mat p-8 text-white flex-1 shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+<!--
+
+    <div class="grid grid-cols-3 gap-10">
+
+
+      <div class="bg-ti_blue_mat p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
         <h2 class="font-bold text-3xl uppercase tracking-wide">Die Ausbildungen</h2>
-        <p class="pt-4 pb-8">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
-        <p class="pt-4 pb-8">
+        <p class="py-4">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
+        <p class="py-4">
           <a sveltekit:prefetch href="{base}/ausbildungen"> <Button buttonstyle={'blue'}>Mehr erfahren</Button></a>
         </p>
-
         <SeminarPreviews seminare={kommende.ausbildungen} color="blue" />
       </div>
 
-      <!-- card 2 -->
-      <div class="___card2 bg-ti_cyan_mat p-8 text-white flex-1 shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+
+      <div class="bg-ti_cyan_mat p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
         <h2 class="font-bold text-3xl uppercase tracking-wide">Die Workshops</h2>
-        <p class="pt-4 pb-8">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>
-        <p class="pt-4 pb-8">
+        <p class="py-4">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>
+        <p class="py-4">
           <a sveltekit:prefetch href="{base}/workshops"> <Button buttonstyle={'cyan'}>Mehr erfahren</Button></a>
         </p>
         <SeminarPreviews seminare={kommende.workshops} color="cyan" />
       </div>
-      <!-- end of card 2 -->
 
-      <!-- card 3 -->
-      <div class="___card3 bg-ti_green_mat p-8 text-white flex-1 shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+
+      <div class="bg-ti_green_mat p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
         <h2 class="font-bold text-3xl uppercase tracking-wide">Der (Tanz-) Raum</h2>
-        <p class="pt-4 pb-8">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
-        <p class="pt-4 pb-8">
+        <p class="py-4">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
+        <p class="py-4">
           <a sveltekit:prefetch href="{base}/tanzraum"> <Button buttonstyle={'green'}>Mehr erfahren</Button></a>
         </p>
       </div>
-      <!-- end of card 3 -->
-    </div>
-  </div>
 
-  <div class="container mt-10 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
-    <div class="flex flex-col gap-10">
-      <DefaultCard>
+
+
+
+    </div>-->
+
+
+
+
+  </div>
+</section>
+<!--
+  <DefaultCard>
         <h2 class="font-bold text-3xl uppercase tracking-wide bg-ti_red_mat text-white p-2">Aktuelles</h2>
         <p class="py-4">Wir tanzen wieder in Präsenz!</p></DefaultCard
       >
@@ -91,6 +102,4 @@
           </div>
         </div>
       </DefaultCard>
-    </div>
-  </div>
-</section>
+-->

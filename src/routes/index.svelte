@@ -31,15 +31,75 @@
 </svelte:head>
 
 <section>
-  <div class="container flex flex-col gap-10">
-    
+  <div class="container flex flex-col">
     <Slideshow />
 
-    <div class="grid grid-cols-3 grid-rows-1 gap-10">
-        <div class="border-2 bg-black">2</div><div class="border-2 bg-black">2</div><div class="border-2 bg-black">2</div>
+    <div class="cards my-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div class="flex items-start">
+        <div class="bg-ti_blue_mat p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+          <h2 class="font-bold text-3xl uppercase tracking-wide">Die Ausbildungen</h2>
+          <p class="py-4">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
+          <p class="py-4">
+            <a sveltekit:prefetch href="{base}/ausbildungen"> <Button buttonstyle={'blue'}>Mehr erfahren</Button></a>
+          </p>
+          <SeminarPreviews seminare={kommende.ausbildungen} color="blue" />
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="bg-ti_cyan_mat p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+          <h2 class="font-bold text-3xl uppercase tracking-wide">Die Workshops</h2>
+          <p class="py-4">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>
+          <p class="py-4">
+            <a sveltekit:prefetch href="{base}/workshops"> <Button buttonstyle={'cyan'}>Mehr erfahren</Button></a>
+          </p>
+          <SeminarPreviews seminare={kommende.workshops} color="cyan" />
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="bg-ti_green_mat flex flex-col p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
+          <h2 class="font-bold text-3xl uppercase tracking-wide">Der (Tanz-) Raum</h2>
+          <p class="py-4">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
+          <p class="py-4">
+            <a sveltekit:prefetch href="{base}/tanzraum"> <Button buttonstyle={'green'}>Mehr erfahren</Button></a>
+          </p>
+        </div>
+      </div>
     </div>
 
-<!--
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      
+
+
+        <!-- eyecatcher -->
+        <div class="___default_card flex items-start"> <!-- every card has custom height -->
+          <div class="flex w-full flex-col p-4 sm:p-6 md:p-8 lg:p-10 bg-ti_red_mat text-black shadow-ti">
+            <h2 class="font-bold text-3xl uppercase tracking-wide text-white">Aktuelles</h2>
+            <hr class="block border border-black w-full my-2 opacity-20" />
+
+            <p class="py-4 text-white">Wir tanzen wieder in Präsenz!</p>
+          </div>
+        </div>
+
+
+        <DefaultCard>
+          <h2 class="font-bold text-3xl uppercase tracking-wide text-ti_blue_accent">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
+          <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von:</p>
+          <div class="flex flex-col md:flex-row w-full justify-items-center ">
+            <div class="flex-1">
+              <img class="mx-auto" src="{base}/images/BKM_Web_de.gif" alt="Logo Die Bundesbeauftragte der Bundesregierung für Kultur und Medien" />
+            </div>
+            <div class="flex-1">
+              <img class="mx-auto" src="{base}/images/DVT.png" alt="Logo Dachverband Tanzen" />
+            </div>
+          </div>
+        </DefaultCard>
+   
+      
+      </div>
+
+    <!--
 
     <div class="grid grid-cols-3 gap-10">
 
@@ -76,10 +136,6 @@
 
 
     </div>-->
-
-
-
-
   </div>
 </section>
 <!--

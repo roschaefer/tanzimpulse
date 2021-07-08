@@ -20,8 +20,8 @@
 
       <div class="flex flex-col md:flex-row gap-10">
         <div class="w-full md:w-2/4 lg:w-1/3 p-4 sm:p-6 md:p-8 lg:p-10 bg-ti_green_mat text-white shadow-ti">
-          <h2 class="uppercase text-3xl tracking-wider font-bold text-white mb-4">Anschrift</h2>
-          <h2 class="uppercase text-3xl tracking-wider font-extralight text-white">Büro</h2>
+          <h2 class="uppercase text-2xl lg:text-3xl tracking-wider font-bold text-white mb-4">Anschrift</h2>
+          <h2 class="uppercase text-2xl lg:text-3xl tracking-wider font-extralight text-white">Büro</h2>
           <p class="py-2">
             Folwiese 20<br />
             51069 Köln
@@ -33,7 +33,7 @@
             <br />
             E-Mail: <a class="font-bold pt-2 uppercase text-xs tracking-widest hover:text-black ease-in-out transition-all duration-300" href="mailto:info@tanzimpulse-koeln.de">info@tanzimpulse-koeln.de</a>
           </p>
-          <h2 class="uppercase text-3xl tracking-wider font-extralight text-white">Tanzraum</h2>
+          <h2 class="uppercase text-2xl lg:text-3xl tracking-wider font-extralight text-white">Tanzraum</h2>
           <p class="py-2">
             Schweinheimer Straße 54<br />
             51067 Köln<br />
@@ -42,17 +42,17 @@
 
         <div class="w-full md:w-2/4 lg:w-2/3">
           <DefaultCard>
-            <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Anfahrt zum Tanzraum</h2>
-            <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit dem Auto</h2>
+            <h2 class="ti_headline_blue_bold">Anfahrt zum Tanzraum</h2>
+            <h2 class="ti_headline_blue_light">Mit dem Auto</h2>
             <p class="py-2">
               A 3, Ausfahrt Bergisch Gladbach/Köln-Holweide/ Köln-Dellbrück<br />
               A 4, Ausfahrt Köln-Merheim, Richtung Köln-Holweide
             </p>
-            <p class="py-2 mb-6">
+            <p class="py-2 mb-10">
               Direkt vor dem Tanzraum befinden sich 3 bis 4 hauseigene Stellplätze. <br />
               Weitere Parkmöglichkeiten finden Sie in den angrenzenden Straßen: Kochwiesenstraße, Burgwiesenstraße oder Ferdinand-Stücker-Straße.
             </p>
-            <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit den öffentlichen Verkehrsmitteln</h2>
+            <h2 class="ti_headline_blue_light">Mit den öffentlichen Verkehrsmitteln</h2>
             <p class="py-2">
               Linie 18 ab Köln Hbf<br />
               Linie 3 ab Bahnhof Deutz/Messe<br />

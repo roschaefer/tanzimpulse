@@ -19,8 +19,8 @@
   <div class="container">
     <div class="flex w-full lg:w-1/2">
       <DefaultCard>
-        <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Workshops</h2>
-        <h3 class="uppercase text-3xl tracking-wider font-light font-extralight text-ti_blue_mat mb-4">Für Multiplikatoren/innen und Interessierte</h3>
+        <h2 class="ti_headline_blue_bold">Workshops</h2>
+        <h3 class="ti_headline_blue_light mb-4">Für Multiplikatoren/innen und Interessierte</h3>
         <p class="py-4">für Multiplikatoren/innen und Interessierte. Sie können unabhängig von einer Teilnahme an den Ausbildungsreihen besucht werden. Aktuelle Tanzthemen und zeitgemäße Unterrichtsmethoden werden von praxiserfahrenen Referentinnen und Referenten vermittelt.</p>
       </DefaultCard>
     </div>

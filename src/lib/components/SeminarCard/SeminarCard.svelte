@@ -15,8 +15,8 @@
 
   <div class="seminar_card_content flex-1 px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-6 md:py-8 lg:py-10">
     <h4 class="uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1">- {seminar.format} -</h4>
-    <h1 class="text-2xl uppercase font-bold text-ti_blue_accent tracking-wide">{seminar.titel}</h1>
-    <p class="text-2xl text-ti_blue_mat font-light uppercase prose-sm">22.8.2020 von 10:00 bis 19:00 Uhr</p>
+    <h1 class="ti_headline_blue_bold">{seminar.titel}</h1>
+    <p class="ti_headline_blue_light">22.8.2020 von 10:00 bis 19:00 Uhr</p>
     <p class="text-ti_green_accent-dark font-bold uppercase tracking-wide text-lg prose-sm py-4">Noch Plätze frei</p>
 
     <hr class="block border border-coolGray-100 w-full mt-2 mb-4" />

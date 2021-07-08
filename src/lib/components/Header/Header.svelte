@@ -64,7 +64,7 @@
       <a href="{base}/videos" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Videos</a><br />
     </p>
     <hr class="border-black my-2 lg:my-4" />
-    <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Kontakt</h3>
+    <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzimpulse</h3>
     <p>
       <a href="{base}/kontakt" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Kontakt und Anfahrt</a><br />
       <a href="{base}/team" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Team</a><br />

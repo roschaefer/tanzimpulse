@@ -55,8 +55,8 @@
       <div class="flex flex-col-reverse lg:flex-row gap-10 w-full">
         <div class="flex w-full lg:w-1/2">
           <DefaultCard>
-            <h1 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Tanzraumvermietung</h1>
-            <h2 class="text-3xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
+            <h1 class="ti_headline_blue_bold">Tanzraumvermietung</h1>
+            <h2 class="ti_headline_blue_light mb-4">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
 
             <p class="pb-4">Der Kursraum befindet sich in einem ruhigen Stadtteil von Köln und ist einfach zu erreichen – mit dem Auto, sowie mit öffentlichen Verkehrsmitteln.</p>
             <p class="pb-8">Größe? WLAN, Pizzaria, Übernachtungsmöglichkeiten vorhanden, Küche, Umkleide,</p>
@@ -68,8 +68,8 @@
             </p>
             <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
 
-            <h2 class="uppercase text-3xl tracking-wider font-bold text-ti_blue_accent">Anfahrt zum Tanzraum</h2>
-            <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit dem Auto</h2>
+            <h2 class="ti_headline_blue_bold">Anfahrt zum Tanzraum</h2>
+            <h2 class="ti_headline_blue_light">Mit dem Auto</h2>
             <p class="py-2">
               A 3, Ausfahrt Bergisch Gladbach/Köln-Holweide/ Köln-Dellbrück<br />
               A 4, Ausfahrt Köln-Merheim, Richtung Köln-Holweide
@@ -78,7 +78,7 @@
               Direkt vor dem Tanzraum befinden sich 3 bis 4 hauseigene Stellplätze. <br />
               Weitere Parkmöglichkeiten finden Sie in den angrenzenden Straßen: Kochwiesenstraße, Burgwiesenstraße oder Ferdinand-Stücker-Straße.
             </p>
-            <h2 class="uppercase text-3xl tracking-wider font-extralight text-ti_blue_mat">Mit den öffentlichen Verkehrsmitteln</h2>
+            <h2 class="ti_headline_blue_light">Mit den öffentlichen Verkehrsmitteln</h2>
             <p class="py-2">
               Linie 18 ab Köln Hbf<br />
               Linie 3 ab Bahnhof Deutz/Messe<br />
@@ -87,7 +87,7 @@
             <p class="py-2">Von dort ca. 5 Min. bis zur Schweinheimer Straße 54, 51067 Köln-Holweide</p>
             <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
 
-            <h2 class="text-3xl uppercase font-extralight text-ti_blue_mat tracking-wide mb-4">Freie Zeiten für fortlaufende Kurse</h2>
+            <h2 class="ti_headline_blue_light mb-4">Freie Zeiten für fortlaufende Kurse</h2>
 
             <p class="pb-4">
               <span class="font-bold">Montag</span><br />

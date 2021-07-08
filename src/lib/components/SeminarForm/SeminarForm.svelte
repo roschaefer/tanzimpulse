@@ -10,7 +10,7 @@
 
 <div class="flex flex-col p-4 md:p-6 lg:p-8 overflow-hidden bg-white shadow-ti transition duration-300 ease-in-out">
   <form {action} method="post" use:enhance={{ result, error, pending }}>
-    <h2 class="text-2xl uppercase font-bold text-ti_blue_accent tracking-wide mb-4">Anmeldeformular</h2>
+    <h2 class="ti_headline_blue_bold mb-4">Anmeldeformular</h2>
 
     <div class="flex flex-col space-y-6 mb-8">
       <label class="flex flex-col-reverse uppercase text-xs font-bold tracking-wide text-ti_blue_mat"

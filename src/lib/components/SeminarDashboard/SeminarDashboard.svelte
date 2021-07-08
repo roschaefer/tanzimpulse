@@ -1,6 +1,7 @@
 <script lang="ts">
   import SeminarDeck from '$lib/components/SeminarDeck/SeminarDeck.svelte';
-  import KategorienFilter from '$lib/components/KategorienFilter/KategorienFilter.svelte';
+  import Kategorien from './Kategorien.svelte';
+  import VolltextSuche from './VolltextSuche.svelte';
   import { onlyUnique } from '$lib/helpers';
 
   export let seminare: [];
@@ -15,5 +16,11 @@
   });
 </script>
 
-<KategorienFilter bind:kategorien />
+<div class="flex flex-col lg:flex-row w-full gap-10 items-start">
+  <div class="___red_card w-full lg:w-1/2 bg-ti_red_mat p-4 md:p-6 lg:p-8 bg-white text-black shadow-ti">
+    <Kategorien bind:kategorien />
+    <VolltextSuche />
+  </div>
+</div>
+
 <SeminarDeck seminare={gefilterteSeminare} />

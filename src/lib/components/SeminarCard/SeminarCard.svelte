@@ -1,15 +1,15 @@
 <script lang="ts">
   import { overbooked } from '$lib/helpers';
-  import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Button from '$lib/components/Button/Button.svelte';
   export let seminar: {};
   export let link = '#';
 </script>
 
-<div class="flex flex-col h-full bg-white shadow-ti">
-  <div class="seminar_card_img flex-0 border-2">
+<div class="flex items-start">
+<div class="flex flex-col items-start bg-white shadow-ti">
+  <div class="seminar_card_img flex-0">
     {#if seminar.bild}
-      <img class="h-32 sm:h-40 md:h-48 lg:h-60 w-full object-cover object-center " src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
+      <img class="h-32 sm:h-40 md:h-48 lg:h-60 w-full object-cover object-center" src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
     {/if}
   </div>
 
@@ -44,7 +44,7 @@
     </div>
   </div>
 </div>
-
+</div>
 <!--
       <h3 class="tracking-widest text-xs title-font font-medium mb-1 {overbooked(seminar) ? 'text-red-400' : 'text-gray-500'}">
         {#if seminar.maximaleAnzahlTeilnehmer}

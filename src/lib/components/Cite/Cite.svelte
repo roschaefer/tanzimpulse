@@ -7,11 +7,11 @@
   };
 </script>
 
-<div class="___cite flex flex-col w-full pt-14 pb-12 px-4 lg:px-8 ">
-  <img class="w-24 h-24 mx-auto mb-4 rounded-full" {...imgAttributes} />
-  <p class="___author mx-auto px-8 uppercase tracking-widest text-warmGray-700 text-sm"><slot name="name" /></p>
+<div class="flex flex-col w-full pt-14 pb-12 px-4 lg:px-8 ">
+  <img class="w-24 h-24 mx-auto mb-4 rounded-full" {...imgAttributes} alt="Kundenrückmeldung" />
+  <p class="mx-auto px-10 uppercase tracking-widest text-gray-600 text-sm font-bold"><slot name="name" /></p>
 
-  <cite class="mx-auto py-6 text-ti_blue_mat text-3xl font-light not-italic">
+  <cite class="mx-auto py-6 text-ti_blue_mat text-2xl lg:text-3xl font-light not-italic">
     <slot name="cite" />
   </cite>
 </div>

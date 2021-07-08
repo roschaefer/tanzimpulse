@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <Button buttonstyle={'red'}>Anmelden</Button>
+    <Button buttonstyle={'blue'}>Anmelden</Button>
 
     <!--
 

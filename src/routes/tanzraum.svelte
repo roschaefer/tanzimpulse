@@ -121,7 +121,7 @@
   .slide-content {
     width: 100%;
     min-height: 300px;
-    max-height: 30vh;
+    max-height: 40vh;
   }
 
   .slide_text_box {

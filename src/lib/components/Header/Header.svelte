@@ -74,7 +74,7 @@
     </p>
     <hr class="border-black my-2 lg:my-4" />
     <p>
-      <a sveltekit:prefetch href="{base}/tanzraum" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Der (Tanz-) Raum</a><br />
+      <a sveltekit:prefetch href="{base}/tanzraum" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">(Tanz-) Raum</a><br />
     </p>
   </div>
 </aside>

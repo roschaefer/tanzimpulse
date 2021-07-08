@@ -26,7 +26,7 @@
             </div>
             <a sveltekit:prefetch href="{base}/ausbildungen">
               <Button buttonstyle={'white'}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h4 md:h-6 w-4 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg></Button
               ></a
@@ -51,7 +51,7 @@
             </div>
             <a sveltekit:prefetch href="{base}/workshops">
               <Button buttonstyle={'white'}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h4 md:h-6 w-4 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg></Button
               ></a
@@ -76,7 +76,7 @@
             </div>
             <a sveltekit:prefetch href="{base}/tanzraum">
               <Button buttonstyle={'white'}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h4 md:h-6 w-4 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg></Button
               ></a
@@ -103,7 +103,7 @@
   .slide-content {
     width: 100%;
     min-height:300px;
-    max-height:30vh;
+    max-height:40vh;
   }
 
   .slide_text_box {   

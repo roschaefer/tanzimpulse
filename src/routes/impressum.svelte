@@ -1,7 +1,6 @@
 <script context="module" lang="ts">
-  import { base } from '$app/paths';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
-  import Ausbildungen from './ausbildungen.svelte';
+  const now = new Date()
 </script>
 
 <svelte:head>
@@ -31,7 +30,7 @@
         <p class="py-2">
           Zu den <a class="hyperlink" href="https://www.bildungsurlaub.de/bildungsurlaub_nrw.html" rel="noreferrer" target="_blank">Fördermöglichkeiten</a>.
         </p>
-        <p class="py-2">© TANZIMPULSE 2002-2021</p>
+        <p class="py-2">© TANZIMPULSE 2002 - {now.getFullYear()}</p>
         <hr class="block border border-coolGray-100 w-full mt-4 mb-8" />
         <h2 class="ti_headline_blue_light mb-4">Haftungsausschluss</h2>
         <p class="py-2">Diese Webseite wurde mit größtmöglicher Sorgfalt zusammengestellt. Wir bemühen uns alle Angaben stets auf dem aktuellen Stand zu halten. Eine Haftung oder Garantie für die Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Daten kann aber nicht gegeben werden. Tanzimpulse schließt jegliche Haftung für Schäden, die direkt oder indirekt aus der Benutzung dieser Website entstehen, aus.</p>

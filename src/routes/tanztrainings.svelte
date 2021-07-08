@@ -44,9 +44,9 @@
         <h2 class="ti_headline_blue_light pb-4">Montag</h2>
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz für Kinder + Jugendliche mit Behinderung</h2>
         <p class="ti_subheadline_blue_light">16:45 - 17:45 Uhr</p>
-        <p class="pb-8">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
+        <p class="pb-2">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
 
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <hr class="block border border-coolGray-100 w-full my-4" />
 
         <h2 class="ti_subheadline_blue_bold">5 Rhythmen NEU! 14tägig</h2>
         <p class="ti_subheadline_blue_light">20:15 - 21:45 Uhr</p>
@@ -58,13 +58,13 @@
 
         <h2 class="ti_subheadline_blue_bold">Von Kopf bis Fuß - Gymnastik</h2>
         <p class="ti_subheadline_blue_light">9:30 - 10:30 Uhr</p>
-        <p class="pb-8">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Kindertanz für 6-8jährige</h2>
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
-        <a class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Jazz Dance Training & Choreos: Lyrical, Modern, Contemporary Style</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p>Referentin: Susanne Krell, Anmeldung + Info: 0179 - 44 44 347</p>
@@ -75,26 +75,26 @@
 
         <h2 class="ti_subheadline_blue_bold">Sufi-Bewegungsmeditation 14tägig</h2>
         <p class="ti_subheadline_blue_light">8:30 - 9:45 Uhr</p>
-        <p class="pb-8">Referentin: Jutta Kuhlmann, Anmeldung+Info: <a class="hyperlink" rel="noreferrer" href="mailto:juttakuhlmann@freenet.de">juttakuhlmann@freenet.de</a></p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Jutta Kuhlmann, Anmeldung+Info: <a class="hyperlink" rel="noreferrer" href="mailto:juttakuhlmann@freenet.de">juttakuhlmann@freenet.de</a></p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Fit in den Tag - Faszien-Fitness zum Wohlfühlen</h2>
         <p class="ti_subheadline_blue_light">10:00 - 11:00 Uhr</p>
-        <p class="pb-8">Referentin: Nina Buttler, Info: <a class="hyperlink" rel="noreferrer" href="mailto:info@sichtartundweise.de">info@sichtartundweise.de</a></p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Nina Buttler, Info: <a class="hyperlink" rel="noreferrer" href="mailto:info@sichtartundweise.de">info@sichtartundweise.de</a></p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Kreativer Kindertanz für 4 bis 6jährige</h2>
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
-        <a class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz- Training</h2>
         <p class="ti_subheadline_blue_light">18:15 - 19:45 Uhr</p>
-        <p class="pb-8">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Jazzdance + Balancetraining</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p>Referentin: Sabrina Wöhler, Anmeldung + Info: 0175 - 41 94 029</p>
-        <a class="hyperlink" rel="”noreferrer”" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Afrikanischer Tanz mit Susanne + Christoph (Trommelbegleitung)</h2>
         <p class="ti_subheadline_blue_light">derzeit pausiert</p>
         <p>Gelegentliche Mini-Workshops. Referentin: Susanne Peters, Anmeldung + Info: 0160 - 94 65 98 94</p>
@@ -105,15 +105,15 @@
         <h2 class="ti_headline_blue_light pb-4">Donnerstag</h2>
         <h2 class="ti_subheadline_blue_bold">Von Kopf bis Fuß - Gymnastik</h2>
         <p class="ti_subheadline_blue_light">17:30 - 18:30 Uhr</p>
-        <p class="pb-8">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Ute Seddig, Anmeldung + Info: 0221 - 68 02 729</p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz - Training für Einsteiger/innen</h2>
         <p class="ti_subheadline_blue_light">18:30 - 20:00 Uhr</p>
-        <p class="pb-8">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
+        <p class="pb-2">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
+        <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz - Training für Fortgeschrittene</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
-        <p class="pb-8">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
+        <p>Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
       </DefaultCard>
     </div>
   </div>

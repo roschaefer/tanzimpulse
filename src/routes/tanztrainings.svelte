@@ -13,9 +13,7 @@
   <title>Tanztrainings</title>
 </svelte:head>
 
-<section class="text-gray-600 body-font">
-
-
+<section>
   <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
     <div>
       <DefaultCard>
@@ -31,20 +29,17 @@
         <Map {mapAttributes} />
       </DefaultCard>
 
-
-
       <div class="bg-ti_green_mat mt-10 sm:p-6 md:p-8 lg:p-10 bg-white text-black shadow-ti">
         <h2 class="text-2xl lg:text-3xl uppercase text-white font-bold tracking-wide">Vermietung des (Tanz-) Raumes</h2>
         <h2 class="text-2xl lg:text-3xl uppercase font-extralight text-white tracking-wide">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
 
         <p class="pt-10">
-          <a sveltekit:prefetch href="{base}/tanzraum" >  <Button buttonstyle={'green'}>Jetzt den (Tanz-) Raum mieten</Button></a>
-          </p>
+          <a sveltekit:prefetch href="{base}/tanzraum"> <Button buttonstyle={'green'}>Jetzt den (Tanz-) Raum mieten</Button></a>
+        </p>
       </div>
-
-
     </div>
-    <div class="flex flex-col gap-10">
+
+    <div class="grid grid-cols-1 gap-10">
       <DefaultCard>
         <h2 class="ti_headline_blue_light pb-4">Montag</h2>
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz für Kinder + Jugendliche mit Behinderung</h2>
@@ -55,8 +50,7 @@
 
         <h2 class="ti_subheadline_blue_bold">5 Rhythmen NEU! 14tägig</h2>
         <p class="ti_subheadline_blue_light">20:15 - 21:45 Uhr</p>
-        <p class="pb-8">Referentin: Susanne Kehrein, Info: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="mailto:Susanlight@web.de">Susanlight@web.de</a></p>
-
+        <p class="pb-8">Referentin: Susanne Kehrein, Info: <a class="hyperlink" rel="noreferrer" href="mailto:Susanlight@web.de">Susanlight@web.de</a></p>
       </DefaultCard>
 
       <DefaultCard>
@@ -74,18 +68,18 @@
         <h2 class="ti_subheadline_blue_bold">Jazz Dance Training & Choreos: Lyrical, Modern, Contemporary Style</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p>Referentin: Susanne Krell, Anmeldung + Info: 0179 - 44 44 347</p>
-        <span class="text-3xl text-ti_red_accent uppercase font-bold tracking-wide hover:border-ti_red_accent">!!!!!</span><a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" href="http://www.gib.nrw.de/beratertool/" rel="noreferrer" target="_blank">falscher link</a>
+        <span class="text-3xl text-ti_red_accent uppercase font-bold tracking-wide hover:border-ti_red_accent">!!!!!</span><a class="hyperlink" href="http://www.gib.nrw.de/beratertool/" rel="noreferrer" target="_blank">falscher link</a>
       </DefaultCard>
-          <DefaultCard>
+      <DefaultCard>
         <h2 class="ti_headline_blue_light pb-4">Mittwoch</h2>
 
         <h2 class="ti_subheadline_blue_bold">Sufi-Bewegungsmeditation 14tägig</h2>
         <p class="ti_subheadline_blue_light">8:30 - 9:45 Uhr</p>
-        <p class="pb-8">Referentin: Jutta Kuhlmann, Anmeldung+Info: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="mailto:juttakuhlmann@freenet.de">juttakuhlmann@freenet.de</a></p>
+        <p class="pb-8">Referentin: Jutta Kuhlmann, Anmeldung+Info: <a class="hyperlink" rel="noreferrer" href="mailto:juttakuhlmann@freenet.de">juttakuhlmann@freenet.de</a></p>
         <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
         <h2 class="ti_subheadline_blue_bold">Fit in den Tag - Faszien-Fitness zum Wohlfühlen</h2>
         <p class="ti_subheadline_blue_light">10:00 - 11:00 Uhr</p>
-        <p class="pb-8">Referentin: Nina Buttler, Info: <a class="font-bold pt-2 uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300" rel="noreferrer" href="mailto:info@sichtartundweise.de">info@sichtartundweise.de</a></p>
+        <p class="pb-8">Referentin: Nina Buttler, Info: <a class="hyperlink" rel="noreferrer" href="mailto:info@sichtartundweise.de">info@sichtartundweise.de</a></p>
         <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
         <h2 class="ti_subheadline_blue_bold">Kreativer Kindertanz für 4 bis 6jährige</h2>
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
@@ -120,10 +114,7 @@
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz - Training für Fortgeschrittene</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p class="pb-8">Referentin: Suna Göncü, Anmeldung + Info: 0173 - 53 59 599</p>
-
       </DefaultCard>
     </div>
   </div>
-
- 
 </section>

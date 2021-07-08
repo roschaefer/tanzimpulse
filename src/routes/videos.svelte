@@ -4,7 +4,7 @@
 </svelte:head>
 
 <section>
-  <div class="container">
+  <div class="container flex flex-col">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
 
 <div class="shadow-ti">

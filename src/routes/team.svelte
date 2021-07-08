@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section>
-  <div class="container">
+  <div class="container flex flex-col">
     <div class="grid grid-cols-1 gap-10">
       <DefaultCard>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">

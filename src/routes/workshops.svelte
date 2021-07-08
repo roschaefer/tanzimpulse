@@ -15,8 +15,8 @@
   <title>Workshops</title>
 </svelte:head>
 
-<section class="text-gray-600 body-font">
-  <div class="container">
+<section>
+  <div class="container flex flex-col">
     <div class="flex w-full lg:w-1/2">
       <DefaultCard>
         <h2 class="ti_headline_blue_bold">Workshops</h2>

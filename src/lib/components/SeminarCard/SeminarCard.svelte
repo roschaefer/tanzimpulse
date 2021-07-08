@@ -6,14 +6,14 @@
 </script>
 
 <div class="flex items-start">
-<div class="flex flex-col items-start bg-white shadow-ti">
-  <div class="seminar_card_img flex-0">
+<div class="flex w-full flex-col items-start bg-white shadow-ti">
+  <div class="seminar_card_img w-full flex-0">
     {#if seminar.bild}
       <img class="h-32 sm:h-40 md:h-48 lg:h-60 w-full object-cover object-center" src={seminar.bild.medium} alt={seminar.bild.fileName || 'Fehlendes Bild'} />
     {/if}
   </div>
 
-  <div class="seminar_card_content flex-1 px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-6 md:py-8 lg:py-10">
+  <div class="seminar_card_content w-full flex-1 px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-6 md:py-8 lg:py-10">
     <h4 class="uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1">- {seminar.format} -</h4>
     <h1 class="ti_headline_blue_bold">{seminar.titel}</h1>
     <p class="ti_headline_blue_light">22.8.2020 von 10:00 bis 19:00 Uhr</p>

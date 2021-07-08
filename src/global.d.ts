@@ -14,6 +14,7 @@ type Teilnehmer = {
 type Seminar = {
   id: string;
   titel: string;
+  datum: Date;
   kurzbeschreibung: string;
   preis?: number;
   maximaleAnzahlTeilnehmer?: number;

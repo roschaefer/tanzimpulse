@@ -16,7 +16,7 @@
 </svelte:head>
 
 <section>
-  <div class="container flex flex-col gap-10">
+  <div class="container grid grid-rows-2 gap-10">
 
     <div class="slideshow border-2">
 

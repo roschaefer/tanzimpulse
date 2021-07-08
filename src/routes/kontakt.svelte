@@ -44,7 +44,7 @@
 
         <div class="flex items-start">
           <DefaultCard>
-            <h2 class="ti_headline_blue_bold">Anfahrt zum Tanzraum</h2>
+            <h2 class="ti_headline_blue_bold mb-4">Anfahrt zum Tanzraum</h2>
             <h2 class="ti_headline_blue_light">Mit dem Auto</h2>
             <p class="py-2">
               A 3, Ausfahrt Bergisch Gladbach/Köln-Holweide/ Köln-Dellbrück<br />

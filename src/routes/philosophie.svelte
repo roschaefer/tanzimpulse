@@ -70,7 +70,6 @@
             <span slot="headline">Kooperation</span>
             <div slot="content">
               <p class="pb-6">Wir arbeiten mit Partnern zusammen die zu Informationsaustausch, Ergänzung und Erweiterung unseres Angebotes führen. Hier sind u.a. zu nennen: Bildungswerk neues lernen, Deutsches Tanzarchiv Köln, SK-Stiftung Kultur und Tanzvermittlung -Landesbüro Tanz NRW. Durch die Kooperation mit dem Verein AndersTanzen – ästhetische und kulturelle Bildung im Tanz e.V bringen wir Tanzpädagogen*innen aus unseren Ausbildungen in Projekte, in denen sie ihre tänzerischen Schwerpunktthemen umsetzen.</p>
-              Geschäftsführung)
             </div>
           </Accordion>
         </p>

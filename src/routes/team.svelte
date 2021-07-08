@@ -12,7 +12,6 @@
     <div class="grid grid-cols-1 gap-10">
       <DefaultCard>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <!-- bettina -->
           <div class="flex flex-col py-4">
             <img class="w-24 md:w-32 lg:w-48 h-24 md:h-32 lg:h-48 mx-auto rounded-full" src="{base}/images/employees/bierduempel.jpg" alt="Bettina Bierdümpel | Tanzimpulse" />
             <div class="pt-4">
@@ -20,8 +19,6 @@
               <p>Künstlerische Leitung der TANZIMPULSE. Tanzpädagogin und Diplom-Sozialarbeiterin, langjährige wiss. Mitarbeiterin an der Technischen Hochschule Köln, Fakultät für Angewandte Sozialwissenschaften. Gründungsmitglied der TANZIMPULSE und künstlerische Leitung des Instituts seit 1994.</p>
             </div>
           </div>
-          <!-- -->
-          <!-- ute -->
           <div class="flex flex-col py-4">
             <img class="w-24 md:w-32 lg:w-48 h-24 md:h-32 lg:h-48 mx-auto rounded-full" src="{base}/images/employees/luckey.jpg" alt="Ute Luckey | Tanzimpulse" />
             <div class="pt-4">
@@ -29,7 +26,6 @@
               <p>Geschäftsführerin und Leitung des Büro der TANZIMPULSE. Mit Rat und Tat unterstützt sie als ehemalige Verwaltungsbeamtin die TANZIMPULSE seit der Gründung.</p>
             </div>
           </div>
-          <!-- -->
         </div>
       </DefaultCard>
 

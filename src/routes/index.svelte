@@ -69,36 +69,29 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-      
+      <!-- eyecatcher -->
+      <div class="___default_card flex items-start">
+        <!-- every card has custom height -->
+        <div class="flex w-full flex-col p-4 md:p-6 lg:p-8 bg-ti_red_mat text-black shadow-ti">
+          <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide text-white">Aktuelles</h2>
+          <hr class="block border border-black w-full my-2 opacity-20" />
 
-
-        <!-- eyecatcher -->
-        <div class="___default_card flex items-start"> <!-- every card has custom height -->
-          <div class="flex w-full flex-col p-4 md:p-6 lg:p-8 bg-ti_red_mat text-black shadow-ti">
-            <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide text-white">Aktuelles</h2>
-            <hr class="block border border-black w-full my-2 opacity-20" />
-
-            <p class="py-4 text-white">Wir tanzen wieder in Präsenz!</p>
-          </div>
+          <p class="py-4 text-white">Wir tanzen wieder in Präsenz!</p>
         </div>
-
-
-        <DefaultCard>
-          <h2 class="ti_headline_blue_bold">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
-          <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von:</p>
-          <div class="flex flex-col md:flex-row w-full justify-items-center ">
-            <div class="flex-1">
-              <img class="mx-auto" src="{base}/images/BKM_Web_de.gif" alt="Logo Die Bundesbeauftragte der Bundesregierung für Kultur und Medien" />
-            </div>
-            <div class="flex-1">
-              <img class="mx-auto" src="{base}/images/DVT.png" alt="Logo Dachverband Tanzen" />
-            </div>
-          </div>
-        </DefaultCard>
-   
-      
       </div>
 
-
+      <DefaultCard>
+        <h2 class="ti_headline_blue_bold">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
+        <p class="py-4">Hierfür erhalten wir eine Projekt-Förderung von:</p>
+        <div class="flex flex-col md:flex-row w-full justify-items-center ">
+          <div class="flex-1">
+            <img class="mx-auto" src="{base}/images/BKM_Web_de.gif" alt="Logo Die Bundesbeauftragte der Bundesregierung für Kultur und Medien" />
+          </div>
+          <div class="flex-1">
+            <img class="mx-auto" src="{base}/images/DVT.png" alt="Logo Dachverband Tanzen" />
+          </div>
+        </div>
+      </DefaultCard>
+    </div>
   </div>
 </section>

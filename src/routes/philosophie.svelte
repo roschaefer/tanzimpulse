@@ -60,9 +60,9 @@
             <span slot="headline">Mitgliedschaften in Berufsverbänden</span>
             <div slot="content">
               <div>
-              <p class="pb-6">...bedeuten, auf aktuellem Stand sein, in AGs mit zu arbeiten, deren Tagungen und Weiterbildungen zu nutzen und dort interessante Referenten für unsere Ausbildungen oder Workshopangebote kennen zu lernen.</p>
-              <img class="mx-auto" src="{base}/images/gepruefte_qualitaet.png" alt="Geprüfte Qualität in der Berufsbildung" />
-            </div>
+                <p class="pb-6">...bedeuten, auf aktuellem Stand sein, in AGs mit zu arbeiten, deren Tagungen und Weiterbildungen zu nutzen und dort interessante Referenten für unsere Ausbildungen oder Workshopangebote kennen zu lernen.</p>
+                <img class="mx-auto" src="{base}/images/gepruefte_qualitaet.png" alt="Geprüfte Qualität in der Berufsbildung" />
+              </div>
             </div>
           </Accordion>
 

@@ -24,7 +24,7 @@
   <title>Ausbildungen</title>
 </svelte:head>
 
-<section class="text-gray-600 body-font">
+<section>
   <div class="container">
     <div class="flex w-full lg:w-1/2">
       <DefaultCard>

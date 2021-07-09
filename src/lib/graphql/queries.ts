@@ -25,6 +25,7 @@ export const seminarFragment = gql`
       name
     }
     veranstaltungsort {
+      adresse
       koordinaten {
         longitude
         latitude

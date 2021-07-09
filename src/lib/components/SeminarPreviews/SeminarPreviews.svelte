@@ -9,12 +9,13 @@
 {#each seminare as seminar (seminar.id)}
   <div class="flex flex-col md:flex-row lg:flex-row">
     <div class="flex-grow	pt-2 pb-2 pl-2 pr-4">
-      <p class="text-lg">{dateFormat.format(new Date(seminar.datum))}</p>
       <p class="text-lg font-bold uppercase tracking-wide leading-6">{seminar.titel}</p>
+      <p class="text-lg font-extralight">{dateFormat.format(new Date(seminar.datum))}</p>
+
       {#if overbooked(seminar)}
-        <p class="uppercase text-white text-sm tracking-wide pt-2">Anmeldung zur Warteliste</p>
+        <p class="uppercase text-white text-sm font-bold tracking-wider pt-2">Anmeldung zur Warteliste</p>
       {:else}
-        <p class="uppercase text-ti_green_accent-light text-sm tracking-wide pt-2">Noch Plätze frei!</p>
+        <p class="uppercase text-ti_green_accent-light font-bold text-sm tracking-wider pt-2">Noch Plätze frei!</p>
       {/if}
     </div>
     <div class="flex-grow-0 flex mx-auto items-center p-2">

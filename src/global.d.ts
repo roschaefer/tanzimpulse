@@ -1,9 +1,19 @@
 /// <reference types="@sveltejs/kit" />
 interface Identifiable {
   id: string;
-}
+};
 
-type Teilnehmer = {
+type Location = {
+  longitude: number;
+  latitude: number;
+};
+
+type Veranstaltungsort = {
+  adresse: string;
+  koordinaten?: Location;
+};
+
+type Teilnehmer = { 
   id: string;
   email: string;
   name: string;
@@ -16,10 +26,11 @@ type Seminar = {
   titel: string;
   datum: Date;
   kurzbeschreibung: string;
-  preis?: number;
+  preis: number;
   maximaleAnzahlTeilnehmer?: number;
   teilnehmer: Teilnehmer[];
   kategorien: Kategorie[];
+  veranstaltungsort: Veranstaltungsort;
 };
 
 type Kategorie = {

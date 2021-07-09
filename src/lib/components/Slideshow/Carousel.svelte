@@ -62,11 +62,11 @@
 	}
 
 	ul li {
-		margin: 6px;
+		margin: 4px;
 		border-radius: 100%;
 		border:1px solid #fff;
-		height: 14px;
-		width: 14px;
+		height: 12px;
+		width: 12px;
 	}
 
 	ul li:hover {

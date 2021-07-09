@@ -11,6 +11,6 @@
   };
 </script>
 
-<button type="submit" class="___default_button {mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti transition duration-300 ease-in-out">
+<button type="submit" class="___default_button {mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
   <slot />
 </button>

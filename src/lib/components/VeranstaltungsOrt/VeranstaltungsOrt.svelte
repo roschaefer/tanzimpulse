@@ -13,7 +13,7 @@
 </script>
 
 <p class="pb-4">
-  <span class="uppercase tracking-wider text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{veranstaltungsort.adresse}
+  <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{veranstaltungsort.adresse}
 </p>
 
 {#if coordinates}

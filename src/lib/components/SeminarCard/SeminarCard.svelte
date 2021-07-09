@@ -15,14 +15,14 @@
     </div>
 
     <div class="seminar_card_content w-full flex-1 px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-6 md:py-8 lg:py-10">
-      <h4 class="uppercase tracking-wide text-xs title-font font-medium text-gray-600 mb-1">- {seminar.format} -</h4>
+      <h4 class="uppercase tracking-widest text-xs title-font font-medium text-gray-600 pb-1">- {seminar.format} -</h4>
       <h1 class="ti_headline_blue_bold">{seminar.titel}</h1>
       <p class="ti_headline_blue_light">22.8.2020 von 10:00 bis 19:00 Uhr</p>
 
       {#if overbooked(seminar)}
         <p class="font-bold text-lg prose-sm py-4">Anmeldung zur Warteliste</p>
       {:else}
-        <p class="text-ti_green_accent-dark font-bold uppercase tracking-wide text-lg prose-sm py-4">Noch Plätze frei</p>
+        <p class="text-ti_green_accent font-bold uppercase tracking-wide text-lg prose-sm py-4">Noch Plätze frei</p>
       {/if}
       <hr class="block border border-coolGray-100 w-full mt-2 mb-4" />
 
@@ -39,10 +39,10 @@
           {seminar.kurzbeschreibung}
         </p>
         <p class="text-black py-2">
-          <span class="uppercase tracking-wider text-xs title-font font-medium text-gray-600">Kursgebühr</span><br>{seminar.preis} Euro
+          <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Kursgebühr</span><br>{seminar.preis} Euro
         </p>
         <p class="pt-2 pb-8">
-          <span class="uppercase tracking-wider text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{seminar.veranstaltungsort.adresse}
+          <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{seminar.veranstaltungsort.adresse}
         </p>
 
       </slot>
@@ -53,7 +53,7 @@
 
       <div class="seminar_card_content flex-0">
         {#if link && link !== '#'}
-          <a class="" sveltekit:prefetch href={link}>
+          <a class="focus:outline-none focus:ring-0" sveltekit:prefetch href={link}>
             <Button buttonstyle={'blue'}>Mehr erfahren</Button>
           </a>
         {/if}

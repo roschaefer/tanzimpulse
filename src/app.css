@@ -28,7 +28,7 @@ html{
 
 
 .hyperlink {
-    @apply font-bold pt-2 uppercase text-xs tracking-wide hover:text-ti_blue_accent ease-in-out transition-all duration-300;
+    @apply font-bold uppercase text-xs tracking-wider hover:text-ti_blue_accent ease-in-out transition-all duration-300;
 }
 
 .ti_animate-spin{

@@ -50,7 +50,9 @@
 
         <h2 class="ti_subheadline_blue_bold">5 Rhythmen NEU! 14tägig</h2>
         <p class="ti_subheadline_blue_light">20:15 - 21:45 Uhr</p>
-        <p class="pb-8">Referentin: Susanne Kehrein, Info: <a class="hyperlink" rel="noreferrer" href="mailto:Susanlight@web.de">Susanlight@web.de</a></p>
+        <p>Referentin: Susanne Kehrein, Info: 
+          <a class="hyperlink" rel="noreferrer" href="mailto:Susanlight@web.de">Susanlight@web.de</a>
+        </p>
       </DefaultCard>
 
       <DefaultCard>
@@ -63,7 +65,9 @@
         <h2 class="ti_subheadline_blue_bold">Moderner Kindertanz für 6-8jährige</h2>
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
-        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        <p>
+          <a class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Jazz Dance Training & Choreos: Lyrical, Modern, Contemporary Style</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
@@ -84,7 +88,9 @@
         <h2 class="ti_subheadline_blue_bold">Kreativer Kindertanz für 4 bis 6jährige</h2>
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
-        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        <p>
+          <a class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+        </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz- Training</h2>
         <p class="ti_subheadline_blue_light">18:15 - 19:45 Uhr</p>
@@ -93,12 +99,16 @@
         <h2 class="ti_subheadline_blue_bold">Jazzdance + Balancetraining</h2>
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p>Referentin: Sabrina Wöhler, Anmeldung + Info: 0175 - 41 94 029</p>
-        <a class="hyperlink pb-2" rel="”noreferrer”" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
+        <p>
+        <a class="hyperlink" rel="”noreferrer”" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
+      </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Afrikanischer Tanz mit Susanne + Christoph (Trommelbegleitung)</h2>
         <p class="ti_subheadline_blue_light">derzeit pausiert</p>
         <p>Gelegentliche Mini-Workshops. Referentin: Susanne Peters, Anmeldung + Info: 0160 - 94 65 98 94</p>
+        <p class="pt-2">
         <a class="hyperlink" rel="”noreferrer”" href="http://www.praxis-susanne-peters.de/" target="_blank">praxis-susanne-peters.de</a>
+      </p>
       </DefaultCard>
 
       <DefaultCard>

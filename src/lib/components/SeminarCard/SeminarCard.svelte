@@ -20,7 +20,7 @@
       <p class="ti_headline_blue_light">22.8.2020 von 10:00 bis 19:00 Uhr</p>
 
       {#if overbooked(seminar)}
-        <p class="font-bold text-lg prose-sm py-4">Anmeldung zur Warteliste</p>
+        <p class="font-bold text-lg prose-sm text-gray-600 py-4">Anmeldung zur Warteliste</p>
       {:else}
         <p class="text-ti_green_accent font-bold uppercase tracking-wide text-lg prose-sm py-4">Noch Plätze frei</p>
       {/if}

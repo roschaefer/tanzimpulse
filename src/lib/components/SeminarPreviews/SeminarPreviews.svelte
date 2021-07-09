@@ -15,7 +15,7 @@
       {#if overbooked(seminar)}
         <p class="uppercase text-white text-sm font-bold tracking-wider pt-2">Anmeldung zur Warteliste</p>
       {:else}
-        <p class="uppercase text-ti_green_accent-light font-bold text-sm tracking-wider pt-2">Noch Plätze frei!</p>
+        <p class="uppercase text-ti_green_accent-light font-bold text-sm tracking-wider pt-2">Noch Plätze frei</p>
       {/if}
     </div>
     <div class="flex-grow-0 flex mx-auto items-center p-2">

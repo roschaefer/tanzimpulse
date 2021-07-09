@@ -4,7 +4,7 @@
 
 <div class="tab w-full overflow-hidden pb-2">
   <input class="absolute opacity-0 " {id} type="checkbox" name="tabs" />
-  <label class="block leading-normal cursor-pointer text-2xl px-2" for={id}><slot name="headline" /></label>
+  <label class="block leading-normal cursor-pointer text-2xl px-2 text-ti_blue_mat" for={id}><slot name="headline" /></label>
   <div class="tab-content overflow-hidden leading-normal">
     <div class="px-2 py-4">
       <p>

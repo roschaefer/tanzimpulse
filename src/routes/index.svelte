@@ -68,7 +68,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
       <!-- eyecatcher -->
       <div class="___default_card flex items-start">
         <!-- every card has custom height -->

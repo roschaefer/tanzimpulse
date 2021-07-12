@@ -29,7 +29,7 @@
         <Map {mapAttributes} />
       </DefaultCard>
 
-      <div class="bg-ti_green_mat mt-10 sm:p-6 md:p-8 lg:p-10 bg-white text-black shadow-ti">
+      <div class="bg-ti_green_mat mt-10 p-4 md:p-6 lg:p-8 bg-white text-black shadow-ti">
         <h2 class="text-2xl lg:text-3xl uppercase text-white font-bold tracking-wide">Vermietung des (Tanz-) Raumes</h2>
         <h2 class="text-2xl lg:text-3xl uppercase font-extralight text-white tracking-wide">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
 

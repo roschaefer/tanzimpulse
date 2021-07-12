@@ -66,3 +66,15 @@ export const SEMINARE = gql`
     }
   }
 `;
+
+export const NEUIGKEITEN = gql`
+{
+  neuigkeiten {
+    id
+    ueberschrift
+    inhalt {
+      html
+    }
+  }
+}
+`;

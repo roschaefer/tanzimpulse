@@ -40,16 +40,16 @@
 
   <div class="___logoheader flex-1 h-2/5 flex bg-white pt-14 pb-48 ">
     <div class="relative container mx-auto flex flex-col md:flex-row items-center px-0 md:px-6 z-10">
-      <div class="___logo w-48 md:w-64 text-ti_blue_mat mb-6 md:mb-0 ml-4">
-        <a sveltekit:prefetch class="outline-none focus:outline-none focus:ring-0" href="{base}/"><Logo /></a>
+      <div class="___logo w-48 md:w-64 mb-6 md:mb-0 ml-4">
+        <a sveltekit:prefetch class="text-ti_blue_mat outline-none focus:outline-none focus:ring-0 hover:text-ti_blue_accent focus:text-ti_blue_accent transition duration-300 ease-in-out" href="{base}/"><Logo /></a>
       </div>
       <div class="___title px-8">
-        <a sveltekit:prefetch href="{base}/">
-          <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider">
+        <a sveltekit:prefetch href="{base}/" class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider hover:text-ti_blue_accent focus:text-ti_blue_accent outline-none focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
             <span class="font-bold">Tanzimpulse</span> – Institut für Tanzpädagogik
-          </h1>
-          <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p></a
-        >
+            <span class="font-normal block normal-case text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
+          </a>
+         
+        
       </div>
     </div>
   </div>

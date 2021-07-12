@@ -53,9 +53,9 @@
 
       <div class="seminar_card_content flex-0">
         {#if link && link !== '#'}
-          <a class="focus:outline-none focus:ring-0" sveltekit:prefetch href={link}>
-            <Button buttonstyle={'blue'}>Mehr erfahren</Button>
-          </a>
+
+            <Button href={link} buttonstyle={'blue'}>Mehr erfahren</Button>
+  
         {/if}
       </div>
     </div>

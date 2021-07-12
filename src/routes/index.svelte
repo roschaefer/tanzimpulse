@@ -4,15 +4,13 @@
   import Button from '$lib/components/Button/Button.svelte';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import { base } from '$app/paths';
-  const LoadNeuigkeiten: Load = async ({ page, fetch }) => {
-    const res = await fetch('/neuigkeiten.json');
+
+  export const load: Load = async ({ fetch }) => {
+    const res = await fetch('/index.json');
+
     if (res.ok) {
-      const {
-        data: { neuigkeiten }
-      } = await res.json();
-      return {
-        props: { neuigkeiten }
-      };
+      const { data: props } = await res.json();
+      return { props };
     }
 
     const {
@@ -25,29 +23,13 @@
     };
   };
 
-  import { loadSeminare } from '$lib/routes';
-
-  export const load = async (request): Load => {
-    const loadAusbildungen = loadSeminare('ausbildung', 3);
-    const loadWorkshops = loadSeminare('workshop', 3);
-    const [propsAusbildungen, propsWorkshops, propsNeuigkeiten] = await Promise.all([loadSeminare('ausbildung', 3)(request), loadSeminare('workshop', 3)(request), LoadNeuigkeiten(request)]);
-    return {
-      props: {
-        neuigkeiten: propsNeuigkeiten.props.neuigkeiten,
-        kommende: {
-          ausbildungen: propsAusbildungen.props.seminare,
-          workshops: propsWorkshops.props.seminare
-        }
-      }
-    };
-  };
-
   export const prerender = true;
 </script>
 
 <script lang="ts">
   export let neuigkeiten = [];
-  export let kommende = { ausbildungen: [], workshops: [] };
+  export let kommendeAusbildungen = [];
+  export let kommendeWorkshops = [];
 </script>
 
 <svelte:head>
@@ -66,7 +48,7 @@
           <p class="py-4">
             <Button href="{base}/ausbildungen" buttonstyle={'blue'}>Mehr erfahren</Button>
           </p>
-          <SeminarPreviews seminare={kommende.ausbildungen} color="blue" />
+          <SeminarPreviews seminare={kommendeAusbildungen} color="blue" />
         </div>
       </div>
 
@@ -77,7 +59,7 @@
           <p class="py-4">
             <Button href="{base}/workshops" buttonstyle={'cyan'}>Mehr erfahren</Button>
           </p>
-          <SeminarPreviews seminare={kommende.workshops} color="cyan" />
+          <SeminarPreviews seminare={kommendeWorkshops} color="cyan" />
         </div>
       </div>
 
@@ -97,9 +79,9 @@
       {#each neuigkeiten as neuigkeit (neuigkeit.id)}
         <DefaultCard>
           <div class="graphcms_card_startpage">
-          <h2 class="ti_headline_blue_bold pb-4">{neuigkeit.ueberschrift}</h2>
-          {@html neuigkeit.inhalt.html}
-        </div>
+            <h2 class="ti_headline_blue_bold pb-4">{neuigkeit.ueberschrift}</h2>
+            {@html neuigkeit.inhalt.html}
+          </div>
         </DefaultCard>
       {/each}
 
@@ -116,7 +98,5 @@
         </div>
       </DefaultCard>
     </div>
-
-    
   </div>
 </section>

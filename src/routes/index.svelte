@@ -4,13 +4,36 @@
   import Button from '$lib/components/Button/Button.svelte';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import { base } from '$app/paths';
+  const LoadNeuigkeiten: Load = async ({ page, fetch }) => {
+    const res = await fetch('/neuigkeiten.json');
+    if (res.ok) {
+      const {
+        data: { neuigkeiten }
+      } = await res.json();
+      return {
+        props: { neuigkeiten }
+      };
+    }
+
+    const {
+      errors: [error]
+    } = await res.json();
+
+    return {
+      status: res.status,
+      error: new Error(error.message)
+    };
+  };
+
   import { loadSeminare } from '$lib/routes';
+
   export const load = async (request): Load => {
     const loadAusbildungen = loadSeminare('ausbildung', 3);
     const loadWorkshops = loadSeminare('workshop', 3);
-    const [propsAusbildungen, propsWorkshops] = await Promise.all([loadSeminare('ausbildung', 3)(request), loadSeminare('workshop', 3)(request)]);
+    const [propsAusbildungen, propsWorkshops, propsNeuigkeiten] = await Promise.all([loadSeminare('ausbildung', 3)(request), loadSeminare('workshop', 3)(request), LoadNeuigkeiten(request)]);
     return {
       props: {
+        neuigkeiten: propsNeuigkeiten.props.neuigkeiten,
         kommende: {
           ausbildungen: propsAusbildungen.props.seminare,
           workshops: propsWorkshops.props.seminare
@@ -23,6 +46,7 @@
 </script>
 
 <script lang="ts">
+  export let neuigkeiten = [];
   export let kommende = { ausbildungen: [], workshops: [] };
 </script>
 
@@ -40,7 +64,7 @@
           <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide">Die Ausbildungen</h2>
           <p class="py-4">Bilden Sie sich mit unseren Zusatzqualifikationen zur Tanzpädagogin oder zum Tanzpädagogen weiter. Weitere wichtige Tipps und Hinweise, die das Angebot schmackhaft machen.</p>
           <p class="py-4">
-            <a sveltekit:prefetch href="{base}/ausbildungen"> <Button buttonstyle={'blue'}>Mehr erfahren</Button></a>
+            <Button href="{base}/ausbildungen" buttonstyle={'blue'}>Mehr erfahren</Button>
           </p>
           <SeminarPreviews seminare={kommende.ausbildungen} color="blue" />
         </div>
@@ -51,7 +75,7 @@
           <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide">Die Workshops</h2>
           <p class="py-4">Integrieren Sie neue tanzpädagogischeImpulse in Ihren Arbeitsalltag.Ideal für Erzieher, Lehrer, Therapeuten, Übungsleiter und viele mehr!</p>
           <p class="py-4">
-            <a sveltekit:prefetch href="{base}/workshops"> <Button buttonstyle={'cyan'}>Mehr erfahren</Button></a>
+            <Button href="{base}/workshops" buttonstyle={'cyan'}>Mehr erfahren</Button>
           </p>
           <SeminarPreviews seminare={kommende.workshops} color="cyan" />
         </div>
@@ -62,7 +86,7 @@
           <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide">Der (Tanz-) Raum</h2>
           <p class="py-4">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
           <p class="py-4">
-            <a sveltekit:prefetch href="{base}/tanzraum"> <Button buttonstyle={'green'}>Mehr erfahren</Button></a>
+            <Button href="{base}/tanzraum" buttonstyle={'green'}>Mehr erfahren</Button>
           </p>
         </div>
       </div>
@@ -70,15 +94,12 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
       <!-- eyecatcher -->
-      <div class="___default_card flex items-start">
-        <!-- every card has custom height -->
-        <div class="flex w-full flex-col p-4 md:p-6 lg:p-8 bg-ti_red_mat text-black shadow-ti">
-          <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide text-white">Aktuelles</h2>
-          <hr class="block border border-black w-full my-2 opacity-20" />
-
-          <p class="py-4 text-white">Wir tanzen wieder in Präsenz!</p>
-        </div>
-      </div>
+      {#each neuigkeiten as neuigkeit (neuigkeit.id)}
+        <DefaultCard>
+          <h2 class="ti_headline_blue_bold pb-4">{neuigkeit.ueberschrift}</h2>
+          {@html neuigkeit.inhalt.html}
+        </DefaultCard>
+      {/each}
 
       <DefaultCard>
         <h2 class="ti_headline_blue_bold">Tanzimpulse stellt auf hybride Lehr- und Lernformate um</h2>
@@ -93,5 +114,7 @@
         </div>
       </DefaultCard>
     </div>
+
+    
   </div>
 </section>

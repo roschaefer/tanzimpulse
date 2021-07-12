@@ -44,18 +44,12 @@
         <p class="pt-2 pb-8">
           <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{seminar.veranstaltungsort.adresse}
         </p>
-
       </slot>
-
-
-
 
 
       <div class="seminar_card_content flex-0">
         {#if link && link !== '#'}
-
             <Button href={link} buttonstyle={'blue'}>Mehr erfahren</Button>
-  
         {/if}
       </div>
     </div>

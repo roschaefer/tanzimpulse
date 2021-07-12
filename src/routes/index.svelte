@@ -96,8 +96,10 @@
       <!-- eyecatcher -->
       {#each neuigkeiten as neuigkeit (neuigkeit.id)}
         <DefaultCard>
+          <div class="graphcms_card_startpage">
           <h2 class="ti_headline_blue_bold pb-4">{neuigkeit.ueberschrift}</h2>
           {@html neuigkeit.inhalt.html}
+        </div>
         </DefaultCard>
       {/each}
 

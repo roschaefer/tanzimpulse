@@ -34,7 +34,7 @@
        
         </label>
         <label class="flex items-center">
-          <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="newsletter" />
+          <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="fotoveroeffentlichung" />
           Ich willige ein, dass Kursfotos von mir später auf der Webseite veröffentlicht werden dürfen
         </label>
         <label class="flex items-center">

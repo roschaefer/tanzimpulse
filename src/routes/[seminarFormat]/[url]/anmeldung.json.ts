@@ -35,6 +35,7 @@ const requestVariables = (request: ServerRequest<any, any>) => {
     name: request.body.get('name'),
     adresse: request.body.get('adresse'),
     datenverarbeitung: toBool(request.body.get('datenverarbeitung')),
+    fotoveroeffentlichung: toBool(request.body.get('fotoveroeffentlichung')),
     newsletter: toBool(request.body.get('newsletter'))
   };
 };

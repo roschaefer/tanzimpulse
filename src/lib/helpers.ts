@@ -2,7 +2,7 @@ export const dateFormat = new Intl.DateTimeFormat('de-DE');
 
 export function overbooked(seminar: Seminar) {
   if (!seminar.maximaleAnzahlTeilnehmer) return false;
-  return seminar.teilnehmer.length > seminar.maximaleAnzahlTeilnehmer;
+  return seminar.teilnehmer.length >= seminar.maximaleAnzahlTeilnehmer;
 }
 export function onlyUnique(k: Identifiable, index: number, kategorien: Identifiable[]) {
   return kategorien.map((k) => k.id).indexOf(k.id) === index;

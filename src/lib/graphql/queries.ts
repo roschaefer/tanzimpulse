@@ -53,18 +53,19 @@ export const SEMINAR = gql`
 export const SEMINARE = gql`
   ${seminarFragment}
 
-  query ($seminarFormat: SeminarFormat!, $limit: Int) {
-    seminare(orderBy: datum_DESC, where: {format: $seminarFormat}, first: $limit) {
+  query ($seminarFormat: SeminarFormat!, $limit: Int, $today: DateTime!) {
+    seminare(orderBy: datum_ASC, where: {format: $seminarFormat, datum_gte: $today}, first: $limit) {
       ...seminarFragment
       kategorien {
         id
         name
-        seminare(where: { format: $seminarFormat }) {
+        seminare(where: {format: $seminarFormat}) {
           id
         }
       }
     }
   }
+  
 `;
 
 export const NEUIGKEITEN = gql`

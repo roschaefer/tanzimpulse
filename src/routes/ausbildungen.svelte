@@ -5,10 +5,6 @@
   import { loadSeminare } from '$lib/routes';
   export const load: Load = loadSeminare('ausbildung');
   export const prerender = true;
-
-  import { slide } from 'svelte/transition';
-  let isOpen = false;
-  const toggle = () => (isOpen = !isOpen);
 </script>
 
 <script lang="ts">

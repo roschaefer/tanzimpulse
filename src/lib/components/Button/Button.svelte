@@ -12,11 +12,11 @@
   };
 </script>
 {#if href}
-<a {href} sveltekit:prefetch class="{mapping[buttonstyle]} p-4 w-full block text-center rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
+<a {href} sveltekit:prefetch aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full block text-center rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
   <slot />
 </a>
 {:else }
-<button type="submit" class="{mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
+<button type="submit" aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
   <slot />
 </button>
 {/if}

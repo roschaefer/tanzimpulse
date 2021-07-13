@@ -19,7 +19,7 @@
       {/if}
     </div>
     <div class="flex-grow-0 flex mx-auto items-center p-2">
-    <Button href={`${base}/${seminar.format}/${seminar.url}`} buttonstyle={color}>
+    <Button aria-label="Mehr" href={`${base}/${seminar.format}/${seminar.url}`} buttonstyle={color}>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
     </svg></Button>

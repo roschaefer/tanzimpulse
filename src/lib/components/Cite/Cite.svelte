@@ -28,7 +28,7 @@
     </div>
 
     <div class="w-10/12 p-6 md:p-12 lg:p-20 md mx-auto relative text-center flex flex-col items-center">
-      <cite class="mx-auto py-6 text-ti_blue_mat text-2xl lg:text-3xl font-light not-italic">„Du kannst dir gar nicht vorstellen, wie diese Tanzausbildung mein Leben bereichert hat!“</cite>
+      <cite class="mx-auto py-6 text-ti_blue_mat text-2xl lg:text-3xl font-light not-italic">„Du kannst dir gar nicht vorstellen, wie diese Tanzausbildung mein Leben bereichert hat! Ich habe ja sehr unsicher angefangen, weil ich mit Musik und Tanz vorher nicht viel zu tun hatte. An jedem Tanzwochenende kam dann ein Puzzlestein dazu und ich konnte mein "Wachsen" spüren.“</cite>
       <p class="mx-auto pt-6 uppercase font-bold tracking-widest text-gray-500 text-sm">Corinna R. | Kursteilnehmerin</p>
     </div>
 

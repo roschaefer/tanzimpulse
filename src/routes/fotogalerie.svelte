@@ -196,12 +196,12 @@
   }
 
   .ti_slidehow_control{
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.25);
 
   }
 
   .ti_slidehow_control:hover{
-    background:rgba(0,0,0,0.75);
+    background:rgba(0,0,0,0.5);
   }
 
 

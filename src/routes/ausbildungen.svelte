@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+  import Carousel from '$lib/components/Slideshow/Carousel.svelte';
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Accordion from '$lib/components/Accordion/Accordion.svelte';
   import Cite from '$lib/components/Cite/Cite.svelte';
@@ -15,6 +16,9 @@
     alt: 'Tanzimpulse'
   };
 </script>
+
+
+
 
 <svelte:head>
   <title>Ausbildungen</title>
@@ -58,10 +62,13 @@
         </p>
       </DefaultCard>
     </div>
-    <Cite imgAttributes={specificImgAttributes}>
-      <div slot="name">Frauke | Tanzpädagogin/Schwerpunkt Kindertanz + Kita-Leitung</div>
-      <div slot="cite">„Denn ich denke gerade daran, mit wie viel Freude die Kinder immer mit mir in den Turnraum gegangen sind und auch schüchterne Kinder ganz anders wahrzunehmen waren.“</div>
+    <Cite>
     </Cite>
+
+
+
+
+
   </div>
 </section>
 

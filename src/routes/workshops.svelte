@@ -26,8 +26,6 @@
     </div>
 
     <Cite>
-      <div slot="name">Heike W. | Kursteilnehmerin</div>
-      <div slot="cite">„Ein riesengroßes Dankeschön für eure geleistete Arbeit im Vorfeld und euren Einsatz an dem Wochenende, für eure Liebe zur Tanzvermittlung und euren wertschätzenden Umgang mit uns Teilnehmerinnen. “</div>
     </Cite>
   </div>
 </section>

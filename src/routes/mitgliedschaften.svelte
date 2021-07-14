@@ -14,7 +14,6 @@
         <h2 class="ti_headline_blue_bold">Mitgliedschaften</h2>
 
         <ul class="py-4 mb-4">
-          <li><a class="hyperlink" href="http://www.dbt-remscheid.de/" rel="noreferrer" target="_blank">Deutschen Bundesverband Tanz</a></li>
           <li><a class="hyperlink" href="http://www.lag-tanz-nrw.de/" rel="noreferrer" target="_blank"> Landesarbeitsgemeinschaft Tanz NRW</a></li>
           <li><a class="hyperlink" href="http://www.weiterbildung-koeln.de/" rel="noreferrer" target="_blank">Qualitätsgemeinschaft Berufliche Bildung Region Köln e.V.</a></li>
           <li><a class="hyperlink" href="https://aktiontanz.de/" rel="noreferrer" target="_blank"> AktionTanz - Bundesverband Tanz in Bildung und Gesellschaft e.V.</a></li>
@@ -27,7 +26,7 @@
           <li><a class="hyperlink" href="http://www.landesbuerotanz.de/tanzvermittlung/" rel="noreferrer" target="_blank">Tanzvermittlung | Landesbüro Tanz NRW</a></li>
           <li><a class="hyperlink" href="https://ursulaneumann.de" rel="noreferrer" target="_blank">Ursula Neumann | Unternehmensberatung</a></li>
           <li><a class="hyperlink" href="http://www.musenkuss-koeln.de/" rel="noreferrer" target="_blank">Musenkuss Köln</a></li>
-          <li><span class="text-3xl text-ti_red_accent uppercase font-bold tracking-wide hover:border-ti_red_accent">!!!!!</span> <a class="hyperlink" href="http://tanzlehrer-berufsausbildungsakademie.de/index.php/kindertanzlehrer-in" target="_blank">Tanzschule Latus</a></li>
+          <li><a class="hyperlink" href="https://tanzschule-latus.de/" target="_blank">Tanzschule Latus</a></li>
         </ul>
         <p class="py-2">TANZIMPULSE sind nach § 9 AWBG als staatliches Weiterbildungs-Institut anerkannt. Sonder- oder <a href="http://www.bildungsurlaub.de/bildungsurlaub_nrw.html" rel="noreferrer" target="_blank">Bildungsurlaub</a> kann somit beantragt werden.</p>
         <p class="py-2">Hier kann unser <a class="hyperlink" href="{base}/content/Zertifikat_2018_IHK.pdf" target="_blank"> Zertifikat der Qualitätsgemeinschaft Berufliche Bildung Region Köln e.V.</a> heruntergeladen werden.</p>

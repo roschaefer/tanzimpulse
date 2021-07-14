@@ -51,7 +51,7 @@
         <h2 class="ti_subheadline_blue_bold">5 Rhythmen NEU! 14tägig</h2>
         <p class="ti_subheadline_blue_light">20:15 - 21:45 Uhr</p>
         <p>Referentin: Susanne Kehrein, Info: 
-          <a rel="noreferrer" class="hyperlink" rel="noreferrer" href="mailto:Susanlight@web.de">Susanlight@web.de</a>
+          <a rel="noreferrer" class="hyperlink" href="mailto:Susanlight@web.de">Susanlight@web.de</a>
         </p>
       </DefaultCard>
 
@@ -66,7 +66,7 @@
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
         <p>
-          <a rel="noreferrer" class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+          <a rel="noreferrer" class="hyperlink" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
         </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Jazz Dance Training & Choreos: Lyrical, Modern, Contemporary Style</h2>
@@ -89,7 +89,7 @@
         <p class="ti_subheadline_blue_light">16:15 - 17:15 Uhr</p>
         <p>Referentin: Stephanie Blömer, Anmeldung + Info</p>
         <p>
-          <a rel="noreferrer" class="hyperlink" rel="”noreferrer”" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
+          <a rel="noreferrer" class="hyperlink" href="https://www.stephanie-bloemer.de/" target="_blank">stephanie-bloemer.de</a>
         </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Moderner Tanz- Training</h2>
@@ -100,14 +100,14 @@
         <p class="ti_subheadline_blue_light">20:00 - 21:30 Uhr</p>
         <p>Referentin: Sabrina Wöhler, Anmeldung + Info: 0175 - 41 94 029</p>
         <p>
-        <a rel="noreferrer" class="hyperlink" rel="”noreferrer”" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
+        <a rel="noreferrer" class="hyperlink" href="https://www.tanz-kommunikation.de/" target="_blank">tanz-kommunikation.de</a>
       </p>
         <hr class="block border border-coolGray-100 w-full my-4" />
         <h2 class="ti_subheadline_blue_bold">Afrikanischer Tanz mit Susanne + Christoph (Trommelbegleitung)</h2>
         <p class="ti_subheadline_blue_light">derzeit pausiert</p>
         <p>Gelegentliche Mini-Workshops. Referentin: Susanne Peters, Anmeldung + Info: 0160 - 94 65 98 94</p>
         <p class="pt-2">
-        <a rel="noreferrer" class="hyperlink" rel="”noreferrer”" href="http://www.praxis-susanne-peters.de/" target="_blank">praxis-susanne-peters.de</a>
+        <a rel="noreferrer" class="hyperlink" href="http://www.praxis-susanne-peters.de/" target="_blank">praxis-susanne-peters.de</a>
       </p>
       </DefaultCard>
 

@@ -42,8 +42,7 @@
           Newsletter abonnieren
         </label>
       </div>
-    </div>
-
+    </div>  
     <Button buttonstyle={'blue'}>Anmelden</Button>
 
     <!--

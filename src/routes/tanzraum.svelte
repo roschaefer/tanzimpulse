@@ -49,12 +49,11 @@
       <DefaultCard>
         <h1 class="ti_headline_blue_bold">Tanzraumvermietung</h1>
         <h2 class="ti_headline_blue_light mb-4">Raum für Tanzimpulse – ein Ort für Weiterbildung mit Erholungswert!</h2>
-        <ul class="px-8 py-2 list-disc">
-          <li>Der Raum liegt im rechtsrheinischen Köln in ländlicher Umgebung</li>
-          <li>in einem über 100jährigen Tanz- und Veranstaltungsgebäude</li>
-          <li>der Tanzbereich umfasst 140 qm</li>
+        <p>Der Raum liegt im rechtsrheinischen Köln in ländlicher Umgebung in einem über 100jährigen Tanz- und Veranstaltungsgebäude und ist gut mit dem Auto, als auch mit öffentlichen Verkehrsmitteln erreichbar.</p>
+        <ul class="px-8 pt-8 pb-4 list-disc">
+          <li>140 qm Tanzbereich</li>
           <li>Umkleidebereich</li>
-          <li>Aufenthaltsbereich mit Küchenzeile und Herd, Kaffeemaschine, Wasserkocher, Kühlschrank; auch Wasser und Schorle können erworben werden</li>
+          <li>Aufenthaltsbereich mit Küchenzeile und Herd, Kaffeemaschine, Wasserkocher, Kühlschrank – auch Wasser und Schorle können erworben werden</li>
           <li>Toiletten und Dusche</li>
           <li>Garten für sonnige Pausen</li>
         </ul>
@@ -63,7 +62,7 @@
         <ul class="px-8 py-2 list-disc">
           <li>Musikanlage</li>
           <li>WLAN mit Gastzugang</li>
-          <li>Monitor mit 150 x 100</li>
+          <li>65 Zoll Monitor</li>
           <li>Flipchart</li>
           <li>Whiteboard</li>
           <li>Bestuhlung des Tanzraums möglich</li>
@@ -73,8 +72,6 @@
           Direkt nebenan gibt es eine Pizzeria für die Mittagsverpflegung.<br />
           Bei Bedarf können wir nette Übernachtungsmöglichkeiten in der Nähe des Tanzraums nennen.
         </p>
-
-
 
         <p class="font-bold">Anschrift</p>
         <p class="py-2">
@@ -99,37 +96,10 @@
           Linie 3 ab Bahnhof Deutz/Messe<br />
           bis Haltestelle Maria-Himmelfahrt-Straße in Köln-Holweide
         </p>
-        <p class="py-2">Von dort ca. 5 Min. bis zur Schweinheimer Straße 54, 51067 Köln-Holweide</p>
-        <hr class="block border border-coolGray-100 w-full mt-8 mb-6" />
-
-        <h2 class="ti_headline_blue_light mb-4">Freie Zeiten für fortlaufende Kurse</h2>
-
-        <p class="pb-4">
-          <span class="font-bold">Montag</span><br />
-          Vormittag ab 8:00 bis 16 Uhr<br />
-          Abends ab 20:00 bis 21:30 Uhr (14 tägig)
-        </p>
-        <p class="py-4">
-          <span class="font-bold">Dienstag</span><br />
-          vor 9:30 Uhr oder nach 10:30 Uhr bis 16 Uhr
-        </p>
-        <p class="py-4">
-          <span class="font-bold">Mittwoch</span><br />
-          Vormittag ab 11:00 bis 16:00 Uhr
-        </p>
-        <p class="py-4">
-          <span class="font-bold">Donnerstag</span><br />
-          ????
-        </p>
-        <p class="pb-8">
-          <span class="font-bold">Freitag, Samstag und Sonntag </span><br />
-          ganztägig möglich – auf Anfrage<br />
-          <br />
-          In den Schulferien NRW gibt es vereinzelt noch freie Zeiten.<br />
-        </p>
-
+        <p class="pt-2 pb-8">Von dort ca. 5 Min. bis zur Schweinheimer Straße 54, 51067 Köln-Holweide</p>
+        <hr class="block border border-coolGray-100 w-full my-2 mb-8" />
         <p>
-          <a sveltekit:prefetch href="{base}/kontakt"> <Button buttonstyle={'blue'}>Jetzt anfragen</Button></a>
+          <a sveltekit:prefetch href="{base}/kontakt"> <Button buttonstyle={'blue'}>Jetzt den Raum mieten</Button></a>
         </p>
       </DefaultCard>
 

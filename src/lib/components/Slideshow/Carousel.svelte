@@ -11,14 +11,14 @@
 		<slot name="right-control"></slot>
 	</button>
 	{/if}
-	<!--
+
     {#if dots}
 	<ul>
 		{#each {length: totalDots} as _, i}
 		<li on:click={() => go(i*currentPerPage)} class={isDotActive(currentIndex, i) ? "active" : ""}></li>
 		{/each}
 	</ul>
-    {/if}-->
+    {/if}
 </div>
 
 <style>
@@ -52,10 +52,11 @@
 		right: 1vw;
 	}
 
+
 	ul {
 		list-style-type: none;
 		position: absolute;
-		display: flex;
+		display: none; /* flex */
 		justify-content: center;
 		width: 100%;
 		margin-top: -30px;

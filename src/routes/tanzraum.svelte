@@ -48,10 +48,33 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
       <DefaultCard>
         <h1 class="ti_headline_blue_bold">Tanzraumvermietung</h1>
-        <h2 class="ti_headline_blue_light mb-4">Ideal für Vorlesungen, Kurse, Workshops, etc.</h2>
+        <h2 class="ti_headline_blue_light mb-4">Raum für Tanzimpulse – ein Ort für Weiterbildung mit Erholungswert!</h2>
+        <ul class="px-8 py-2 list-disc">
+          <li>Der Raum liegt im rechtsrheinischen Köln in ländlicher Umgebung</li>
+          <li>in einem über 100jährigen Tanz- und Veranstaltungsgebäude</li>
+          <li>der Tanzbereich umfasst 140 qm</li>
+          <li>Umkleidebereich</li>
+          <li>Aufenthaltsbereich mit Küchenzeile und Herd, Kaffeemaschine, Wasserkocher, Kühlschrank; auch Wasser und Schorle können erworben werden</li>
+          <li>Toiletten und Dusche</li>
+          <li>Garten für sonnige Pausen</li>
+        </ul>
 
-        <p class="pb-4">Der Kursraum befindet sich in einem ruhigen Stadtteil von Köln und ist einfach zu erreichen – mit dem Auto, sowie mit öffentlichen Verkehrsmitteln.</p>
-        <p class="pb-8">Größe? WLAN, Pizzaria, Übernachtungsmöglichkeiten vorhanden, Küche, Umkleide,</p>
+        <p class="pt-4 pb-2">Ausstattung auch für theoretischen Unterricht geeignet:</p>
+        <ul class="px-8 py-2 list-disc">
+          <li>Musikanlage</li>
+          <li>WLAN mit Gastzugang</li>
+          <li>Monitor mit 150 x 100</li>
+          <li>Flipchart</li>
+          <li>Whiteboard</li>
+          <li>Bestuhlung des Tanzraums möglich</li>
+        </ul>
+
+        <p class="pt-4 pb-8">
+          Direkt nebenan gibt es eine Pizzeria für die Mittagsverpflegung.<br />
+          Bei Bedarf können wir nette Übernachtungsmöglichkeiten in der Nähe des Tanzraums nennen.
+        </p>
+
+
 
         <p class="font-bold">Anschrift</p>
         <p class="py-2">

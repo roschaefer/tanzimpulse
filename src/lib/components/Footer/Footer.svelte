@@ -6,14 +6,14 @@
 <footer class="relative text-white bg-ti_blue_mat-dark body-font z-10">
   <div class="container py-24 mx-auto flex flex-col">
     <div class="___logoandtitle pb-10">
-      <a sveltekit:prefetch href="{base}/" class="outline-none focus:outline-none text-center">
-        <div class="w-36 md:w-48 text-ti_blue_accent mb-10 mx-auto">
+      <a sveltekit:prefetch href="{base}/" class="outline-none focus:outline-none text-center text-ti_blue_accent hover:text-white transition duration-300 ease-in-out">
+        <div class="w-36 md:w-48 mb-10 mx-auto">
           <Logo />
         </div>
-        <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-extralight uppercase text-ti_blue_accent tracking-wider">
+        <h1 class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-extralight uppercase tracking-wider">
           <span class="font-bold">Tanzimpulse</span> – Institut für Tanzpädagogik
         </h1>
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p>
+        <p class="text-base sm:text-lg md:text-xl lg:text-2xl tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</p>
       </a>
     </div>
     <div class="grid grid-flow-col grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 gap-10 lg:gap-32">

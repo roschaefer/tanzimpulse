@@ -17,28 +17,28 @@
 
 <section>
   <div class="container flex flex-col">
-    <div class="relative shadow-ti">
+    <div class="relative">
       <Carousel perPage="1" autoplay="100000" easing="ease-in-out">
         <span class="control" slot="left-control">
-          <svg xmlns="http://www.w3.org/2000/svg" class="relative w-12 h-12 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" class="relative w-10 h-10 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </span>
 
         <!-- single slide item -->
-        <div class="slide-content relative flex items-end">
-          <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+        <div class="slide-content relative flex items-center">
+          <img class="object-cover w-full shadow-ti" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-        <div class="slide-content relative flex items-end">
-          <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+        <div class="slide-content relative flex items-center">
+          <img class="object-cover w-full shadow-ti" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
         </div>
         <!-- -->
 
         <span class="control" slot="right-control">
-          <svg xmlns="http://www.w3.org/2000/svg" class="relative w-12 h-12 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" class="relative w-10 h-10 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
         </span>
@@ -116,4 +116,5 @@
     min-height: 300px;
     max-height: 40vh;
   }
+
 </style>

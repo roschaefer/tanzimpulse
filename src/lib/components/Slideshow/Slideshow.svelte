@@ -5,7 +5,7 @@
   import { base } from '$app/paths';
 </script>
 
-<div class="relative shadow-ti">
+<div class="relative">
   <Carousel perPage="1" autoplay="100000" easing="ease-in-out">
     <span class="control" slot="left-control">
       <svg xmlns="http://www.w3.org/2000/svg" class="relative w-10 h-10 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -15,10 +15,10 @@
 
     <!-- single slide item -->
     <div class="slide-content relative flex items-center">
-      <img class="object-cover w-full" src="/images/slideshow/ausbildungen.jpg" alt="Ausbildungen bei Tanzimpulse" />
+      <img class="object-cover w-full shadow-ti" src="/images/slideshow/ausbildungen.jpg" alt="Ausbildungen bei Tanzimpulse" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
-        <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
+        <div class="slide_text_box absolute bottom-0 mx-20 mb-14 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Ausbildungen</h2>
@@ -40,10 +40,10 @@
 
     <!-- single slide item -->
     <div class="slide-content relative flex items-center">
-      <img class="object-cover w-full" src="/images/slideshow/workshops.jpg" alt="Workshops bei Tanzimpule" />
+      <img class="object-cover w-full shadow-ti" src="/images/slideshow/workshops.jpg" alt="Workshops bei Tanzimpule" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
-        <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
+        <div class="slide_text_box absolute bottom-0 mx-20 mb-14 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Workshops</h2>
@@ -64,11 +64,11 @@
     <!-- -->
 
     <!-- single slide item -->
-    <div class="slide-content relative flex items-end">
-      <img class="object-cover w-full" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
+    <div class="slide-content relative flex items-center">
+      <img class="object-cover w-full shadow-ti" src="/images/slideshow/tanzraum.jpg" alt="Der Tanzraum von Tanzimpulse" />
       <!-- text box -->
       <div class="absolute w-full h-full top-0 left-0">
-        <div class="slide_text_box absolute bottom-0 mx-20 mb-10 p-4">
+        <div class="slide_text_box absolute bottom-0 mx-20 mb-14 p-4">
           <div class="flex flex-row items-center">
             <div class="pr-6">
               <h2 class="text-xl md:text-2xl lg:text-3xl uppercase font-bold text-white tracking-wide">Tanzraum mieten</h2>

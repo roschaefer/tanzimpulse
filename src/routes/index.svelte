@@ -83,7 +83,7 @@
 
       <div class="flex items-start">
         <div class="bg-ti_green_mat flex flex-col p-8 text-white shadow-ti hover:shadow-ti_hover transition duration-300 ease-in-out">
-          <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide">Tanzraumvermietung</h2>
+          <h2 class="font-bold text-2xl lg:text-3xl uppercase tracking-wide">Tanzraum Vermietung</h2>
           <p class="py-4">Alle Informationen zum Tanzraum. Den kann man nach Rücksprache auch mieten für Veranstaltungen, wie Lesungen, etc.</p>
           <p class="py-4">
             <Button href="{base}/tanzraum" buttonstyle={'green'}>Mehr erfahren</Button>

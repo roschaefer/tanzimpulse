@@ -20,11 +20,6 @@
           <iframe title="25 Jahre Tanzimpulse in Köln" src="https://www.youtube.com/embed/mngbGH_dJmE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
         </div>
       </div>
-      <div class="shadow-ti">
-        <div class="aspect-w-16 aspect-h-9">
-          <iframe title="25 Jahre Tanzimpulse in Köln" src="https://www.youtube.com/embed/6EEsllb_gxc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-        </div>
-      </div>
     </div>
   </div>
 </section>

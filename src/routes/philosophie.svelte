@@ -29,7 +29,7 @@
           </Accordion>
 
           <Accordion id="3">
-            <span slot="headline">Kreativ-Potenzial und Synergieeffekt</span>
+            <span slot="headline">Kreativ-Potenzial</span>
             <div slot="content">
               <p class="pb-6">Unser Ziel ist es, dass unsere Teilnehmenden tänzerisches Vorbild werden und die Fähigkeit entwickeln, kreativen Potentialen in ihren Zielgruppen Raum zu geben im Sinne der ästhetischen und kulturellen Bildung.</p>
             </div>
@@ -57,19 +57,9 @@
           </Accordion>
 
           <Accordion id="7">
-            <span slot="headline">Mitgliedschaften in Berufsverbänden</span>
+            <span slot="headline">Netzwerke</span>
             <div slot="content">
-              <div>
-                <p class="pb-6">...bedeuten, auf aktuellem Stand sein, in AGs mit zu arbeiten, deren Tagungen und Weiterbildungen zu nutzen und dort interessante Referenten für unsere Ausbildungen oder Workshopangebote kennen zu lernen.</p>
-                <img class="mx-auto" src="{base}/images/gepruefte_qualitaet.png" alt="Geprüfte Qualität in der Berufsbildung" />
-              </div>
-            </div>
-          </Accordion>
-
-          <Accordion id="8">
-            <span slot="headline">Kooperation</span>
-            <div slot="content">
-              <p class="pb-6">Wir arbeiten mit Partnern zusammen die zu Informationsaustausch, Ergänzung und Erweiterung unseres Angebotes führen. Hier sind u.a. zu nennen: Bildungswerk neues lernen, Deutsches Tanzarchiv Köln, SK-Stiftung Kultur und Tanzvermittlung -Landesbüro Tanz NRW. Durch die Kooperation mit dem Verein AndersTanzen – ästhetische und kulturelle Bildung im Tanz e.V bringen wir Tanzpädagogen*innen aus unseren Ausbildungen in Projekte, in denen sie ihre tänzerischen Schwerpunktthemen umsetzen.</p>
+              <p class="pb-6">Wir arbeiten mit Partnern zusammen die zu Informationsaustausch, Ergänzung und Erweiterung unseres Angebotes führen. Durch die Kooperation mit dem <a class="hyperlink" href="https://www.anders-tanzen.de/" target="_blank">Verein AndersTanzen – ästhetische und kulturelle Bildung im Tanz e.V</a> bringen wir Tanzpädagogen/innen aus unseren Ausbildungen und andere Tanzvermittler/innen und Vermittler/innen anderer Künste in Projekte, in denen sie ihre tänzerischen Schwerpunktthemen,  bzw. ihren Schwerpunkt Musik, Theater, Bildende Kunst etc. umsetzen.</p>
             </div>
           </Accordion>
         </p>

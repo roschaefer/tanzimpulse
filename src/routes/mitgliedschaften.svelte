@@ -28,8 +28,8 @@
           <li><a class="hyperlink" href="http://www.musenkuss-koeln.de/" rel="noreferrer" target="_blank">Musenkuss Köln</a></li>
           <li><a class="hyperlink" href="https://tanzschule-latus.de/" target="_blank">Tanzschule Latus</a></li>
         </ul>
-        <p class="py-2">TANZIMPULSE sind nach § 9 AWBG als staatliches Weiterbildungs-Institut anerkannt. Sonder- oder <a href="http://www.bildungsurlaub.de/bildungsurlaub_nrw.html" rel="noreferrer" target="_blank">Bildungsurlaub</a> kann somit beantragt werden.</p>
-        <p class="py-2">Hier kann unser <a class="hyperlink" href="{base}/content/Zertifikat_2018_IHK.pdf" target="_blank"> Zertifikat der Qualitätsgemeinschaft Berufliche Bildung Region Köln e.V.</a> heruntergeladen werden.</p>
+        <p class="py-2">TANZIMPULSE sind nach § 9 AWBG als staatliches Weiterbildungs-Institut anerkannt. <a class="hyperlink" href="https://www.bildungsurlaub.de/bildungsurlaub_nrw.html" rel="noreferrer" target="_blank">Sonder- oder Bildungsurlaub</a> kann somit beantragt werden.</p>
+        <p class="py-2"><a class="hyperlink" href="{base}/content/Zertifikat_2021_IHK.pdf" target="_blank">Zertifikat der Qualitätsgemeinschaft Berufliche Bildung Region Köln e.V. (PDF, 1,3MB)</a> </p>
       </DefaultCard>
     </div>
   </div>

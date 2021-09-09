@@ -1,6 +1,7 @@
 <script lang="ts">
   import { overbooked } from '$lib/helpers';
   import Button from '$lib/components/Button/Button.svelte';
+  import VeranstaltungsOrt from '$lib/components/VeranstaltungsOrt/VeranstaltungsOrt.svelte';
 
   export let seminar: {};
   export let link = '#';
@@ -39,17 +40,14 @@
           {seminar.kurzbeschreibung}
         </p>
         <p class="text-black py-2">
-          <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Kursgebühr</span><br>{seminar.preis} Euro
+          <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Kursgebühr</span><br />{seminar.preis} Euro
         </p>
-        <p class="pt-2 pb-8">
-          <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Veranstaltungsort</span><br>{seminar.veranstaltungsort.adresse}
-        </p>
+        <VeranstaltungsOrt veranstaltungsort={seminar.veranstaltungsort} />
       </slot>
-
 
       <div class="seminar_card_content flex-0">
         {#if link && link !== '#'}
-            <Button href={link} buttonstyle={'blue'}>Mehr erfahren</Button>
+          <Button href={link} buttonstyle={'blue'}>Mehr erfahren</Button>
         {/if}
       </div>
     </div>

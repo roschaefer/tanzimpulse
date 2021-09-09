@@ -48,36 +48,35 @@
     </div>
 
     <div class="animated flex flex-col">
-    <hr class="border-black my-2 lg:my-4" />
+      <hr class="border-black my-2 lg:my-4" />
 
+      <a sveltekit:prefetch href="{base}/" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Start</a>
 
-    <a sveltekit:prefetch href="{base}/" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Start</a>
+      <hr class="border-black my-2 lg:my-4" />
+      <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzpädagogik</h3>
 
-    <hr class="border-black my-2 lg:my-4" />
-    <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzpädagogik</h3>
+      <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Ausbildungen</a>
+      <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Workshops</a>
+      <a href="{base}/tanztrainings" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Tanztrainings</a>
 
-    <a sveltekit:prefetch href="{base}/ausbildungen" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Ausbildungen</a>
-    <a sveltekit:prefetch href="{base}/workshops" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Workshops</a>
-    <a href="{base}/tanztrainings" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Tanztrainings</a>
+      <hr class="border-black my-2 lg:my-4" />
+      <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Eindrücke</h3>
 
-    <hr class="border-black my-2 lg:my-4" />
-    <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Eindrücke</h3>
+      <a href="{base}/fotogalerie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Fotogalerie</a>
+      <a href="{base}/videos" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Videos</a>
 
-    <a href="{base}/fotogalerie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Fotogalerie</a>
-    <a href="{base}/videos" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Videos</a>
+      <hr class="border-black my-2 lg:my-4" />
+      <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzimpulse</h3>
 
-    <hr class="border-black my-2 lg:my-4" />
-    <h3 class="text-xs text-ti_blue_accent font-bold uppercase tracking-widest pb-2">Tanzimpulse</h3>
+      <a href="{base}/kontakt" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Kontakt und Anfahrt</a>
+      <a href="{base}/team" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Team</a>
+      <a href="{base}/mitgliedschaften" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Mitgliedschaften</a>
+      <!--<a href="{base}/newsletter" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Newsletter</a><br />-->
+      <a href="{base}/philosophie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Philosophie</a>
 
-    <a href="{base}/kontakt" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Kontakt und Anfahrt</a>
-    <a href="{base}/team" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Team</a>
-    <a href="{base}/mitgliedschaften" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Mitgliedschaften</a>
-    <!--<a href="{base}/newsletter" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Newsletter</a><br />-->
-    <a href="{base}/philosophie" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Philosophie</a>
+      <hr class="border-black my-2 lg:my-4" />
 
-    <hr class="border-black my-2 lg:my-4" />
-
-    <a sveltekit:prefetch href="{base}/tanzraum" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Tanzraumvermietung</a>
-  </div>
+      <a sveltekit:prefetch href="{base}/tanzraum" class="text-white hover:text-ti_blue_accent text-base lg:text-2xl focus:ring-0 focus:outline-none focus:text-ti_blue_accent transition duration-300 ease-in-out">Tanzraumvermietung</a>
+    </div>
   </div>
 </aside>

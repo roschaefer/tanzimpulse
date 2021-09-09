@@ -23,155 +23,155 @@
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_002.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_003.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_004.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_005.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_006.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_007.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_008.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_009.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_010.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_011.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_012.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_013.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_014.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_015.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_016.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_017.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_018.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_019.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_020.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_021.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_022.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_023.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_024.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
 
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_025.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_026.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
         <!-- single slide item -->
-         <div class="slide-content relative flex items-center shadow-ti">
+        <div class="slide-content relative flex items-center shadow-ti">
           <img class="object-cover w-full" src="/images/fotogalery/Fotogalerie2021_027.jpg" alt="Tanzimpulse" />
         </div>
         <!-- -->
@@ -195,12 +195,10 @@
     max-height: 75vh;
   }
 
-  .ti_slidehow_control{
-    background:rgba(0,0,0,0.25);
-
+  .ti_slidehow_control {
+    background: rgba(0, 0, 0, 0.25);
   }
-  .ti_slidehow_control:hover{
-    background:rgba(0,0,0,0.5);
+  .ti_slidehow_control:hover {
+    background: rgba(0, 0, 0, 0.5);
   }
-
 </style>

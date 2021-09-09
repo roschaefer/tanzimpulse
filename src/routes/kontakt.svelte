@@ -27,7 +27,7 @@
               Folwiese 20<br />
               51069 Köln
             </p>
- 
+
             <p class="pt-2 pb-4">
               Telefon: 0221 - 68 36 91
               <br />

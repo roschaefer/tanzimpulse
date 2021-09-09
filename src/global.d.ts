@@ -1,7 +1,7 @@
 /// <reference types="@sveltejs/kit" />
 interface Identifiable {
   id: string;
-};
+}
 
 type Location = {
   longitude: number;
@@ -10,10 +10,10 @@ type Location = {
 
 type Veranstaltungsort = {
   adresse: string;
-  koordinaten?: Location;
+  koordinaten: Location;
 };
 
-type Teilnehmer = { 
+type Teilnehmer = {
   id: string;
   email: string;
   name: string;

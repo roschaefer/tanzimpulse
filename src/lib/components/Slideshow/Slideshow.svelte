@@ -88,9 +88,6 @@
     </div>
     <!-- -->
 
-
-
-
     <span class="control" slot="right-control">
       <svg xmlns="http://www.w3.org/2000/svg" class="relative w-10 h-10 p-2 text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -102,12 +99,11 @@
 <style>
   .slide-content {
     width: 100%;
-    min-height:300px;
-    max-height:40vh;
+    min-height: 300px;
+    max-height: 40vh;
   }
 
-  .slide_text_box {   
+  .slide_text_box {
     background: rgba(198, 20, 54, 0.9);
   }
-
 </style>

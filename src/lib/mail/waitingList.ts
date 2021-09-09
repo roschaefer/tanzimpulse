@@ -1,4 +1,4 @@
-import { dateFormat } from "../helpers";
+import { dateFormat } from '../helpers';
 const html = (teilnehmer: Teilnehmer, seminar: Seminar) => `
 <p>
 Hallo ${teilnehmer.name},</p>

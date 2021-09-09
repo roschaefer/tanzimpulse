@@ -17,9 +17,6 @@
   };
 </script>
 
-
-
-
 <svelte:head>
   <title>Ausbildungen</title>
 </svelte:head>
@@ -62,13 +59,7 @@
         </p>
       </DefaultCard>
     </div>
-    <Cite>
-    </Cite>
-
-
-
-
-
+    <Cite />
   </div>
 </section>
 

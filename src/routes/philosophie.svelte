@@ -59,7 +59,7 @@
           <Accordion id="7">
             <span slot="headline">Netzwerke</span>
             <div slot="content">
-              <p class="pb-6">Wir arbeiten mit Partnern zusammen die zu Informationsaustausch, Ergänzung und Erweiterung unseres Angebotes führen. Durch die Kooperation mit dem <a class="hyperlink" href="https://www.anders-tanzen.de/" target="_blank">Verein AndersTanzen – ästhetische und kulturelle Bildung im Tanz e.V</a> bringen wir Tanzpädagogen/innen aus unseren Ausbildungen und andere Tanzvermittler/innen und Vermittler/innen anderer Künste in Projekte, in denen sie ihre tänzerischen Schwerpunktthemen,  bzw. ihren Schwerpunkt Musik, Theater, Bildende Kunst etc. umsetzen.</p>
+              <p class="pb-6">Wir arbeiten mit Partnern zusammen die zu Informationsaustausch, Ergänzung und Erweiterung unseres Angebotes führen. Durch die Kooperation mit dem <a class="hyperlink" href="https://www.anders-tanzen.de/" target="_blank">Verein AndersTanzen – ästhetische und kulturelle Bildung im Tanz e.V</a> bringen wir Tanzpädagogen/innen aus unseren Ausbildungen und andere Tanzvermittler/innen und Vermittler/innen anderer Künste in Projekte, in denen sie ihre tänzerischen Schwerpunktthemen, bzw. ihren Schwerpunkt Musik, Theater, Bildende Kunst etc. umsetzen.</p>
             </div>
           </Accordion>
         </p>

@@ -31,7 +31,6 @@
         <label class="flex mt-4">
           <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="datenverarbeitung" required />
           <p>Ich habe die <a class="hyperlink" href="{base}/content/AGB_2020.pdf" target="_blank">AGBs</a>, die <a class="hyperlink" href="{base}/content/Widerrufsbelehrung_2020.pdf" target="_blank">Widerrufsbelehrung</a> sowie die Maßnahmen zum <a class="hyperlink" sveltekit:prefetch href="{base}/datenschutz">Datenschutz</a> gelesen und akzeptiert</p>
-       
         </label>
         <label class="flex items-center">
           <input class="mr-4 h-6 w-6 block bg-white border-2 border-coolGray-300 focus:border-2 focus:border-ti_red_accent outline-none focus:outline-none focus:bg-white focus:ring-0" type="checkbox" name="fotoveroeffentlichung" />
@@ -42,7 +41,7 @@
           Newsletter abonnieren
         </label>
       </div>
-    </div>  
+    </div>
     <Button buttonstyle={'blue'}>Anmelden</Button>
 
     <!--

@@ -43,7 +43,7 @@
             <span class="uppercase tracking-widest text-xs title-font font-medium text-gray-600">Kursgebühr</span><br />{seminar.preis} Euro
           </p>
 
-          <VeranstaltungsOrt veranstaltungsort={seminar.veranstaltungsort} />
+          <VeranstaltungsOrt showMap="true" veranstaltungsort={seminar.veranstaltungsort} />
         </div>
       </SeminarCard>
     </div>

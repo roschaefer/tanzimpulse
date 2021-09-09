@@ -15,8 +15,6 @@
 </div>
 
 <style>
-
-
   .tab-content {
     max-height: 0;
     -webkit-transition: max-height 0.5s;
@@ -33,9 +31,9 @@
     border-bottom: 2px solid rgb(243, 244, 246);
     font-weight: 300;
     line-height: 1.5em;
-    padding-top:0.25em;
-    padding-bottom:0.25em;
-    padding-right:1.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 1.5em;
   }
 
   /* Icon */

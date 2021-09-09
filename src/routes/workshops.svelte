@@ -25,8 +25,7 @@
       </DefaultCard>
     </div>
 
-    <Cite>
-    </Cite>
+    <Cite />
   </div>
 </section>
 

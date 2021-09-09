@@ -11,12 +11,13 @@
     gray: 'text-gray-400 border-gray-400 cursor-not-allowed hover:text-gray-400 focus:text-gray-400'
   };
 </script>
+
 {#if href}
-<a {href} sveltekit:prefetch aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full block text-center rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
-  <slot />
-</a>
-{:else }
-<button type="submit" aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
-  <slot />
-</button>
+  <a {href} sveltekit:prefetch aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full block text-center rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
+    <slot />
+  </a>
+{:else}
+  <button type="submit" aria-label="Mehr" class="{mapping[buttonstyle]} p-4 w-full rounded-full border-2 font-extrabold text-sm tracking-widest uppercase outline-none shadow-sm hover:shadow-ti focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
+    <slot />
+  </button>
 {/if}

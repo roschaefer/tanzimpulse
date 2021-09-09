@@ -116,5 +116,4 @@
     min-height: 300px;
     max-height: 40vh;
   }
-
 </style>

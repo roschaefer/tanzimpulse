@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
-  const now = new Date()
+  const now = new Date();
 </script>
 
 <svelte:head>

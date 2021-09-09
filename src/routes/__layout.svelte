@@ -45,11 +45,9 @@
       </div>
       <div class="___title px-8">
         <a aria-label="Logo Tanzimpulse - Institut für Tanzpädagogik" sveltekit:prefetch href="{base}/" class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extralight uppercase text-ti_blue_mat tracking-wider hover:text-ti_blue_accent focus:text-ti_blue_accent outline-none focus:outline-none focus:ring-0 transition duration-300 ease-in-out">
-            <span class="font-bold">Tanzimpulse</span> – Institut für Tanzpädagogik
-            <span class="font-normal block normal-case text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
-          </a>
-         
-        
+          <span class="font-bold">Tanzimpulse</span> – Institut für Tanzpädagogik
+          <span class="font-normal block normal-case text-base sm:text-lg md:text-xl lg:text-2xl text-ti_blue_accent tracking-wide">Staatlich anerkanntes Weiterbildungsinstitut</span>
+        </a>
       </div>
     </div>
   </div>

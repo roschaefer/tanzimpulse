@@ -1,5 +1,6 @@
 <script context="module" lang="ts">
   import Carousel from '$lib/components/Slideshow/Carousel.svelte';
+  export const prerender = true;
 </script>
 
 <svelte:head>

@@ -2,6 +2,7 @@
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   import Accordion from '$lib/components/Accordion/Accordion.svelte';
   import { base } from '$app/paths';
+  export const prerender = true;
 </script>
 
 <svelte:head>

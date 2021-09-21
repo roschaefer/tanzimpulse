@@ -7,6 +7,7 @@
     class: '',
     style: 'width: 100%; height: 100%; min-height:400px; max-height:50vh;'
   };
+  export const prerender = true;
 </script>
 
 <svelte:head>

@@ -1,5 +1,6 @@
 <script context="module" lang="ts">
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
+  export const prerender = true;
 </script>
 
 <svelte:head>

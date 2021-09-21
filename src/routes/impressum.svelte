@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
   import DefaultCard from '$lib/components/DefaultCard/DefaultCard.svelte';
   const now = new Date();
+  export const prerender = true;
 </script>
 
 <svelte:head>

@@ -5,6 +5,7 @@
     class: 'shadow-ti',
     style: 'width: 100%; height: 40vh; min-height:300px;'
   };
+  export const prerender = true;
 </script>
 
 <svelte:head>
